@@ -1,0 +1,6 @@
+{
+  "name": "@functions",
+  "devDependencies": {
+    "@types/i18n-js": "^3.0.1"
+  }
+}

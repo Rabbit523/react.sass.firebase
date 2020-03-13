@@ -1,0 +1,214 @@
+{
+  "meta":{
+    "config" : {
+      "currency_format" : "amount_with_comma_separator",
+      "currency_value" : "$",
+      "date_format" : "d-m-Y",
+      "date_format_from" : "Y-m-d",
+      "distance_in" : "km",
+      "time_format" : "H:I",
+      "time_format_from" : "h:i"
+    },
+    "design" : {
+      "category" : {
+        "textColor" : "#ffffff"
+      },
+      "general" : {
+        "backgroundColor" : "#aabbcc",
+        "buttonBorderColor" : "#000000",
+        "buttonColor" : "#555454",
+        "buttonText" : "#ffffff",
+        "coloring" : "simple",
+        "isRTL" : false,
+        "layout" : "tabs",
+        "outbound" : false,
+        "rounded" : 1
+      },
+      "navBar" : {
+        "backgroundColor" : "#ffffff",
+        "barStyle" : "light-content",
+        "borderColor" : "#cccccc",
+        "statusBarBackgroundColor" : "#000000",
+        "tintColor" : "#000000"
+      },
+      "rows" : {
+        "arrowColor" : "#000000",
+        "backgroundColor" : "#ffffff",
+        "desciptionColor" : "#444444",
+        "imageRowColor" : "rgba(0,0,0,0.5)",
+        "imageRowFontSize" : 18,
+        "imageRowFontWeight" : "normal",
+        "separatorColor" : "#eeeeee",
+        "titleColorOnGrid" : "#eeeeee",
+        "titleColorOnRow" : "#000000"
+      },
+      "sideMenu" : {
+        "activeBackgroundColor" : "#eeeeee",
+        "activeTintColor" : "#1c3dbd",
+        "backgroundColor" : "#ffffff",
+        "inactiveBackgroundColor" : "rgba(0,0,0,0)",
+        "inactiveTintColor" : "#111111"
+      }
+    },
+    "navigation" : {
+      "menus" : [ {
+        "categorySetup" : {
+          "category_style" : "grid2",
+          "data_point" : "events_collection",
+          "fields" : {
+            "description" : "description",
+            "image" : "image",
+            "title" : "title"
+          }
+        },
+        "category_first" : false,
+        "detailsSetup" : {
+          "actionButton" : "BUY TICKET",
+          "actionButtonWhenActionDone" : "TICKET BOUGHT",
+          "cartCODAvailable" : true,
+          "cartCODText" : "You will pay at the venue.",
+          "cartIcons" : [ "ios-calendar-outline", "ios-person-outline", "ios-card-outline", "ios-list-box-outline" ],
+          "cartLabels" : [ "Event", "Register", "Payment", "Summary" ],
+          "cartPayPalAvailable" : true,
+          "collections" : [ "variants", "ingredients", "photos" ],
+          "descriptionTitle" : "Description",
+          "directionButton" : "Get Directions",
+          "fields" : {
+            "description" : "description",
+            "descriptionFunctions" : ",",
+            "direction" : "eventLocation",
+            "image" : "image",
+            "photos" : "photos",
+            "price" : "price",
+            "priceFunctions" : "round,toCurrency~USD,prepend~Price: ",
+            "shareLink" : "url",
+            "subPrice" : "price",
+            "subPriceFunctions" : "multiply~{qty},round,toCurrency~USD,prepend~/per ticket.",
+            "subtitle" : "locationName",
+            "subtitle2" : "eventDateStart",
+            "subtitle2Functions" : "toReadableDate~YYYY-MM-DD HH:mm",
+            "subtitle2Icon" : "ios-time-outline",
+            "subtitle3" : "eventDateEnd",
+            "subtitle3Functions" : "toReadableDate~YYYY-MM-DD HH:mm",
+            "subtitle3Icon" : "ios-timer-outline",
+            "subtitleAction" : "location",
+            "subtitleActionFunction" : "openGps",
+            "subtitleFunctions" : " ",
+            "subtitleIcon" : "ios-pin-outline",
+            "title" : "title",
+            "titleFunctions" : "trim:40",
+            "video" : "video"
+          },
+          "isDirectShopping" : true,
+          "isShopping" : true,
+          "photosTitle" : "Photos",
+          "shareButton" : "Share the event",
+          "showPhotos" : true,
+          "videoButton" : "View Video"
+        },
+        "icon" : "MdEvent",
+        "isRoot" : true,
+        "listStyle" : "grid",
+        "listingSetup" : {
+          "collection_key" : "collection_event",
+          "data_point" : "events",
+          "fields" : {
+            "actionButton" : "BUY",
+            "description" : "description",
+            "image" : "image",
+            "subtitle" : "eventDateStart",
+            "subtitleFunctions" : "toReadableDate~YYYY-MM-DD HH:mm",
+            "title" : "title"
+          },
+          "listing_style" : "list"
+        },
+        "name" : "Events"
+      }, {
+        "categorySetup" : {
+          "category_style" : "grid2",
+          "data_point" : "events_collection",
+          "fields" : {
+            "description" : "description",
+            "image" : "image",
+            "title" : "title"
+          }
+        },
+        "category_first" : false,
+        "detailsSetup" : {
+          "actionButton" : "BUY TICKET",
+          "actionButtonWhenActionDone" : "TICKET BOUGHT",
+          "cartCODAvailable" : true,
+          "cartCODText" : "You will pay at the venue.",
+          "cartIcons" : [ "ios-calendar-outline", "ios-person-outline", "ios-card-outline", "ios-list-box-outline" ],
+          "cartLabels" : [ "Event", "Register", "Payment", "Summary" ],
+          "cartPayPalAvailable" : true,
+          "collections" : [ "variants", "ingredients", "photos" ],
+          "descriptionTitle" : "Description",
+          "directionButton" : "Get Directions",
+          "fields" : {
+            "description" : "description",
+            "descriptionFunctions" : ",",
+            "direction" : "eventLocation",
+            "image" : "image",
+            "photos" : "photos",
+            "price" : "price",
+            "priceFunctions" : "round,toCurrency~USD,prepend~Price: ",
+            "shareLink" : "url",
+            "subPrice" : "price",
+            "subPriceFunctions" : "multiply~{qty},round,toCurrency~USD,prepend~/per ticket.",
+            "subtitle" : "locationName",
+            "subtitle2" : "eventDateStart",
+            "subtitle2Functions" : "toReadableDate~YYYY-MM-DD HH:mm",
+            "subtitle2Icon" : "ios-time-outline",
+            "subtitle3" : "eventDateEnd",
+            "subtitle3Functions" : "toReadableDate~YYYY-MM-DD HH:mm",
+            "subtitle3Icon" : "ios-timer-outline",
+            "subtitleAction" : "location",
+            "subtitleActionFunction" : "openGps",
+            "subtitleFunctions" : " ",
+            "subtitleIcon" : "ios-pin-outline",
+            "title" : "title",
+            "titleFunctions" : "trim:40",
+            "video" : "video"
+          },
+          "isDirectShopping" : true,
+          "isShopping" : true,
+          "photosTitle" : "Photos",
+          "shareButton" : "Share the event",
+          "showPhotos" : true,
+          "videoButton" : "View Video"
+        },
+        "icon" : "MdLocationOn",
+        "isRoot" : true,
+        "listStyle" : "grid",
+        "listingSetup" : {
+          "collection_key" : "collection_event",
+          "data_point" : "events",
+          "fields" : {
+            "actionButton" : "BUY",
+            "description" : "description",
+            "image" : "image",
+            "subtitle" : "eventDateStart",
+            "subtitleFunctions" : "toReadableDate~YYYY-MM-DD HH:mm",
+            "title" : "title"
+          },
+          "listing_style" : "list"
+        },
+        "name" : "Map",
+        "sectionType" : "map"
+      }, {
+        "category_first" : false,
+        "icon" : "MdLocalPlay",
+        "isRoot" : true,
+        "listStyle" : "grid",
+        "name" : "My Events",
+        "sectionType" : "orders"
+      }, {
+        "icon" : "MdNotificationsActive",
+        "name" : "Notifications",
+        "sectionType" : "notifications"
+      } ],
+      "type" : "tab"
+    }
+  }
+}

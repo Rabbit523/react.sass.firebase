@@ -1,0 +1,192 @@
+{
+  "appImage" : "https://firebasestorage.googleapis.com/v0/b/universalapp-a272a.appspot.com/o/1535580341521.jpg?alt=media&token=619e36d0-0948-4424-ab84-5da8669ffdd3",
+  "appListIcon" : "MdShoppingCart",
+  "appLogo" : "https://firebasestorage.googleapis.com/v0/b/tester-8e38d.appspot.com/o/1547909762580.jpg?alt=media&token=6ebe1963-2214-430b-8a08-d4707b406c42",
+  "appNavLogo" : "https://firebasestorage.googleapis.com/v0/b/tester-8e38d.appspot.com/o/1547909755800.jpg?alt=media&token=88654f56-e182-4347-a168-50752f35fafe",
+  "appSplash" : "https://firebasestorage.googleapis.com/v0/b/tester-8e38d.appspot.com/o/1547909722339.jpg?alt=media&token=69b5c168-2e2d-4c11-970b-d9f46255cbe0",
+  "config" : {
+    "currency_format" : "amount_with_comma_separator",
+    "currency_value" : "$",
+    "date_format" : "d-m-Y",
+    "date_format_from" : "Y-m-d",
+    "distance_in" : "km",
+    "orders_collection_data_point" : "shop_orders",
+    "time_format" : "H:I",
+    "time_format_from" : "h:i"
+  },
+  "design" : {
+    "category" : {
+      "textColor" : "#ffffff"
+    },
+    "general" : {
+      "backgroundColor" : "#e9e9ef",
+      "buttonBorderColor" : "#000000",
+      "buttonColor" : "#000000",
+      "buttonText" : "#ffffff",
+      "coloring" : "simple",
+      "isRTL" : false,
+      "layout" : "tabs",
+      "outbound" : false,
+      "rounded" : false
+    },
+    "navBar" : {
+      "backgroundColor" : "#ffffff",
+      "barStyle" : "light-content",
+      "borderColor" : "#cccccc",
+      "statusBarBackgroundColor" : "#000000",
+      "tintColor" : "#000000"
+    },
+    "rows" : {
+      "arrowColor" : "#000000",
+      "backgroundColor" : "#ffffff",
+      "desciptionColor" : "#444444",
+      "imageRowColor" : "rgba(0,0,0,0.5)",
+      "imageRowFontSize" : 18,
+      "imageRowFontWeight" : "normal",
+      "separatorColor" : "#eeeeee",
+      "titleColorOnGrid" : "#eeeeee",
+      "titleColorOnRow" : "#000000"
+    },
+    "sideMenu" : {
+      "activeBackgroundColor" : "#eeeeee",
+      "activeTintColor" : "#1c3dbd",
+      "backgroundColor" : "#ffffff",
+      "inactiveBackgroundColor" : "rgba(0,0,0,0)",
+      "inactiveTintColor" : "#111111"
+    }
+  },
+  "name" : "Shop App",
+  "navigation" : {
+    "menus" : [ {
+      "categorySetup" : {
+        "category_style" : "grid1",
+        "data_point" : "products_collection",
+        "fields" : {
+          "description" : "description",
+          "image" : "image",
+          "title" : "title"
+        }
+      },
+      "category_first" : false,
+      "detailsSetup" : {
+        "actionButton" : "ADD TO CART",
+        "actionButtonWhenActionDone" : "PRODUCT ADDED",
+        "collections" : [ "variants", "ingredients", "photos" ],
+        "descriptionTitle" : "Description",
+        "fields" : {
+          "description" : "description",
+          "descriptionFunctions" : ",",
+          "image" : "image",
+          "photos" : "photos",
+          "price" : "price",
+          "priceFunctions" : "round,toCurrency~USD,prepend~Price: ",
+          "shareLink" : "link",
+          "subPrice" : "price",
+          "subPriceFunctions" : "multiply~{qty},round,toCurrency~USD,prepend~/per peace ,append~ for {qty} item/s.",
+          "subtitle" : "brand",
+          "subtitleFunctions" : "prepend~Brand: ",
+          "title" : "title",
+          "titleFunctions" : "trim:40",
+          "video" : "video"
+        },
+        "isShopping" : true,
+        "navButtonAction" : "add-to-favorites",
+        "navButtonActionDoneIcon" : "MdFavorite",
+        "navButtonIconActiveIcon" : "MdFavoriteBorder",
+        "photosTitle" : "Product Images",
+        "shareButton" : "Share this recepie",
+        "showNavButton" : "true",
+        "showPhotos" : true,
+        "videoButton" : "View Video"
+      },
+      "goDirectlyToDetails" : false,
+      "icon" : "MdHome",
+      "isRoot" : true,
+      "listStyle" : "grid1",
+      "listingSetup" : {
+        "collection_key" : "collection_product",
+        "data_point" : "products",
+        "fields" : {
+          "actionButton" : "BUY",
+          "description" : "description",
+          "image" : "image",
+          "subtitle" : "price",
+          "subtitleFunctions" : "roundOn,toCurrency~USD",
+          "title" : "title"
+        },
+        "listing_style" : "list"
+      },
+      "name" : "Shop"
+    }, {
+      "CODAvailable" : true,
+      "PayPalAvailable" : true,
+      "icon" : "MdShoppingBasket",
+      "name" : "Cart",
+      "type" : "cart"
+    }, {
+      "categorySetup" : {
+        "category_style" : "grid2",
+        "data_point" : "product_collection",
+        "fields" : {
+          "description" : "description",
+          "image" : "image",
+          "title" : "title"
+        }
+      },
+      "category_first" : false,
+      "detailsSetup" : {
+        "actionButton" : "ADD TO CART",
+        "actionButtonWhenActionDone" : "PRODUCT ADDED",
+        "collections" : [ "variants", "ingredients", "photos" ],
+        "descriptionTitle" : "Description",
+        "fields" : {
+          "description" : "description",
+          "descriptionFunctions" : ",",
+          "image" : "image",
+          "photos" : "photos",
+          "price" : "price",
+          "priceFunctions" : "round,toCurrency~USD,prepend~Price: ",
+          "shareLink" : "link",
+          "subPrice" : "price",
+          "subPriceFunctions" : "multiply~{qty},round,toCurrency~USD,prepend~/per peace ,append~ for {qty} item/s.",
+          "subtitle" : "brand",
+          "subtitleFunctions" : "prepend~Brand: ",
+          "title" : "title",
+          "titleFunctions" : "trim:40",
+          "video" : "video"
+        },
+        "isShopping" : true,
+        "navButtonAction" : "add-to-favorites",
+        "navButtonActionDoneIcon" : "MdFavorite",
+        "navButtonIconActiveIcon" : "MdFavoriteBorder",
+        "photosTitle" : "Product Images",
+        "shareButton" : "Share this recepie",
+        "showNavButton" : "true",
+        "showPhotos" : true,
+        "videoButton" : "View Video"
+      },
+      "icon" : "MdFavorite",
+      "isRoot" : true,
+      "listStyle" : "grid",
+      "listingSetup" : {
+        "data_point" : "products",
+        "fields" : {
+          "actionButton" : "BUY",
+          "description" : "description",
+          "image" : "image",
+          "subtitle" : "price",
+          "subtitleFunctions" : "roundOn,toCurrency~USD",
+          "title" : "title"
+        },
+        "listing_style" : "list"
+      },
+      "name" : "Wish List",
+      "sectionType" : "wish-list"
+    }, {
+      "icon" : "MdLocalShipping",
+      "name" : "Orders",
+      "sectionType" : "orders"
+    } ],
+    "type" : "side"
+  }
+}

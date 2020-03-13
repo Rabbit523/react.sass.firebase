@@ -1,0 +1,417 @@
+{
+  "meta":{
+    "appImage" : "https://cdn1.iconfinder.com/data/icons/hotel-services-15/64/Conference_room-512.png",
+    "config" : {
+      "currency_format" : "amount_with_comma_separator",
+      "currency_value" : "$",
+      "date_format" : "d-m-Y",
+      "date_format_from" : "Y-m-d",
+      "distance_in" : "km",
+      "haveThumbnails" : true,
+      "thubnails_prefix" : "thumb_",
+      "time_format" : "H:I",
+      "time_format_from" : "h:i"
+    },
+    "design" : {
+      "category" : {
+        "textColor" : "#ffffff"
+      },
+      "general" : {
+        "backgroundColor" : "#fefeff",
+        "backgroundGradient" : [ {
+          "color" : "#48486f"
+        }, {
+          "color" : "#1d243c"
+        } ],
+        "backgroundImage" : false,
+        "buttonBorderColor" : "#000000",
+        "buttonColor" : "#555454",
+        "buttonText" : "#ffffff",
+        "coloring" : "advanced",
+        "detailsBackgroundGradient" : [ {
+          "color" : "#fefeff"
+        }, {
+          "color" : "#FEFEFE"
+        } ],
+        "detailsBackgroundImage" : false,
+        "hideTabIconName" : true,
+        "isRTL" : false,
+        "layout" : "tabs",
+        "outbound" : false,
+        "rounded" : true
+      },
+      "navBar" : {
+        "backgroundColor" : "rgba(0,0,0,0.0)",
+        "barStyle" : "light-content",
+        "borderColor" : "rgba(0,0,0,0.0)",
+        "detailsBackgroundColor" : "#ffffff",
+        "detailsTintColor" : "#000000",
+        "statusBarBackgroundColor" : "#000000",
+        "tintColor" : "#ffffff"
+      },
+      "rows" : {
+        "arrowColor" : "#ffffff",
+        "backgroundColor" : "#ffffff",
+        "desciptionColor" : "#555555",
+        "imageRowColor" : "rgba(0,0,0,0.5)",
+        "imageRowFontSize" : 18,
+        "imageRowFontWeight" : "normal",
+        "separatorColor" : "#ffffff",
+        "subtitleColor" : "#666666",
+        "titleColorOnGrid" : "#ffffff",
+        "titleColorOnRow" : "#444444"
+      },
+      "sideMenu" : {
+        "activeBackgroundColor" : "#eeeeee",
+        "activeTintColor" : "#773cc4",
+        "backgroundColor" : "#ffffff",
+        "inactiveBackgroundColor" : "rgba(0,0,0,0)",
+        "inactiveTintColor" : "#111111"
+      },
+      "specialRows" : {
+        "arrowColor" : "#ffffff",
+        "backgroundColor" : "#30324c",
+        "desciptionColor" : "#ffffff",
+        "imageRowColor" : "rgba(256,256,256,0.5)",
+        "imageRowFontSize" : 18,
+        "imageRowFontWeight" : "normal",
+        "separatorColor" : "#eeeeee",
+        "subtitleColor" : "red",
+        "titleColorOnGrid" : "#ffffff",
+        "titleColorOnRow" : "#ffffff"
+      }
+    },
+    "navigation" : {
+      "menus" : [ {
+        "categorySetup" : {
+          "category_style" : "grid2",
+          "data_point" : "eventsconference_collection",
+          "fields" : {
+            "description" : "description",
+            "image" : "image",
+            "title" : "title"
+          }
+        },
+        "category_first" : false,
+        "detailsSetup" : {
+          "actionButton" : "BUY TICKET",
+          "actionButtonWhenActionDone" : "TICKET BOUGHT",
+          "cartCODAvailable" : true,
+          "cartCODText" : "You will pay at the venue.",
+          "cartIcons" : [ "ios-calendar-outline", "ios-person-outline", "ios-card-outline", "ios-list-box-outline" ],
+          "cartLabels" : [ "Event", "Register", "Payment", "Summary" ],
+          "cartPayPalAvailable" : true,
+          "collections" : [ "variants", "ingredients", "photos" ],
+          "descriptionTitle" : "Description",
+          "directionButton" : "Get Directions",
+          "fields" : {
+            "description" : "description",
+            "descriptionFunctions" : ",",
+            "direction" : "eventLocation",
+            "image" : "image",
+            "photos" : "photos",
+            "price" : "price",
+            "priceFunctions" : "round,toCurrency~USD,prepend~Price: ",
+            "shareLink" : "url",
+            "subPrice" : "price",
+            "subPriceFunctions" : "multiply~{qty},round,toCurrency~USD,prepend~/per ticket.",
+            "subtitle" : "FeClock",
+            "subtitle2" : "eventDateStartEndTime",
+            "subtitle2Functions" : "append~ ",
+            "subtitle2Icon" : "FeClock",
+            "subtitle3" : "eventDateEnd",
+            "subtitle3Functions" : "toReadableDate~MMMM Do YYYY HH:mm",
+            "subtitle3Icon" : "FeClock",
+            "subtitleAction" : "location",
+            "subtitleActionFunction" : "openGps",
+            "subtitleFunctions" : " ",
+            "subtitleIcon" : "FeMapPin",
+            "title" : "title",
+            "titleFunctions" : "trim:40",
+            "video" : "videolink"
+          },
+          "isDirectShopping" : true,
+          "isShopping" : false,
+          "navButtonAction" : "add-to-favorites",
+          "navButtonActionDoneIcon" : "MdFavorite",
+          "navButtonIconActiveIcon" : "MdFavoriteBorder",
+          "photosTitle" : "Photos",
+          "shareButton" : "Share the event",
+          "showNavButton" : true,
+          "showPhotos" : true,
+          "videoButton" : "View Video"
+        },
+        "icon" : "FeCalendar",
+        "isRoot" : true,
+        "listStyle" : "grid",
+        "listingSetup" : {
+          "backgroundImageOption" : 1,
+          "collection_key" : "collection_eventsconference",
+          "data_point" : "eventsconference",
+          "fields" : {
+            "actionButton" : "BUY",
+            "description" : "description",
+            "image" : "image",
+            "subtitle" : "eventDateStartEndTime",
+            "subtitleFunctions" : "append~ ",
+            "title" : "name"
+          },
+          "haveThumbnails" : true,
+          "hide_all_category_filter" : true,
+          "listing_style" : "list",
+          "showCategoryFilter" : true,
+          "sorting" : {
+            "onField" : "eventStart",
+            "order" : "ASC"
+          },
+          "thubnails_prefix" : "thumb_"
+        },
+        "name" : "Agenda"
+      }, {
+        "categorySetup" : {
+          "category_style" : "grid2",
+          "data_point" : "events_collection",
+          "fields" : {
+            "description" : "description",
+            "image" : "image",
+            "title" : "title"
+          }
+        },
+        "category_first" : true,
+        "detailsSetup" : {
+          "callButton" : "Call",
+          "cartIcons" : [ "ios-calendar-outline", "ios-person-outline", "ios-card-outline", "ios-list-box-outline" ],
+          "cartLabels" : [ "Event", "Register", "Payment", "Summary" ],
+          "cartPayPalAvailable" : true,
+          "collections" : [ "variants", "ingredients", "photos" ],
+          "descriptionTitle" : "Description",
+          "fields" : {
+            "description" : "description",
+            "descriptionFunctions" : ",",
+            "direction" : "",
+            "image" : "image",
+            "phone" : "phoneNumber",
+            "photos" : "photos",
+            "price" : "price",
+            "priceFunctions" : "round,toCurrency~USD,prepend~Price: ",
+            "shareLink" : "url",
+            "subPrice" : "price",
+            "subPriceFunctions" : "multiply~{qty},round,toCurrency~USD,prepend~/per ticket.",
+            "subtitle" : "locationName",
+            "subtitle2" : "eventDateStart",
+            "subtitle2Functions" : "toReadableDate~YYYY-MM-DD HH:mm",
+            "subtitle2Icon" : "ios-time-outline",
+            "subtitle3" : "eventDateEnd",
+            "subtitle3Functions" : "toReadableDate~YYYY-MM-DD HH:mm",
+            "subtitle3Icon" : "ios-timer-outline",
+            "subtitleAction" : "location",
+            "subtitleActionFunction" : "openGps",
+            "subtitleFunctions" : " ",
+            "subtitleIcon" : "ios-pin-outline",
+            "title" : "title",
+            "titleFunctions" : "trim:40",
+            "video" : "video"
+          },
+          "isDirectShopping" : true,
+          "isShopping" : false,
+          "photosTitle" : "Photos",
+          "shareButton" : "Share the event",
+          "showPhotos" : true,
+          "videoButton" : "View Video"
+        },
+        "icon" : "FeMapPin",
+        "isRoot" : false,
+        "listStyle" : "grid",
+        "listingSetup" : {
+          "collection_key" : "collection_event",
+          "data_point" : "conference_venue",
+          "fields" : {
+            "actionButton" : "BUY",
+            "description" : "description",
+            "image" : "image",
+            "subtitle" : "",
+            "subtitleFunctions" : "",
+            "title" : "title"
+          },
+          "listing_style" : "list"
+        },
+        "name" : "Location",
+        "sectionType" : "map"
+      }, {
+        "categorySetup" : {
+          "category_style" : "grid2",
+          "data_point" : "eventsnc_collection",
+          "fields" : {
+            "description" : "description",
+            "image" : "image",
+            "title" : "title"
+          }
+        },
+        "category_first" : false,
+        "detailsSetup" : {
+          "actionButton" : "BUY TICKET",
+          "actionButtonWhenActionDone" : "TICKET BOUGHT",
+          "cartCODAvailable" : true,
+          "cartCODText" : "You will pay at the venue.",
+          "cartIcons" : [ "ios-calendar-outline", "ios-person-outline", "ios-card-outline", "ios-list-box-outline" ],
+          "cartLabels" : [ "Event", "Register", "Payment", "Summary" ],
+          "cartPayPalAvailable" : true,
+          "collections" : [ "variants", "ingredients", "photos" ],
+          "descriptionTitle" : "Description",
+          "directionButton" : "Get Directions",
+          "fields" : {
+            "description" : "description",
+            "descriptionFunctions" : ",",
+            "direction" : "eventLocation",
+            "image" : "image",
+            "photos" : "photos",
+            "price" : "price",
+            "priceFunctions" : "round,toCurrency~USD,prepend~Price: ",
+            "shareLink" : "url",
+            "subPrice" : "price",
+            "subPriceFunctions" : "multiply~{qty},round,toCurrency~USD,prepend~/per ticket.",
+            "subtitle" : "locationName",
+            "subtitle2" : "eventDateStart",
+            "subtitle2Functions" : "toReadableDate~MMMM Do YYYY HH:mm",
+            "subtitle2Icon" : "FeClock",
+            "subtitle3" : "eventDateEnd",
+            "subtitle3Functions" : "toReadableDate~MMMM Do YYYY HH:mm",
+            "subtitle3Icon" : "FeClock",
+            "subtitleAction" : "location",
+            "subtitleActionFunction" : "openGps",
+            "subtitleFunctions" : " ",
+            "subtitleIcon" : "FeMapPin",
+            "title" : "title",
+            "titleFunctions" : "trim:40",
+            "video" : "videolink"
+          },
+          "hideHeader" : true,
+          "isDirectShopping" : true,
+          "isShopping" : true,
+          "photosTitle" : "Photos",
+          "shareButton" : "Share the event",
+          "showPhotos" : true,
+          "videoButton" : "View Video"
+        },
+        "icon" : "FePocket",
+        "isRoot" : true,
+        "listStyle" : "grid",
+        "listingSetup" : {
+          "backgroundImageOption" : 1,
+          "collection_key" : "collection_eventsconference",
+          "data_point" : "conferencetickets",
+          "fields" : {
+            "actionButton" : "BUY",
+            "description" : "description",
+            "image" : "image",
+            "subtitle" : "price",
+            "subtitleFunctions" : "roundOn,toCurrency~USD",
+            "title" : "title"
+          },
+          "listing_style" : "list",
+          "showCategoryFilter" : false
+        },
+        "name" : "Tickets"
+      }, {
+        "categorySetup" : {
+          "category_style" : "grid2",
+          "data_point" : "product_collection",
+          "fields" : {
+            "description" : "description",
+            "image" : "image",
+            "title" : "title"
+          }
+        },
+        "category_first" : false,
+        "detailsSetup" : {
+          "actionButton" : "ADD TO CART",
+          "actionButtonWhenActionDone" : "PRODUCT ADDED",
+          "collections" : [ "variants", "ingredients", "photos" ],
+          "descriptionTitle" : "Description",
+          "fields" : {
+            "description" : "description",
+            "descriptionFunctions" : ",",
+            "image" : "image",
+            "photos" : "photos",
+            "price" : "price",
+            "priceFunctions" : "round,toCurrency~USD,prepend~Price: ",
+            "shareLink" : "link",
+            "subPrice" : "price",
+            "subPriceFunctions" : "multiply~{qty},round,toCurrency~USD,prepend~/per peace ,append~ for {qty} item/s.",
+            "subtitle" : "brand",
+            "subtitleFunctions" : "prepend~Brand: ",
+            "title" : "title",
+            "titleFunctions" : "trim:40",
+            "video" : "video"
+          },
+          "isShopping" : true,
+          "navButtonAction" : "add-to-favorites",
+          "navButtonActionDoneIcon" : "MdFavorite",
+          "navButtonIconActiveIcon" : "MdFavoriteBorder",
+          "photosTitle" : "Product Images",
+          "shareButton" : "Share this recepie",
+          "showNavButton" : "true",
+          "showPhotos" : true,
+          "videoButton" : "View Video"
+        },
+        "icon" : "FeCheck",
+        "isRoot" : true,
+        "listStyle" : "grid",
+        "listingSetup" : {
+          "data_point" : "products",
+          "fields" : {
+            "actionButton" : "BUY",
+            "description" : "description",
+            "image" : "image",
+            "subtitle" : "eventDateStartEndTime",
+            "title" : "title"
+          },
+          "listing_style" : "list"
+        },
+        "name" : "Wish List",
+        "sectionType" : "wish-list"
+      }, {
+        "category_image" : "https://firebasestorage.googleapis.com/v0/b/universalapp-a272a.appspot.com/o/1530571286790.jpg?alt=media&token=053c18fe-63f5-4763-a05e-f8b7cd89e476",
+        "display_header_image" : true,
+        "icon" : "FeUser",
+        "image" : "https://firebasestorage.googleapis.com/v0/b/universalapp-a272a.appspot.com/o/audience-band-celebration-196652.jpg?alt=media&token=d017e658-d7e5-4183-a162-300bb0aa9d36",
+        "listStyle" : "grid",
+        "name" : "Profile",
+        "showCategoryFilter" : true,
+        "subMenus" : [ {
+          "id" : 0,
+          "image" : "https://firebasestorage.googleapis.com/v0/b/universalapp-a272a.appspot.com/o/icons%2Fnot.png?alt=media&token=28df486d-9070-4044-97a0-dbf04730b66e",
+          "name" : "Notifications",
+          "sectionType" : "notifications",
+          "showCategoryFilter" : false
+        }, {
+          "id" : 1,
+          "image" : "https://firebasestorage.googleapis.com/v0/b/universalapp-a272a.appspot.com/o/icons%2Ftickets.png?alt=media&token=2654cf8a-63d3-472e-9cc5-72cd50a6435b",
+          "name" : "My Tickets",
+          "sectionType" : "orders"
+        }, {
+          "id" : 2,
+          "image" : "https://firebasestorage.googleapis.com/v0/b/universalapp-a272a.appspot.com/o/icons%2Fprof.png?alt=media&token=f3b2e96d-739d-45e0-ad0e-a80e106deaa2",
+          "name" : "My Profile",
+          "sectionType" : "profile"
+        }, {
+          "id" : 3,
+          "image" : "https://firebasestorage.googleapis.com/v0/b/universalapp-a272a.appspot.com/o/icons%2Ffind.png?alt=media&token=f3f090a4-9541-4839-8b87-e7f00809dd02",
+          "name" : "Find Friends",
+          "sectionType" : "listOfUsers"
+        }, {
+          "id" : "4",
+          "image" : "https://firebasestorage.googleapis.com/v0/b/universalapp-a272a.appspot.com/o/icons%2Ffb1.png?alt=media&token=c6082b51-2ac4-4536-aaa7-202bc54f315a",
+          "link" : "https://www.facebook.com/",
+          "name" : "fb.com/MyConferenceName"
+        }, {
+          "id" : "5",
+          "image" : "https://firebasestorage.googleapis.com/v0/b/universalapp-a272a.appspot.com/o/icons%2Fyoutube.png?alt=media&token=074d1bbd-56cb-43a0-8ff8-1186e06e23a1",
+          "link" : "https://www.youtube.com/",
+          "name" : "@MyYoutubeChannelName"
+        } ]
+      } ],
+      "type" : "tab"
+    }
+  }
+}

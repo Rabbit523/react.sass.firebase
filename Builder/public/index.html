@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png" />
+  <link rel="icon" type="image/png" href="assets/img/favicon.png" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <title>App Admin</title>
+  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+  <meta name="viewport" content="width=device-width" />
+  <!-- Bootstrap core CSS     -->
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+  <!--  Material Dashboard CSS    -->
+  <link href="assets/css/material-dashboard.css" rel="stylesheet" />
+  <!--  CSS for Demo Purpose, don't include it in your project     -->
+  <link href="assets/css/demo.css" rel="stylesheet" />
+
+  <!-- Image upload -->
+  <link href="assets/css/fileupload.css" rel="stylesheet" />
+
+  <!--     Fonts and icons     -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css"
+    href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons" />
+  <link rel="stylesheet" href="assets/css/fireadmin.css">
+
+  <!--       Files Manager CSS      -->
+  <link href="assets/css/filesmanager.css" rel="stylesheet" />
+
+  <!---      Context Menu    -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/jquery-contextmenu/2.7.1/jquery.contextMenu.min.css">
+
+  <!--
+      Notice the use of %PUBLIC_URL% in the tag above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+  <script type="text/javascript">
+    var full = window.location.host
+    //window.location.host is subdomain.domain.com
+    var parts = full.split('.')
+    var sub = parts[0];
+    var THE_DOMAIN = sub;
+  </script>
+</head>
+
+<body>
+  <div id="root"></div>
+  <!--
+
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start`.
+      To create a production bundle, use `npm run build`.
+    -->
+</body>
+
+<!--   Core JS Files   -->
+<script src="assets/js/jquery-3.1.1.min.js" type="text/javascript"></script>
+<script src="assets/js/jquery-ui.min.js" type="text/javascript"></script>
+<script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="assets/js/material.min.js" type="text/javascript"></script>
+<script src="assets/js/perfect-scrollbar.jquery.min.js" type="text/javascript"></script>
+
+<!-- Forms Validations Plugin -->
+<script src="assets/js/jquery.validate.min.js"></script>
+<!--  Plugin for Date Time Picker and Full Calendar Plugin-->
+<script src="assets/js/moment.min.js"></script>
+<!--  Charts Plugin -->
+<script src="assets/js/chartist.min.js"></script>
+<!--  Plugin for the Wizard -->
+<script src="assets/js/jquery.bootstrap-wizard.js"></script>
+<!--  Notifications Plugin    -->
+<script src="assets/js/bootstrap-notify.js"></script>
+<!-- DateTimePicker Plugin -->
+<script src="assets/js/bootstrap-datetimepicker.js"></script>
+<!-- Vector Map plugin -->
+<script src="assets/js/jquery-jvectormap.js"></script>
+<!-- Sliders Plugin -->
+<script src="assets/js/nouislider.min.js"></script>
+<!--  Google Maps Plugin    -->
+<script src="https://maps.googleapis.com/maps/api/js"></script>
+<!-- Select Plugin -->
+<script src="assets/js/jquery.select-bootstrap.js"></script>
+<!--  DataTables.net Plugin    -->
+<script src="assets/js/jquery.datatables.js"></script>
+<!-- Sweet Alert 2 plugin -->
+<script src="assets/js/sweetalert2.js"></script>
+<!--	Plugin for Fileupload, full documentation here: http://www.jasny.net/bootstrap/javascript/#fileinput -->
+<script src="assets/js/jasny-bootstrap.min.js"></script>
+<!--  Full Calendar Plugin    -->
+<script src="assets/js/fullcalendar.min.js"></script>
+<!-- TagsInput Plugin -->
+<script src="assets/js/jquery.tagsinput.js"></script>
+<!-- Material Dashboard javascript methods -->
+<script src="assets/js/material-dashboard.js"></script>
+
+<!-- Image upload -->
+<script src="assets/js/bootstrap-fileupload.js"></script>
+
+<!-- Material Dashboard DEMO methods, don't include it in your project! -->
+<script src="assets/js/demo.js"></script>
+
+<!-- Import Stripe -->
+<script src="https://js.stripe.com/v3/"></script>
+
+<!-- Files Manager JS -->
+<!--<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>-->
+<script src="assets/js/filesmanager.js"></script>
+
+<!-- Context menu  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-contextmenu/2.7.1/jquery.contextMenu.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-contextmenu/2.7.1/jquery.ui.position.js"></script>
+
+<script>
+  var dtInitialized = false;
+  function setSideBG(theBG) {
+    setTimeout(function () {
+      demo.setSideBG(theBG);
+      demo.initMaterialWizard();
+    }, 700)
+  }
+  function scrollTo(x, y) {
+    setTimeout(function () {
+    }), 1000
+  }
+  function getDemo() {
+    return demo;
+  }
+  function getReactInterfaceToJS() {
+    return demo;
+  }
+  function additionalInit() {
+    setTimeout(function () {
+      // after 1000 ms we add the class animated to the login/register card
+      demo.initFormExtendedDatetimepickers();
+      demo.initMaterialWizard();
+      $("input[data-role=tagsinput], select[multiple][data-role=tagsinput]").tagsinput();
+      console.log("Date Time Picker  and DataTables initialized");
+    }, 1000)
+  }
+  function display() {
+    demo.checkFullPageBackgroundImage();
+    setTimeout(function () {
+      // after 1000 ms we add the class animated to the login/register card
+      $('.card').removeClass('card-hidden');
+      demo.initMaterialWizard();
+    }, 700)
+  }
+  function initMaterialWizard() {
+    setTimeout(function () {
+      // after 1000 ms we add the class animated to the login/register card
+      demo.initMaterialWizard();
+      console.log("demo should be initialized");
+    }, 100)
+  }
+  function showNotification(type, icon, text, from, align) {
+    //['','info','success','warning','danger','rose','primary'];
+    $.notify({
+      icon: icon,
+      message: text
+    }, {
+      type: type,
+      timer: 3000,
+      placement: {
+        from: from,
+        align: align
+      }
+    });
+  }
+  $().ready(function () {
+    display();
+  });
+</script>
+
+</html>

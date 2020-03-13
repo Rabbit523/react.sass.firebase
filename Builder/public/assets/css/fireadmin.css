@@ -1,0 +1,207 @@
+/*html, body {
+   height: 100%;
+}*/
+
+html, body, #root, .main {
+   height: 100%; 
+   min-height: 100% !important;
+   /*position: relative;*/
+}
+.main-panel, .container-fluid{
+   /*height: 100%;*/
+   min-height: 100% !important;
+   /*position: absolute;*/
+   display: block;
+   /*position:absolute;*/
+   height:auto;
+  }
+
+.iphoneImg {
+    position: relative;
+    width: 100px; /* for IE 6 */
+    height:300px;
+ }
+ 
+ .pushText {
+    position: absolute;
+    top: 424px;
+    left: 120px;
+    width: 60%;
+    font-size:16px;
+    color: black;
+ }
+
+ .rt-td {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .fireadmin-user_image {
+    width: 36px;
+    height: 36px;
+    /*border: 2px solid #e91e63;*/
+    margin-left: -15px;
+ }
+
+.userForm{
+   /* Other styling... */
+   text-align: right;
+   clear: both;
+   float:left;
+   margin-right:15px;
+}
+
+.labelUserProfile{
+   margin-top: 35px;
+}
+
+.userPassword{
+   text-align: right;
+   clear: both;
+   float:left;
+   margin-right:15px;
+}
+
+.colBilling {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.colBillingText{
+   padding-top: 8px;
+}
+
+.btnSubsc {
+   border: 2px solid black;
+   background-color: white;
+   color: black;
+   padding: 14px 28px;
+   font-size: 16px;
+   cursor: pointer;
+ }
+
+ .btnSubsDefault {
+   border-color: #e7e7e7;
+   color: black;
+ }
+ 
+ .btnSubsDefault:hover {
+   background: #e7e7e7;
+ }
+
+ .btnSubsDanger {
+   border-color: #f44336;
+   color: red
+ }
+ 
+ .btnSubsDanger:hover {
+   background: #f44336;
+   color: white;
+ }
+
+ .navCustom{
+    background-color: #343a40;
+    color: white;
+ }
+
+ .userDropdown{
+    padding-left: 5px;
+ }
+
+ .searchNavigation{
+    background-color: #fff
+ }
+
+ .navHeaderCustom{
+    padding-top: 10px;
+ }
+
+ .searchInput{
+    background-color: #fff;
+    line-height: 1.5;
+    color: #495057;
+    background-clip: padding-box;
+    border: 0;
+    font-size: 20px;
+    -webkit-appearance: none;
+ }
+
+/*Search button in navigation*/
+#custom-search-input {
+   margin:0;
+   margin-top: 10px;
+   padding: 0;
+}
+
+#custom-search-input .search-query {
+   padding-right: 3px;
+   padding-right: 4px \9;
+   padding-left: 3px;
+   padding-left: 4px \9;
+   /* IE7-8 doesn't have border-radius, so don't indent the padding */
+
+   margin-bottom: 0;
+   -webkit-border-radius: 3px;
+   -moz-border-radius: 3px;
+   border-radius: 3px;
+}
+
+#custom-search-input button {
+   border: 0;
+   background: none;
+   /** belows styles are working good */
+   padding: 2px 5px;
+   margin-top: 2px;
+   position: relative;
+   left: -28px;
+   /* IE7-8 doesn't have border-radius, so don't indent the padding */
+   margin-bottom: 0;
+   -webkit-border-radius: 3px;
+   -moz-border-radius: 3px;
+   border-radius: 3px;
+   color: #e91e63;
+}
+
+.search-query:focus + button {
+   z-index: 3;   
+}
+
+.dropzone{
+   border: 2px dashed #3C4858;
+   border-radius: 5px;
+   background: white;
+   text-align: center;
+   padding-top: 50px;
+   padding-bottom: 50px;
+   cursor: pointer;
+   font-weight: bold;
+   font-size: 20px;
+}
+
+.dropzoneRow{
+   padding-top: 30px;
+}
+
+.btnFolder {
+   background-color: #3C4858;
+   border: none;
+   color: white;
+   padding: 10px 14px;
+   font-size: 14px;
+   cursor: pointer;
+ }
+ 
+ .btnFolder:hover {
+   background-color: #42424E;
+ }
+
+ .dropdown-menu-translations {
+   width: 120px !important;
+}
+
+
+
+
+ 

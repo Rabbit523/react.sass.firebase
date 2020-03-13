@@ -1,0 +1,132 @@
+{
+  "appImage" : "https://firebasestorage.googleapis.com/v0/b/universalapp-a272a.appspot.com/o/speech-check.png?alt=media&token=f06bdd26-4691-4f49-b9c3-45d9c2f3aab5",
+  "config" : {
+    "currency_format" : "amount_with_comma_separator",
+    "currency_value" : "$",
+    "date_format" : "d-m-Y",
+    "date_format_from" : "Y-m-d",
+    "distance_in" : "km",
+    "loginRequired" : true,
+    "showSlides" : false,
+    "time_format" : "H:I",
+    "time_format_from" : "h:i",
+    "userVarification" : false
+  },
+  "design" : {
+    "category" : {
+      "textColor" : "#ffffff"
+    },
+    "general" : {
+      "backgroundColor" : "#fefeff",
+      "backgroundGradient" : [ {
+        "color" : "#48486f"
+      }, {
+        "color" : "#1d243c"
+      } ],
+      "backgroundImage" : false,
+      "buttonBorderColor" : "#000000",
+      "buttonColor" : "#555454",
+      "buttonText" : "#ffffff",
+      "coloring" : "advanced",
+      "detailsBackgroundGradient" : [ {
+        "color" : "#fefeff"
+      }, {
+        "color" : "#FEFEFE"
+      } ],
+      "detailsBackgroundImage" : false,
+      "hideTabIconName" : true,
+      "isRTL" : false,
+      "layout" : "tabs",
+      "outbound" : false,
+      "rounded" : true
+    },
+    "navBar" : {
+      "backgroundColor" : "rgba(0,0,0,0.0)",
+      "barStyle" : "light-content",
+      "borderColor" : "rgba(0,0,0,0.0)",
+      "detailsBackgroundColor" : "#ffffff",
+      "detailsTintColor" : "#000000",
+      "statusBarBackgroundColor" : "#000000",
+      "tintColor" : "#ffffff"
+    },
+    "rows" : {
+      "arrowColor" : "#ffffff",
+      "backgroundColor" : "#ffffff",
+      "desciptionColor" : "#555555",
+      "imageRowColor" : "rgba(0,0,0,0.5)",
+      "imageRowFontSize" : 18,
+      "imageRowFontWeight" : "normal",
+      "separatorColor" : "#ffffff",
+      "subtitleColor" : "#666666",
+      "titleColorOnGrid" : "#ffffff",
+      "titleColorOnRow" : "#444444"
+    },
+    "sideMenu" : {
+      "activeBackgroundColor" : "#eeeeee",
+      "activeTintColor" : "#773cc4",
+      "backgroundColor" : "#ffffff",
+      "inactiveBackgroundColor" : "rgba(0,0,0,0)",
+      "inactiveTintColor" : "#111111"
+    },
+    "specialRows" : {
+      "arrowColor" : "#ffffff",
+      "backgroundColor" : "#30324c",
+      "desciptionColor" : "#ffffff",
+      "imageRowColor" : "rgba(256,256,256,0.5)",
+      "imageRowFontSize" : 18,
+      "imageRowFontWeight" : "normal",
+      "separatorColor" : "#eeeeee",
+      "subtitleColor" : "red",
+      "titleColorOnGrid" : "#ffffff",
+      "titleColorOnRow" : "#ffffff"
+    }
+  },
+  "name" : "ChatTest app",
+  "navigation" : {
+    "menus" : [ {
+      "icon" : "FeMessageCircle",
+      "name" : "Chats",
+      "sectionType" : "chats"
+    }, {
+      "icon" : "FePlusCircle",
+      "name" : "Add Contact",
+      "sectionType" : "addContact"
+    }, {
+      "icon" : "FeUser",
+      "name" : "Profile",
+      "sectionType" : "profile"
+    }, {
+      "category_image" : "https://firebasestorage.googleapis.com/v0/b/universalapp-a272a.appspot.com/o/1530571286790.jpg?alt=media&token=053c18fe-63f5-4763-a05e-f8b7cd89e476",
+      "display_header_image" : true,
+      "icon" : "FeMoreVertical",
+      "listStyle" : "grid",
+      "name" : "More",
+      "subMenus" : [ {
+        "id" : 0,
+        "image" : "https://firebasestorage.googleapis.com/v0/b/universalapp-a272a.appspot.com/o/icons%2Fnot.png?alt=media&token=28df486d-9070-4044-97a0-dbf04730b66e",
+        "name" : "Notifications",
+        "sectionType" : "notifications",
+        "showCategoryFilter" : false
+      } ]
+    } ],
+    "slides" : [ {
+      "backgroundColor" : "#ffffff",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/universalapp-a272a.appspot.com/o/sc1%20(1).png?alt=media&token=3a56ff52-70bb-4c68-825e-74e70e816542",
+      "key" : "somethun",
+      "text" : "Have you ever \n wanted to build an app",
+      "title" : "Build an app"
+    }, {
+      "backgroundColor" : "#ffffff",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/universalapp-a272a.appspot.com/o/sc2%20(1).png?alt=media&token=e0d40a8e-9ddb-4ba3-948a-e2d1a5f9d278",
+      "key" : "somethun-dos",
+      "text" : "Get the App Platform and build any app in hours",
+      "title" : "Now you can"
+    }, {
+      "backgroundColor" : "#e7effc",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/universalapp-a272a.appspot.com/o/sc3b.png?alt=media&token=8732aa54-a63e-48af-9e83-cd714fd1062c",
+      "key" : "somethun1",
+      "text" : "Just get the project configured and publish the app.",
+      "title" : "It is so easy"
+    } ]
+  }
+}

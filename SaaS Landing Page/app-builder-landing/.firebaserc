@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "appsiest"
+  },
+  "targets": {
+    "appsiest": {
+      "hosting": {
+        "landing-sass": [
+          "landing-sass"
+        ]
+      }
+    }
+  }
+}

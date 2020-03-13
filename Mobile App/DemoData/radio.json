@@ -1,0 +1,172 @@
+{
+  "meta":{
+      "appImage" : "https://cdn0.iconfinder.com/data/icons/elpis/144/App_Development-128.png",
+      "config" : {
+        "currency_format" : "amount_with_comma_separator",
+        "currency_value" : "$",
+        "date_format" : "d-m-Y",
+        "date_format_from" : "Y-m-d",
+        "distance_in" : "km",
+        "time_format" : "H:I",
+        "time_format_from" : "h:i"
+      },
+      "design" : {
+        "category" : {
+          "textColor" : "rgba(86,67,126,0.5)"
+        },
+        "general" : {
+          "backgroundColor" : "#513572",
+          "backgroundGradient" : [ {
+            "color" : "#48486f"
+          }, {
+            "color" : "#1d243c"
+          } ],
+          "backgroundImage" : false,
+          "buttonBorderColor" : "#000000",
+          "buttonColor" : "#555454",
+          "buttonText" : "#ffffff",
+          "coloring" : "advanced",
+          "detailsBackgroundGradient" : [ {
+            "color" : "#fefeff"
+          }, {
+            "color" : "#FEFEFE"
+          } ],
+          "detailsBackgroundImage" : false,
+          "hideTabIconName" : true,
+          "isRTL" : false,
+          "layout" : "side",
+          "outbound" : false,
+          "rounded" : true
+        },
+        "navBar" : {
+          "backgroundColor" : "rgba(86,67,126,0.5)",
+          "barStyle" : "light-content",
+          "borderColor" : "#cccccc",
+          "statusBarBackgroundColor" : "#FFFFFF",
+          "tintColor" : "#ffffff"
+        },
+        "rows" : {
+          "arrowColor" : "#000000",
+          "backgroundColor" : "rgba(48,53,70,0.5)",
+          "desciptionColor" : "#ffffff",
+          "imageRowColor" : "rgba(0,0,0,0.5)",
+          "imageRowFontSize" : 18,
+          "imageRowFontWeight" : "normal",
+          "separatorColor" : "rgba(0,0,0,0.5)",
+          "subtitleColor" : "#ffffff",
+          "titleColorOnGrid" : "#ffffff",
+          "titleColorOnRow" : "#ffffff"
+        },
+        "sideMenu" : {
+          "activeBackgroundColor" : "#eeeeee",
+          "activeTintColor" : "#513572",
+          "backgroundColor" : "#ffffff",
+          "inactiveBackgroundColor" : "rgba(0,0,0,0)",
+          "inactiveTintColor" : "#111111"
+        }
+      },
+      "name" : "Radio App",
+      "navigation" : {
+        "menus" : [ {
+          "categorySetup" : {
+            "category_style" : "list",
+            "data_point" : "radios_collection",
+            "fields" : {
+              "description" : "description",
+              "image" : "image",
+              "title" : "name"
+            }
+          },
+          "category_first" : false,
+          "detailsSetup" : {
+            "collections" : [ "radios" ],
+            "fields" : {
+              "fb" : "facebook",
+              "img" : "image",
+              "song" : "currentSong",
+              "stationName" : "name",
+              "stitle" : "currentArtist",
+              "streamLink" : "stream",
+              "twitt" : "twitter"
+            },
+            "hideHeader" : true,
+            "isHavingStream" : true,
+            "navButtonAction" : "add-to-favorites",
+            "navButtonActionDoneIcon" : "MdFavorite",
+            "navButtonIconActiveIcon" : "MdFavoriteBorder",
+            "showNavButton" : true
+          },
+          "icon" : "MdSettingsVoice",
+          "isRoot" : true,
+          "listStyle" : "grid",
+          "listingSetup" : {
+            "collection_key" : "collection_radios",
+            "data_point" : "radios",
+            "fields" : {
+              "actionButton" : "",
+              "description" : "description",
+              "image" : "image",
+              "subtitle" : "currentSong",
+              "title" : "name"
+            },
+            "haveThumbnails" : true,
+            "listing_style" : "list",
+            "showCategoryFilter" : true
+          },
+          "name" : "Radio"
+        }, {
+          "categorySetup" : {
+            "category_style" : "grid2",
+            "data_point" : "product_collection",
+            "fields" : {
+              "description" : "description",
+              "image" : "image",
+              "title" : "title"
+            }
+          },
+          "category_first" : false,
+          "detailsSetup" : {
+            "collections" : [ "radios" ],
+            "fields" : {
+              "fb" : "facebook",
+              "img" : "image",
+              "song" : "currentSong",
+              "stationName" : "name",
+              "stitle" : "subtitle",
+              "streamLink" : "stream",
+              "twitt" : "twitter"
+            },
+            "hideHeader" : true,
+            "isHavingStream" : true,
+            "navButtonAction" : "add-to-favorites",
+            "navButtonActionDoneIcon" : "MdFavorite",
+            "navButtonIconActiveIcon" : "MdFavoriteBorder",
+            "showNavButton" : true
+          },
+          "icon" : "MdFavorite",
+          "isRoot" : true,
+          "listStyle" : "grid",
+          "listingSetup" : {
+            "data_point" : "products",
+            "fields" : {
+              "description" : "description",
+              "image" : "image",
+              "title" : "name"
+            },
+            "listing_style" : "list"
+          },
+          "name" : "Favorite",
+          "sectionType" : "wish-list"
+        }, {
+          "icon" : "MdAccountBox",
+          "name" : "Profile",
+          "sectionType" : "profile"
+        }, {
+          "icon" : "MdSearch",
+          "name" : "Search",
+          "sectionType" : "listOfUsers"
+        } ],
+        "type" : "side"
+      }
+    }
+  }

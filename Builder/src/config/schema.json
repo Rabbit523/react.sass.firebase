@@ -1,0 +1,174 @@
+{
+  "rab_saas_site":{
+    "features":[
+      {
+        "description" : "Enter your feature description",
+        "image" : "https://firebasestorage.googleapis.com/v0/b/tester-8e38d.appspot.com/o/1550565808144.jpg?alt=media&token=ddaf1022-f00d-4c0c-b8a5-a1f6b1df4fb0",
+        "name" : "Your feature name"
+      }
+    ],
+    "menus":[
+      {
+        "link" : "#Menu link here",
+        "name" : "Your menu name"
+      }
+    ],
+    "social":[
+      {
+        "icon" : "fa fa-check",
+        "name" : "Your social name",
+        "link" : "https://www.google.com",
+        "tooltip" : "Tooltip here"
+      }
+    ],
+    "pricing":{
+      "plans":[
+        {
+          "allowdQty" : "Plan quantity here",
+          "features" : [ "Plan feature here" ],
+          "id" : 11111,
+          "name" : "Plan name here",
+          "price" : "Plan price here",
+          "image" : "https://i.postimg.cc/w1yx6scH/icon-paper2.png",
+          "linkToPlan" : "https://mobidonia.com"
+        }
+      ]
+    },
+    "types":[
+      "Type name here"
+    ]
+  },
+  "bookings" : {
+    "any" : {
+      "150" : {
+        "clubname" : "Daniel"
+      }
+    }
+  },
+  "clubs" : {
+    "belgrade" : {
+      "items" : [ {
+        "name" : "CLUB NAME",
+        "description" : "Best club in xxx",
+        "photos" : [ {
+          "name" : "IMG",
+          "photo" : "https://firebasestorage.googleapis.com/v0/b/skipd-54427.appspot.com/o/1496231235549.jpg?alt=media&token=ef4af4fc-03d7-48de-8d2a-b37193f2208d"
+        } ]
+      } ]
+    },
+    "skopje" : {
+      "items" : [ {
+        "description" : "Best club in xxx",
+        "name" : "CLUB NAME",
+        "photos" : [ {
+          "name" : "IMG",
+          "photo" : "https://firebasestorage.googleapis.com/v0/b/skipd-54427.appspot.com/o/1496231235549.jpg?alt=media&token=ef4af4fc-03d7-48de-8d2a-b37193f2208d"
+        } ]
+      } ]
+    },
+    "sofia" : {
+      "items" : [ {
+        "description" : "Best club in xxx",
+        "name" : "CLUB NAME",
+        "photos" : [ {
+          "name" : "IMG",
+          "photo" : "https://firebasestorage.googleapis.com/v0/b/skipd-54427.appspot.com/o/1496231235549.jpg?alt=media&token=ef4af4fc-03d7-48de-8d2a-b37193f2208d"
+        } ]
+      } ]
+    }
+  },
+  "static" : {
+    "cities" : {
+      "belgrade" : {
+        "clubs" : 11,
+        "displayName" : "Belgrade",
+        "photos" : {
+          "items" : [ "https://firebasestorage.googleapis.com/v0/b/skipd-54427.appspot.com/o/static%2Fbelgrad.jpg?alt=media&token=fbdfaf59-4209-46d7-a671-0df894d3217f", "https://firebasestorage.googleapis.com/v0/b/skipd-54427.appspot.com/o/static%2Fbelgrad1.jpg?alt=media&token=fbdfaf59-4209-46d7-a671-0df894d3217f" ]
+        }
+      },
+      "skopje" : {
+        "clubs" : 20,
+        "displayName" : "Skopje City",
+        "photos" : {
+          "items" : [ "https://firebasestorage.googleapis.com/v0/b/skipd-54427.appspot.com/o/static%2Fskopje.jpg?alt=media&token=fbdfaf59-4209-46d7-a671-0df894d3217f", "https://firebasestorage.googleapis.com/v0/b/skipd-54427.appspot.com/o/static%2Fskopje1.jpg?alt=media&token=fbdfaf59-4209-46d7-a671-0df894d3217f", "https://firebasestorage.googleapis.com/v0/b/skipd-54427.appspot.com/o/static%2Fskopje2.jpg?alt=media&token=fbdfaf59-4209-46d7-a671-0df894d3217f" ]
+        }
+      },
+      "sofia" : {
+        "clubs" : 18,
+        "displayName" : "Sofia",
+        "photos" : {
+          "0" : "http://www.nightlife-cityguide.com/wp-content/uploads/2015/10/vita-notturna-Sofia-Chervilo-Club.jpg",
+          "items" : [ "https://firebasestorage.googleapis.com/v0/b/skipd-54427.appspot.com/o/static%2Fsofia.jpg?alt=media&token=fbdfaf59-4209-46d7-a671-0df894d3217f", "https://firebasestorage.googleapis.com/v0/b/skipd-54427.appspot.com/o/static%2Fsofia1.jpg?alt=media&token=fbdfaf59-4209-46d7-a671-0df894d3217f", "https://firebasestorage.googleapis.com/v0/b/skipd-54427.appspot.com/o/static%2Fsofia2.jpg?alt=media&token=fbdfaf59-4209-46d7-a671-0df894d3217f" ]
+        }
+      }
+    },
+    "genres" : {
+      "items" : [ {
+        "image" : "https://firebasestorage.googleapis.com/v0/b/skipd-54427.appspot.com/o/rock.jpg?alt=media&token=fba6967d-4c12-4559-8396-db91bef8935f",
+        "name" : "type"
+      }]
+    }
+  },
+  "events":{
+    "belgrade" : {
+      "items" : {
+        "-event12341" : {
+          "booked" : 1,
+          "club" : {
+            "id" : "belgrade/items/1",
+            "name" : "Club name"
+          },
+          "description" : "EVENT DESCRIPTION",
+          "name" : "EVENT NAME",
+          "photo" : "https://slack-imgs.com/?c=1&url=https%3A%2F%2Fscontent-vie1-1.xx.fbcdn.net%2Fv%2Ft1.0-9%2F18740593_705189559665089_2262742478421546532_n.jpg%3Foh%3Dfddd11bb075096b839baf14209c1efc9%26oe%3D59AF4116",
+          "price" : 10,
+          "shared" : 0,
+          "start" : "06/07/2017 00:00 PM",
+          "total_spots" : 50,
+          "type" : "dance",
+          "views" : 0
+        }
+      }
+    },
+    "skopje" : {
+      "items" : {
+        "-event12341" : {
+          "name" : "EVENT NAME",
+          "photo" : "https://slack-imgs.com/?c=1&url=https%3A%2F%2Fscontent-vie1-1.xx.fbcdn.net%2Fv%2Ft1.0-9%2F18740593_705189559665089_2262742478421546532_n.jpg%3Foh%3Dfddd11bb075096b839baf14209c1efc9%26oe%3D59AF4116",
+          "booked" : 1,
+          "club" : {
+            "id" : "skopje/items/1",
+            "name" : "Club name"
+          },
+          "description" : "EVENT DESCRIPTION",
+          "price" : 10,
+          "shared" : 0,
+          "start" : "06/07/2017 00:00 PM",
+          "total_spots" : 50,
+          "type" : "dance",
+          "views" : 0
+        }
+      }
+    },
+    "sofia" : {
+      "items" : {
+        "-event12341" : {
+          "booked" : 1,
+          "club" : {
+            "id" : "sofia/items/1",
+            "name" : "Club name"
+          },
+          "description" : "EVENT DESCRIPTION",
+          "name" : "EVENT NAME",
+          "photo" : "https://slack-imgs.com/?c=1&url=https%3A%2F%2Fscontent-vie1-1.xx.fbcdn.net%2Fv%2Ft1.0-9%2F18740593_705189559665089_2262742478421546532_n.jpg%3Foh%3Dfddd11bb075096b839baf14209c1efc9%26oe%3D59AF4116",
+          "price" : 10,
+          "shared" : 0,
+          "start" : "06/07/2017 00:00 PM",
+          "total_spots" : 50,
+          "type" : "dance",
+          "views" : 0
+        }
+      }
+    }
+  }
+}

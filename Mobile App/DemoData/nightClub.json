@@ -1,0 +1,292 @@
+{
+  "meta":{
+    "config" : {
+      "currency_format" : "amount_with_comma_separator",
+      "currency_value" : "$",
+      "date_format" : "d-m-Y",
+      "date_format_from" : "Y-m-d",
+      "distance_in" : "km",
+      "time_format" : "H:I",
+      "time_format_from" : "h:i"
+    },
+    "design" : {
+      "category" : {
+        "textColor" : "#ffffff"
+      },
+      "general" : {
+        "backgroundColor" : "#fefeff",
+        "backgroundGradient" : [ {
+          "color" : "#ffa3e6"
+        }, {
+          "color" : "#5f95fd"
+        } ],
+        "backgroundImage" : true,
+        "buttonBorderColor" : "#000000",
+        "buttonColor" : "#555454",
+        "buttonText" : "#ffffff",
+        "coloring" : "advanced",
+        "detailsBackgroundGradient" : [ {
+          "color" : "#fefeff"
+        }, {
+          "color" : "#FEFEFE"
+        } ],
+        "detailsBackgroundImage" : false,
+        "hideTabIconName" : true,
+        "isRTL" : false,
+        "layout" : "tabs",
+        "outbound" : false,
+        "rounded" : true
+      },
+      "navBar" : {
+        "backgroundColor" : "rgba(0,0,0,0.0)",
+        "barStyle" : "light-content",
+        "borderColor" : "rgba(0,0,0,0.0)",
+        "detailsBackgroundColor" : "#ffffff",
+        "detailsTintColor" : "#000000",
+        "statusBarBackgroundColor" : "#000000",
+        "tintColor" : "#ffffff"
+      },
+      "rows" : {
+        "arrowColor" : "#000000",
+        "backgroundColor" : "#ffffff",
+        "backgroundGradient" : [ {
+          "color" : "#fcf7fd"
+        }, {
+          "color" : "#ede4fa"
+        } ],
+        "desciptionColor" : "#444444",
+        "imageRowColor" : "rgba(0,0,0,0.5)",
+        "imageRowFontSize" : 18,
+        "imageRowFontWeight" : "normal",
+        "separatorColor" : "#eeeeee",
+        "titleColorOnGrid" : "#eeeeee",
+        "titleColorOnRow" : "#000000"
+      },
+      "sideMenu" : {
+        "activeBackgroundColor" : "#eeeeee",
+        "activeTintColor" : "#773cc4",
+        "backgroundColor" : "#ffffff",
+        "inactiveBackgroundColor" : "rgba(0,0,0,0)",
+        "inactiveTintColor" : "#111111"
+      }
+    },
+    "navigation" : {
+      "menus" : [ {
+        "categorySetup" : {
+          "category_style" : "grid2",
+          "data_point" : "eventsnc_collection",
+          "fields" : {
+            "description" : "description",
+            "image" : "image",
+            "title" : "title"
+          }
+        },
+        "category_first" : false,
+        "detailsSetup" : {
+          "actionButton" : "BUY TICKET",
+          "actionButtonWhenActionDone" : "TICKET BOUGHT",
+          "cartCODAvailable" : true,
+          "cartCODText" : "You will pay at the venue.",
+          "cartIcons" : [ "ios-calendar-outline", "ios-person-outline", "ios-card-outline", "ios-list-box-outline" ],
+          "cartLabels" : [ "Event", "Register", "Payment", "Summary" ],
+          "cartPayPalAvailable" : true,
+          "collections" : [ "variants", "ingredients", "photos" ],
+          "descriptionTitle" : "Description",
+          "directionButton" : "Get Directions",
+          "fields" : {
+            "description" : "description",
+            "descriptionFunctions" : ",",
+            "direction" : "eventLocation",
+            "image" : "image",
+            "photos" : "photos",
+            "price" : "price",
+            "priceFunctions" : "round,toCurrency~USD,prepend~Price: ",
+            "shareLink" : "url",
+            "subPrice" : "price",
+            "subPriceFunctions" : "multiply~{qty},round,toCurrency~USD,prepend~/per ticket.",
+            "subtitle" : "locationName",
+            "subtitle2" : "eventDateStart",
+            "subtitle2Functions" : "toReadableDate~MMMM Do YYYY HH:mm",
+            "subtitle2Icon" : "FeClock",
+            "subtitle3" : "eventDateEnd",
+            "subtitle3Functions" : "toReadableDate~MMMM Do YYYY HH:mm",
+            "subtitle3Icon" : "FeClock",
+            "subtitleAction" : "location",
+            "subtitleActionFunction" : "openGps",
+            "subtitleFunctions" : " ",
+            "subtitleIcon" : "FeMapPin",
+            "title" : "title",
+            "titleFunctions" : "trim:40",
+            "video" : "videolink"
+          },
+          "isDirectShopping" : true,
+          "isShopping" : true,
+          "photosTitle" : "Photos",
+          "shareButton" : "Share the event",
+          "showPhotos" : true,
+          "videoButton" : "View Video"
+        },
+        "icon" : "FeCalendar",
+        "isRoot" : true,
+        "listStyle" : "grid",
+        "listingSetup" : {
+          "backgroundImageOption" : 1,
+          "collection_key" : "collection_event",
+          "data_point" : "eventsnc",
+          "fields" : {
+            "actionButton" : "BUY",
+            "description" : "description",
+            "image" : "image",
+            "subtitle" : "eventDateStart",
+            "subtitleFunctions" : "toReadableDate~dddd MMMM Do YYYY",
+            "title" : "title"
+          },
+          "listing_style" : "list",
+          "showCategoryFilter" : true
+        },
+        "name" : "Events"
+      }, {
+        "categorySetup" : {
+          "category_style" : "grid2",
+          "data_point" : "events_collection",
+          "fields" : {
+            "description" : "description",
+            "image" : "image",
+            "title" : "title"
+          }
+        },
+        "category_first" : true,
+        "detailsSetup" : {
+          "callButton" : "Call",
+          "cartIcons" : [ "ios-calendar-outline", "ios-person-outline", "ios-card-outline", "ios-list-box-outline" ],
+          "cartLabels" : [ "Event", "Register", "Payment", "Summary" ],
+          "cartPayPalAvailable" : true,
+          "collections" : [ "variants", "ingredients", "photos" ],
+          "descriptionTitle" : "Description",
+          "fields" : {
+            "description" : "description",
+            "descriptionFunctions" : ",",
+            "direction" : "",
+            "image" : "image",
+            "phone" : "phoneNumber",
+            "photos" : "photos",
+            "price" : "price",
+            "priceFunctions" : "round,toCurrency~USD,prepend~Price: ",
+            "shareLink" : "url",
+            "subPrice" : "price",
+            "subPriceFunctions" : "multiply~{qty},round,toCurrency~USD,prepend~/per ticket.",
+            "subtitle" : "locationName",
+            "subtitle2" : "eventDateStart",
+            "subtitle2Functions" : "toReadableDate~YYYY-MM-DD HH:mm",
+            "subtitle2Icon" : "ios-time-outline",
+            "subtitle3" : "eventDateEnd",
+            "subtitle3Functions" : "toReadableDate~YYYY-MM-DD HH:mm",
+            "subtitle3Icon" : "ios-timer-outline",
+            "subtitleAction" : "location",
+            "subtitleActionFunction" : "openGps",
+            "subtitleFunctions" : " ",
+            "subtitleIcon" : "ios-pin-outline",
+            "title" : "title",
+            "titleFunctions" : "trim:40",
+            "video" : "video"
+          },
+          "isDirectShopping" : true,
+          "isShopping" : false,
+          "photosTitle" : "Photos",
+          "shareButton" : "Share the event",
+          "showPhotos" : true,
+          "videoButton" : "View Video"
+        },
+        "icon" : "FeMapPin",
+        "isRoot" : false,
+        "listStyle" : "grid",
+        "listingSetup" : {
+          "collection_key" : "collection_event",
+          "data_point" : "venue",
+          "fields" : {
+            "actionButton" : "BUY",
+            "description" : "description",
+            "image" : "image",
+            "subtitle" : "",
+            "subtitleFunctions" : "",
+            "title" : "title"
+          },
+          "listing_style" : "list"
+        },
+        "name" : "Map",
+        "sectionType" : "map"
+      }, {
+        "categorySetup" : {
+          "category_style" : "grid2",
+          "data_point" : "events_collection",
+          "fields" : {
+            "description" : "description",
+            "image" : "image",
+            "title" : "title"
+          }
+        },
+        "category_first" : false,
+        "detailsSetup" : {
+          "collections" : [ "photos" ],
+          "fields" : {
+            "photos" : "photos"
+          },
+          "hideHeader" : true,
+          "photosTitle" : "Photos",
+          "photosVertical" : true,
+          "showPhotos" : true
+        },
+        "icon" : "FeImage",
+        "isRoot" : true,
+        "listStyle" : "grid",
+        "listingSetup" : {
+          "collection_key" : "collection_album",
+          "data_point" : "albums",
+          "fields" : {
+            "actionButton" : "BUY",
+            "description" : "description",
+            "image" : "image",
+            "subtitle" : "date",
+            "subtitleFunctions" : "toReadableDate~MMMM Do YYYY",
+            "title" : "title"
+          },
+          "listing_style" : "list"
+        },
+        "name" : "Galleries"
+      }, {
+        "icon" : "FeBell",
+        "name" : "Notifications",
+        "sectionType" : "notifications"
+      }, {
+        "category_image" : "https://firebasestorage.googleapis.com/v0/b/universalapp-a272a.appspot.com/o/audience-band-celebration-196652.jpg?alt=media&token=d017e658-d7e5-4183-a162-300bb0aa9d36",
+        "display_header_image" : true,
+        "icon" : "FeUsers",
+        "image" : "https://firebasestorage.googleapis.com/v0/b/universalapp-a272a.appspot.com/o/audience-band-celebration-196652.jpg?alt=media&token=d017e658-d7e5-4183-a162-300bb0aa9d36",
+        "listStyle" : "grid",
+        "name" : "Social",
+        "subMenus" : [ {
+          "id" : 1,
+          "image" : "https://firebasestorage.googleapis.com/v0/b/universalapp-a272a.appspot.com/o/InsignificonSC32-Instagram-New%20copy.jpg?alt=media&token=b69e510c-a9c1-4e3d-b3a5-5393a270a6cd",
+          "link" : "https://www.instagram.com/",
+          "name" : "@yourClubName"
+        }, {
+          "id" : "2",
+          "image" : "https://firebasestorage.googleapis.com/v0/b/universalapp-a272a.appspot.com/o/InsignificonSC32-Facebook%20copy.jpg?alt=media&token=4123c154-f9db-4187-8b40-724d1d153ab8",
+          "link" : "https://www.facebook.com/",
+          "name" : "fb.com/yourClubName"
+        }, {
+          "id" : "3",
+          "image" : "https://firebasestorage.googleapis.com/v0/b/universalapp-a272a.appspot.com/o/InsignificonSC32-YouTube%20copy.png?alt=media&token=c811d418-3b30-430f-924b-40b1c9d68ce0",
+          "link" : "https://www.youtube.com/",
+          "name" : "@yourClubName"
+        }, {
+          "id" : "4",
+          "image" : "https://firebasestorage.googleapis.com/v0/b/universalapp-a272a.appspot.com/o/InsignificonSC32-Twitter%20copy.png?alt=media&token=58497d70-f610-4849-a307-a3727771982a",
+          "link" : "https://twitter.com/",
+          "name" : "@yourClubName"
+        } ]
+      } ],
+      "type" : "tab"
+    }
+  }
+}

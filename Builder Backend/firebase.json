@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "public": "build",
+    "target": "appsiest-back",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

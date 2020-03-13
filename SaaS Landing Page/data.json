@@ -1,0 +1,83 @@
+{
+  "actionButtonName" : "Start Now",
+  "features" : [ {
+    "description" : "Just pick the template you want to start with. Then add or remove any section that you may need.",
+    "image" : "https://firebasestorage.googleapis.com/v0/b/tester-8e38d.appspot.com/o/undraw_mobile_images_rc0q.svg?alt=media&token=b8a1ba80-d669-4674-89e9-2a25fefdb493",
+    "name" : "BUILD"
+  }, {
+    "description" : "Start adding your content. Create categories and add / setup your data. Update your content anytime, no need for app republish.",
+    "image" : "https://firebasestorage.googleapis.com/v0/b/tester-8e38d.appspot.com/o/undraw_content_vbqo.svg?alt=media&token=e2adad33-4451-40d0-ac0a-0bb074b38915",
+    "name" : "MANAGE"
+  }, {
+    "description" : "Change your app colors and layout. Change all appearances at start or even when your app is published. ",
+    "image" : "https://firebasestorage.googleapis.com/v0/b/tester-8e38d.appspot.com/o/undraw_creativity_wqmm.svg?alt=media&token=986bc80e-d128-4396-afe0-3c46d52435b1",
+    "name" : "DESIGN"
+  }, {
+    "description" : "When your have made your app.It is time to preview it with our Preview App. Test it, and if it looks good, press on the submit button. ",
+    "image" : "https://firebasestorage.googleapis.com/v0/b/tester-8e38d.appspot.com/o/undraw_maker_launch_crhe.svg?alt=media&token=1d27822e-4d8a-4088-a9cb-3a73c84ca890",
+    "name" : "PUBLISH"
+  }, {
+    "description" : "Send periodical push notifications to your app users. Engage them with updates for your app.",
+    "image" : "https://firebasestorage.googleapis.com/v0/b/tester-8e38d.appspot.com/o/undraw_mobile_marketing_iqbr.svg?alt=media&token=41c70ec8-bf5d-4e0e-afc1-1bb167b660f1",
+    "name" : "ENGAGE"
+  } ],
+  "header_subtext" : "unites app creation and content managment in one powerful solution, empowering you to build an app in no time and update it on the fly.",
+  "linkToApp" : "http://demo.reactappbuilder.com/",
+  "linkToPreviewApp" : "http://bit.ly/uniexporeact",
+  "GAUniqueID" : "Your Google Analytics ID",
+  "menus" : [ {
+    "link" : "#features",
+    "name" : "Features"
+  }, {
+    "link" : "#pricing",
+    "name" : "Pricing"
+  }, {
+    "link" : "https://reactappbuilder.support-hub.io/",
+    "name" : "Support"
+  } ],
+  "pricing" : {
+    "plans" : [ {
+      "allowdQty" : 10,
+      "features" : [ "Make 10 apps", "Community support only" ],
+      "id" : 552942,
+      "image" : "https://i.postimg.cc/w1yx6scH/icon-paper2.png",
+      "name" : "Starter",
+      "price" : "$10.00/Monthly"
+    }, {
+      "allowdQty" : 20,
+      "features" : [ "Make 20 apps", "Team support" ],
+      "id" : 552947,
+      "image" : "https://i.postimg.cc/678MbBXM/plane.png",
+      "name" : "Pro",
+      "price" : "$15.00/Monthly"
+    }, null, {
+      "allowdQty" : 40,
+      "features" : [ "Make 40 apps", "Team Support" ],
+      "id" : 552948,
+      "image" : "https://i.postimg.cc/fSDFr15k/rocket.png",
+      "name" : "Rocket",
+      "price" : "$20.00/Monthly"
+    } ],
+    "vendorID" : 40068
+  },
+  "site_name" : "React App Builder",
+  "social" : [ {
+    "iconName" : "fab fa-facebook-square",
+    "link" : "https://facebook.com",
+    "name" : "Facebook",
+    "tooltip" : "Follow us on Facebook"
+  }, {
+    "iconName" : "fab fa-twitter",
+    "link" : "https://twitter.com",
+    "name" : "Twitter",
+    "tooltip" : "Follow us on Twitter"
+  }, {
+    "iconName" : "fab fa-instagram",
+    "link" : "https://instagram.com",
+    "name" : "Instagram",
+    "tooltip" : "Follow us on Instagram"
+  } ],
+  "types" : [ "News", "Business Directory", "Chat", "Radio stations", "Conference", "Night club", "Events", "Shop", "Restaurant", "Recipe app" ],
+  "video_button" : "Watch Video",
+  "ytvideo" : "https://www.youtube.com/watch?v=hQUbjWkGRDQ"
+}

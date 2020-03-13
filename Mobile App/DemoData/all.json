@@ -1,0 +1,2853 @@
+{
+  "chat" : {
+    "appImage" : "https://firebasestorage.googleapis.com/v0/b/universalapp-a272a.appspot.com/o/speech-check.png?alt=media&token=f06bdd26-4691-4f49-b9c3-45d9c2f3aab5",
+    "config" : {
+      "currency_format" : "amount_with_comma_separator",
+      "currency_value" : "$",
+      "date_format" : "d-m-Y",
+      "date_format_from" : "Y-m-d",
+      "distance_in" : "km",
+      "loginRequired" : true,
+      "showSlides" : false,
+      "time_format" : "H:I",
+      "time_format_from" : "h:i",
+      "userVarification" : false
+    },
+    "design" : {
+      "category" : {
+        "textColor" : "#ffffff"
+      },
+      "general" : {
+        "backgroundColor" : "#fefeff",
+        "backgroundGradient" : [ {
+          "color" : "#48486f"
+        }, {
+          "color" : "#1d243c"
+        } ],
+        "backgroundImage" : false,
+        "buttonBorderColor" : "#000000",
+        "buttonColor" : "#555454",
+        "buttonText" : "#ffffff",
+        "coloring" : "advanced",
+        "detailsBackgroundGradient" : [ {
+          "color" : "#fefeff"
+        }, {
+          "color" : "#FEFEFE"
+        } ],
+        "detailsBackgroundImage" : false,
+        "hideTabIconName" : true,
+        "isRTL" : false,
+        "layout" : "tabs",
+        "outbound" : false,
+        "rounded" : true
+      },
+      "navBar" : {
+        "backgroundColor" : "rgba(0,0,0,0.0)",
+        "barStyle" : "light-content",
+        "borderColor" : "rgba(0,0,0,0.0)",
+        "detailsBackgroundColor" : "#ffffff",
+        "detailsTintColor" : "#000000",
+        "statusBarBackgroundColor" : "#000000",
+        "tintColor" : "#ffffff"
+      },
+      "rows" : {
+        "arrowColor" : "#ffffff",
+        "backgroundColor" : "#ffffff",
+        "desciptionColor" : "#555555",
+        "imageRowColor" : "rgba(0,0,0,0.5)",
+        "imageRowFontSize" : 18,
+        "imageRowFontWeight" : "normal",
+        "separatorColor" : "#ffffff",
+        "subtitleColor" : "#666666",
+        "titleColorOnGrid" : "#ffffff",
+        "titleColorOnRow" : "#444444"
+      },
+      "sideMenu" : {
+        "activeBackgroundColor" : "#eeeeee",
+        "activeTintColor" : "#773cc4",
+        "backgroundColor" : "#ffffff",
+        "inactiveBackgroundColor" : "rgba(0,0,0,0)",
+        "inactiveTintColor" : "#111111"
+      },
+      "specialRows" : {
+        "arrowColor" : "#ffffff",
+        "backgroundColor" : "#30324c",
+        "desciptionColor" : "#ffffff",
+        "imageRowColor" : "rgba(256,256,256,0.5)",
+        "imageRowFontSize" : 18,
+        "imageRowFontWeight" : "normal",
+        "separatorColor" : "#eeeeee",
+        "subtitleColor" : "red",
+        "titleColorOnGrid" : "#ffffff",
+        "titleColorOnRow" : "#ffffff"
+      }
+    },
+    "name" : "ChatTest app",
+    "navigation" : {
+      "menus" : [ {
+        "icon" : "FeMessageCircle",
+        "name" : "Chats",
+        "sectionType" : "chats"
+      }, {
+        "icon" : "FePlusCircle",
+        "name" : "Add Contact",
+        "sectionType" : "addContact"
+      }, {
+        "icon" : "FeUser",
+        "name" : "Profile",
+        "sectionType" : "profile"
+      }, {
+        "category_image" : "https://firebasestorage.googleapis.com/v0/b/universalapp-a272a.appspot.com/o/1530571286790.jpg?alt=media&token=053c18fe-63f5-4763-a05e-f8b7cd89e476",
+        "display_header_image" : true,
+        "icon" : "FeMoreVertical",
+        "listStyle" : "grid",
+        "name" : "More",
+        "subMenus" : [ {
+          "id" : 0,
+          "image" : "https://firebasestorage.googleapis.com/v0/b/universalapp-a272a.appspot.com/o/icons%2Fnot.png?alt=media&token=28df486d-9070-4044-97a0-dbf04730b66e",
+          "name" : "Notifications",
+          "sectionType" : "notifications",
+          "showCategoryFilter" : false
+        } ]
+      } ],
+      "slides" : [ {
+        "backgroundColor" : "#ffffff",
+        "image" : "https://firebasestorage.googleapis.com/v0/b/universalapp-a272a.appspot.com/o/sc1%20(1).png?alt=media&token=3a56ff52-70bb-4c68-825e-74e70e816542",
+        "key" : "somethun",
+        "text" : "Have you ever \n wanted to build an app",
+        "title" : "Build an app"
+      }, {
+        "backgroundColor" : "#ffffff",
+        "image" : "https://firebasestorage.googleapis.com/v0/b/universalapp-a272a.appspot.com/o/sc2%20(1).png?alt=media&token=e0d40a8e-9ddb-4ba3-948a-e2d1a5f9d278",
+        "key" : "somethun-dos",
+        "text" : "Get the App Platform and build any app in hours",
+        "title" : "Now you can"
+      }, {
+        "backgroundColor" : "#e7effc",
+        "image" : "https://firebasestorage.googleapis.com/v0/b/universalapp-a272a.appspot.com/o/sc3b.png?alt=media&token=8732aa54-a63e-48af-9e83-cd714fd1062c",
+        "key" : "somethun1",
+        "text" : "Just get the project configured and publish the app.",
+        "title" : "It is so easy"
+      } ]
+    }
+  },
+  "conference" : {
+    "appImage" : "https://firebasestorage.googleapis.com/v0/b/universalapp-a272a.appspot.com/o/1535579828939.jpg?alt=media&token=fbfa0b0b-8e97-4152-b588-903bb52630c9",
+    "config" : {
+      "currency_format" : "amount_with_comma_separator",
+      "currency_value" : "$",
+      "date_format" : "d-m-Y",
+      "date_format_from" : "Y-m-d",
+      "distance_in" : "km",
+      "haveThumbnails" : true,
+      "thubnails_prefix" : "thumb_",
+      "time_format" : "H:I",
+      "time_format_from" : "h:i"
+    },
+    "design" : {
+      "category" : {
+        "textColor" : "#ffffff"
+      },
+      "general" : {
+        "backgroundColor" : "#fefeff",
+        "backgroundGradient" : [ {
+          "color" : "#48486f"
+        }, {
+          "color" : "#1d243c"
+        } ],
+        "backgroundImage" : false,
+        "buttonBorderColor" : "#000000",
+        "buttonColor" : "#555454",
+        "buttonText" : "#ffffff",
+        "coloring" : "advanced",
+        "detailsBackgroundGradient" : [ {
+          "color" : "#fefeff"
+        }, {
+          "color" : "#FEFEFE"
+        } ],
+        "detailsBackgroundImage" : false,
+        "hideTabIconName" : true,
+        "isRTL" : false,
+        "layout" : "tabs",
+        "outbound" : false,
+        "rounded" : true
+      },
+      "navBar" : {
+        "backgroundColor" : "rgba(0,0,0,0.0)",
+        "barStyle" : "light-content",
+        "borderColor" : "rgba(0,0,0,0.0)",
+        "detailsBackgroundColor" : "#ffffff",
+        "detailsTintColor" : "#000000",
+        "statusBarBackgroundColor" : "#000000",
+        "tintColor" : "#ffffff"
+      },
+      "rows" : {
+        "arrowColor" : "#ffffff",
+        "backgroundColor" : "#ffffff",
+        "desciptionColor" : "#555555",
+        "imageRowColor" : "rgba(0,0,0,0.5)",
+        "imageRowFontSize" : 18,
+        "imageRowFontWeight" : "normal",
+        "separatorColor" : "#ffffff",
+        "subtitleColor" : "#666666",
+        "titleColorOnGrid" : "#ffffff",
+        "titleColorOnRow" : "#444444"
+      },
+      "sideMenu" : {
+        "activeBackgroundColor" : "#eeeeee",
+        "activeTintColor" : "#773cc4",
+        "backgroundColor" : "#ffffff",
+        "inactiveBackgroundColor" : "rgba(0,0,0,0)",
+        "inactiveTintColor" : "#111111"
+      },
+      "specialRows" : {
+        "arrowColor" : "#ffffff",
+        "backgroundColor" : "#30324c",
+        "desciptionColor" : "#ffffff",
+        "imageRowColor" : "rgba(256,256,256,0.5)",
+        "imageRowFontSize" : 18,
+        "imageRowFontWeight" : "normal",
+        "separatorColor" : "#eeeeee",
+        "subtitleColor" : "red",
+        "titleColorOnGrid" : "#ffffff",
+        "titleColorOnRow" : "#ffffff"
+      }
+    },
+    "name" : "Conference app",
+    "navigation" : {
+      "menus" : [ {
+        "categorySetup" : {
+          "category_style" : "grid2",
+          "data_point" : "eventsconference_collection",
+          "fields" : {
+            "description" : "description",
+            "image" : "image",
+            "title" : "title"
+          }
+        },
+        "category_first" : false,
+        "detailsSetup" : {
+          "actionButton" : "BUY TICKET",
+          "actionButtonWhenActionDone" : "TICKET BOUGHT",
+          "cartCODAvailable" : true,
+          "cartCODText" : "You will pay at the venue.",
+          "cartIcons" : [ "ios-calendar-outline", "ios-person-outline", "ios-card-outline", "ios-list-box-outline" ],
+          "cartLabels" : [ "Event", "Register", "Payment", "Summary" ],
+          "cartPayPalAvailable" : true,
+          "collections" : [ "variants", "ingredients", "photos" ],
+          "descriptionTitle" : "Description",
+          "directionButton" : "Get Directions",
+          "fields" : {
+            "description" : "description",
+            "descriptionFunctions" : ",",
+            "direction" : "eventLocation",
+            "image" : "image",
+            "photos" : "photos",
+            "price" : "price",
+            "priceFunctions" : "round,toCurrency~USD,prepend~Price: ",
+            "shareLink" : "url",
+            "subPrice" : "price",
+            "subPriceFunctions" : "multiply~{qty},round,toCurrency~USD,prepend~/per ticket.",
+            "subtitle" : "FeClock",
+            "subtitle2" : "eventDateStartEndTime",
+            "subtitle2Functions" : "append~ ",
+            "subtitle2Icon" : "FeClock",
+            "subtitle3" : "eventDateEnd",
+            "subtitle3Functions" : "toReadableDate~MMMM Do YYYY HH:mm",
+            "subtitle3Icon" : "FeClock",
+            "subtitleAction" : "location",
+            "subtitleActionFunction" : "openGps",
+            "subtitleFunctions" : " ",
+            "subtitleIcon" : "FeMapPin",
+            "title" : "title",
+            "titleFunctions" : "trim:40",
+            "video" : "videolink"
+          },
+          "isDirectShopping" : true,
+          "isShopping" : false,
+          "navButtonAction" : "add-to-favorites",
+          "navButtonActionDoneIcon" : "MdFavorite",
+          "navButtonIconActiveIcon" : "MdFavoriteBorder",
+          "photosTitle" : "Photos",
+          "shareButton" : "Share the event",
+          "showNavButton" : true,
+          "showPhotos" : true,
+          "videoButton" : "View Video"
+        },
+        "icon" : "FeCalendar",
+        "isRoot" : true,
+        "listStyle" : "grid",
+        "listingSetup" : {
+          "backgroundImageOption" : 1,
+          "collection_key" : "collection_eventsconference",
+          "data_point" : "eventsconference",
+          "fields" : {
+            "actionButton" : "BUY",
+            "description" : "description",
+            "image" : "image",
+            "subtitle" : "eventDateStartEndTime",
+            "subtitleFunctions" : "append~ ",
+            "title" : "name"
+          },
+          "haveThumbnails" : true,
+          "hide_all_category_filter" : true,
+          "listing_style" : "list",
+          "showCategoryFilter" : true,
+          "sorting" : {
+            "onField" : "eventStart",
+            "order" : "ASC"
+          },
+          "thubnails_prefix" : "thumb_"
+        },
+        "name" : "Agenda"
+      }, {
+        "categorySetup" : {
+          "category_style" : "grid2",
+          "data_point" : "events_collection",
+          "fields" : {
+            "description" : "description",
+            "image" : "image",
+            "title" : "title"
+          }
+        },
+        "category_first" : true,
+        "detailsSetup" : {
+          "callButton" : "Call",
+          "cartIcons" : [ "ios-calendar-outline", "ios-person-outline", "ios-card-outline", "ios-list-box-outline" ],
+          "cartLabels" : [ "Event", "Register", "Payment", "Summary" ],
+          "cartPayPalAvailable" : true,
+          "collections" : [ "variants", "ingredients", "photos" ],
+          "descriptionTitle" : "Description",
+          "fields" : {
+            "description" : "description",
+            "descriptionFunctions" : ",",
+            "direction" : "",
+            "image" : "image",
+            "phone" : "phoneNumber",
+            "photos" : "photos",
+            "price" : "price",
+            "priceFunctions" : "round,toCurrency~USD,prepend~Price: ",
+            "shareLink" : "url",
+            "subPrice" : "price",
+            "subPriceFunctions" : "multiply~{qty},round,toCurrency~USD,prepend~/per ticket.",
+            "subtitle" : "locationName",
+            "subtitle2" : "eventDateStart",
+            "subtitle2Functions" : "toReadableDate~YYYY-MM-DD HH:mm",
+            "subtitle2Icon" : "ios-time-outline",
+            "subtitle3" : "eventDateEnd",
+            "subtitle3Functions" : "toReadableDate~YYYY-MM-DD HH:mm",
+            "subtitle3Icon" : "ios-timer-outline",
+            "subtitleAction" : "location",
+            "subtitleActionFunction" : "openGps",
+            "subtitleFunctions" : " ",
+            "subtitleIcon" : "ios-pin-outline",
+            "title" : "title",
+            "titleFunctions" : "trim:40",
+            "video" : "video"
+          },
+          "isDirectShopping" : true,
+          "isShopping" : false,
+          "photosTitle" : "Photos",
+          "shareButton" : "Share the event",
+          "showPhotos" : true,
+          "videoButton" : "View Video"
+        },
+        "icon" : "FeMapPin",
+        "isRoot" : false,
+        "listStyle" : "grid",
+        "listingSetup" : {
+          "collection_key" : "collection_event",
+          "data_point" : "conference_venue",
+          "fields" : {
+            "actionButton" : "BUY",
+            "description" : "description",
+            "image" : "image",
+            "subtitle" : "",
+            "subtitleFunctions" : "",
+            "title" : "title"
+          },
+          "listing_style" : "list"
+        },
+        "name" : "Location",
+        "sectionType" : "map"
+      }, {
+        "categorySetup" : {
+          "category_style" : "grid2",
+          "data_point" : "eventsnc_collection",
+          "fields" : {
+            "description" : "description",
+            "image" : "image",
+            "title" : "title"
+          }
+        },
+        "category_first" : false,
+        "detailsSetup" : {
+          "actionButton" : "BUY TICKET",
+          "actionButtonWhenActionDone" : "TICKET BOUGHT",
+          "cartCODAvailable" : true,
+          "cartCODText" : "You will pay at the venue.",
+          "cartIcons" : [ "ios-calendar-outline", "ios-person-outline", "ios-card-outline", "ios-list-box-outline" ],
+          "cartLabels" : [ "Event", "Register", "Payment", "Summary" ],
+          "cartPayPalAvailable" : true,
+          "collections" : [ "variants", "ingredients", "photos" ],
+          "descriptionTitle" : "Description",
+          "directionButton" : "Get Directions",
+          "fields" : {
+            "description" : "description",
+            "descriptionFunctions" : ",",
+            "direction" : "eventLocation",
+            "image" : "image",
+            "photos" : "photos",
+            "price" : "price",
+            "priceFunctions" : "round,toCurrency~USD,prepend~Price: ",
+            "shareLink" : "url",
+            "subPrice" : "price",
+            "subPriceFunctions" : "multiply~{qty},round,toCurrency~USD,prepend~/per ticket.",
+            "subtitle" : "locationName",
+            "subtitle2" : "eventDateStart",
+            "subtitle2Functions" : "toReadableDate~MMMM Do YYYY HH:mm",
+            "subtitle2Icon" : "FeClock",
+            "subtitle3" : "eventDateEnd",
+            "subtitle3Functions" : "toReadableDate~MMMM Do YYYY HH:mm",
+            "subtitle3Icon" : "FeClock",
+            "subtitleAction" : "location",
+            "subtitleActionFunction" : "openGps",
+            "subtitleFunctions" : " ",
+            "subtitleIcon" : "FeMapPin",
+            "title" : "title",
+            "titleFunctions" : "trim:40",
+            "video" : "videolink"
+          },
+          "hideHeader" : true,
+          "isDirectShopping" : true,
+          "isShopping" : true,
+          "photosTitle" : "Photos",
+          "shareButton" : "Share the event",
+          "showPhotos" : true,
+          "videoButton" : "View Video"
+        },
+        "icon" : "FePocket",
+        "isRoot" : true,
+        "listStyle" : "grid",
+        "listingSetup" : {
+          "backgroundImageOption" : 1,
+          "collection_key" : "collection_eventsconference",
+          "data_point" : "conferencetickets",
+          "fields" : {
+            "actionButton" : "BUY",
+            "description" : "description",
+            "image" : "image",
+            "subtitle" : "price",
+            "subtitleFunctions" : "roundOn,toCurrency~USD",
+            "title" : "title"
+          },
+          "listing_style" : "list",
+          "showCategoryFilter" : false
+        },
+        "name" : "Tickets"
+      }, {
+        "categorySetup" : {
+          "category_style" : "grid2",
+          "data_point" : "product_collection",
+          "fields" : {
+            "description" : "description",
+            "image" : "image",
+            "title" : "title"
+          }
+        },
+        "category_first" : false,
+        "detailsSetup" : {
+          "actionButton" : "ADD TO CART",
+          "actionButtonWhenActionDone" : "PRODUCT ADDED",
+          "collections" : [ "variants", "ingredients", "photos" ],
+          "descriptionTitle" : "Description",
+          "fields" : {
+            "description" : "description",
+            "descriptionFunctions" : ",",
+            "image" : "image",
+            "photos" : "photos",
+            "price" : "price",
+            "priceFunctions" : "round,toCurrency~USD,prepend~Price: ",
+            "shareLink" : "link",
+            "subPrice" : "price",
+            "subPriceFunctions" : "multiply~{qty},round,toCurrency~USD,prepend~/per peace ,append~ for {qty} item/s.",
+            "subtitle" : "brand",
+            "subtitleFunctions" : "prepend~Brand: ",
+            "title" : "title",
+            "titleFunctions" : "trim:40",
+            "video" : "video"
+          },
+          "isShopping" : false,
+          "navButtonAction" : "add-to-favorites",
+          "navButtonActionDoneIcon" : "MdFavorite",
+          "navButtonIconActiveIcon" : "MdFavoriteBorder",
+          "photosTitle" : "Product Images",
+          "shareButton" : "Share this recepie",
+          "showNavButton" : "true",
+          "showPhotos" : true,
+          "videoButton" : "View Video"
+        },
+        "icon" : "FeCheck",
+        "isRoot" : true,
+        "listStyle" : "grid",
+        "listingSetup" : {
+          "data_point" : "products",
+          "fields" : {
+            "actionButton" : "BUY",
+            "description" : "description",
+            "image" : "image",
+            "subtitle" : "eventDateStartEndTime",
+            "title" : "title"
+          },
+          "listing_style" : "list"
+        },
+        "name" : "Wish List",
+        "sectionType" : "wish-list"
+      }, {
+        "category_image" : "https://firebasestorage.googleapis.com/v0/b/universalapp-a272a.appspot.com/o/1530571286790.jpg?alt=media&token=053c18fe-63f5-4763-a05e-f8b7cd89e476",
+        "display_header_image" : true,
+        "icon" : "FeUser",
+        "listStyle" : "grid",
+        "name" : "Profile",
+        "subMenus" : [ {
+          "id" : 0,
+          "image" : "https://firebasestorage.googleapis.com/v0/b/universalapp-a272a.appspot.com/o/icons%2Fnot.png?alt=media&token=28df486d-9070-4044-97a0-dbf04730b66e",
+          "name" : "Notifications",
+          "sectionType" : "notifications",
+          "showCategoryFilter" : false
+        }, {
+          "id" : 1,
+          "image" : "https://firebasestorage.googleapis.com/v0/b/universalapp-a272a.appspot.com/o/icons%2Ftickets.png?alt=media&token=2654cf8a-63d3-472e-9cc5-72cd50a6435b",
+          "name" : "My Tickets",
+          "sectionType" : "orders"
+        }, {
+          "id" : 2,
+          "image" : "https://firebasestorage.googleapis.com/v0/b/universalapp-a272a.appspot.com/o/icons%2Fprof.png?alt=media&token=f3b2e96d-739d-45e0-ad0e-a80e106deaa2",
+          "name" : "My Profile",
+          "sectionType" : "profile"
+        }, {
+          "id" : 3,
+          "image" : "https://firebasestorage.googleapis.com/v0/b/universalapp-a272a.appspot.com/o/icons%2Ffind.png?alt=media&token=f3f090a4-9541-4839-8b87-e7f00809dd02",
+          "name" : "Find Friends",
+          "sectionType" : "listOfUsers"
+        }, {
+          "id" : "4",
+          "image" : "https://firebasestorage.googleapis.com/v0/b/universalapp-a272a.appspot.com/o/icons%2Ffb1.png?alt=media&token=c6082b51-2ac4-4536-aaa7-202bc54f315a",
+          "link" : "https://www.facebook.com/",
+          "name" : "fb.com/MyConferenceName"
+        }, {
+          "id" : "5",
+          "image" : "https://firebasestorage.googleapis.com/v0/b/universalapp-a272a.appspot.com/o/icons%2Fyoutube.png?alt=media&token=074d1bbd-56cb-43a0-8ff8-1186e06e23a1",
+          "link" : "https://www.youtube.com/",
+          "name" : "@MyYoutubeChannelName"
+        } ]
+      } ],
+      "type" : "tab"
+    }
+  },
+  "events" : {
+    "appImage" : "https://firebasestorage.googleapis.com/v0/b/universalapp-a272a.appspot.com/o/1535579875508.jpg?alt=media&token=cbd3baf7-36d4-4f9f-9a30-595e02714647",
+    "config" : {
+      "currency_format" : "amount_with_comma_separator",
+      "currency_value" : "CFA",
+      "date_format" : "d-m-Y",
+      "date_format_from" : "Y-m-d",
+      "distance_in" : "km",
+      "time_format" : "H:I",
+      "time_format_from" : "h:i"
+    },
+    "design" : {
+      "category" : {
+        "textColor" : "#ffffff"
+      },
+      "general" : {
+        "backgroundColor" : "#e9e9ef",
+        "buttonBorderColor" : "#000000",
+        "buttonColor" : "#555454",
+        "buttonText" : "#ffffff",
+        "coloring" : "simple",
+        "isRTL" : false,
+        "layout" : "tabs",
+        "outbound" : false,
+        "rounded" : 1
+      },
+      "navBar" : {
+        "backgroundColor" : "#ffffff",
+        "barStyle" : "light-content",
+        "borderColor" : "#cccccc",
+        "statusBarBackgroundColor" : "#000000",
+        "tintColor" : "#000000"
+      },
+      "rows" : {
+        "arrowColor" : "#000000",
+        "backgroundColor" : "#ffffff",
+        "desciptionColor" : "#444444",
+        "imageRowColor" : "rgba(0,0,0,0.5)",
+        "imageRowFontSize" : 18,
+        "imageRowFontWeight" : "normal",
+        "separatorColor" : "#eeeeee",
+        "titleColorOnGrid" : "#eeeeee",
+        "titleColorOnRow" : "#000000"
+      },
+      "sideMenu" : {
+        "activeBackgroundColor" : "#eeeeee",
+        "activeTintColor" : "#1c3dbd",
+        "backgroundColor" : "#ffffff",
+        "inactiveBackgroundColor" : "rgba(0,0,0,0)",
+        "inactiveTintColor" : "#111111"
+      }
+    },
+    "name" : "Events app",
+    "navigation" : {
+      "menus" : [ {
+        "categorySetup" : {
+          "category_style" : "grid2",
+          "data_point" : "events_collection",
+          "fields" : {
+            "description" : "description",
+            "image" : "image",
+            "title" : "title"
+          }
+        },
+        "category_first" : false,
+        "detailsSetup" : {
+          "actionButton" : "BUY TICKET",
+          "actionButtonWhenActionDone" : "TICKET BOUGHT",
+          "cartCODAvailable" : true,
+          "cartCODText" : "You will pay at the venue.",
+          "cartIcons" : [ "ios-calendar-outline", "ios-person-outline", "ios-card-outline", "ios-list-box-outline" ],
+          "cartLabels" : [ "Event", "Register", "Payment", "Summary" ],
+          "cartPayPalAvailable" : true,
+          "collections" : [ "variants", "ingredients", "photos" ],
+          "descriptionTitle" : "Description",
+          "directionButton" : "Get Directions",
+          "fields" : {
+            "description" : "description",
+            "descriptionFunctions" : ",",
+            "direction" : "eventLocation",
+            "image" : "image",
+            "photos" : "photos",
+            "price" : "price",
+            "priceFunctions" : "round,toCurrency~USD,prepend~Price: ",
+            "shareLink" : "url",
+            "subPrice" : "price",
+            "subPriceFunctions" : "multiply~{qty},round,toCurrency~USD,prepend~/per ticket.",
+            "subtitle" : "locationName",
+            "subtitle2" : "eventDateStart",
+            "subtitle2Functions" : "toReadableDate~YYYY-MM-DD HH:mm",
+            "subtitle2Icon" : "ios-time-outline",
+            "subtitle3" : "eventDateEnd",
+            "subtitle3Functions" : "toReadableDate~YYYY-MM-DD HH:mm",
+            "subtitle3Icon" : "ios-timer-outline",
+            "subtitleAction" : "location",
+            "subtitleActionFunction" : "openGps",
+            "subtitleFunctions" : " ",
+            "subtitleIcon" : "ios-pin-outline",
+            "title" : "title",
+            "titleFunctions" : "trim:40",
+            "video" : "video"
+          },
+          "isDirectShopping" : true,
+          "isShopping" : true,
+          "photosTitle" : "Photos",
+          "shareButton" : "Share the event",
+          "showPhotos" : true,
+          "videoButton" : "View Video"
+        },
+        "goDirectlyToDetails" : true,
+        "icon" : "MdEvent",
+        "isRoot" : true,
+        "listStyle" : "grid",
+        "listingSetup" : {
+          "collection_key" : "collection_event",
+          "data_point" : "events",
+          "fields" : {
+            "actionButton" : "BUY",
+            "description" : "description",
+            "image" : "image",
+            "subtitle" : "eventDateStart",
+            "subtitleFunctions" : "toReadableDate~YYYY-MM-DD HH:mm",
+            "title" : "title"
+          },
+          "listing_style" : "list"
+        },
+        "name" : "Events"
+      }, {
+        "categorySetup" : {
+          "category_style" : "grid2",
+          "data_point" : "events_collection",
+          "fields" : {
+            "description" : "description",
+            "image" : "image",
+            "title" : "title"
+          }
+        },
+        "category_first" : false,
+        "detailsSetup" : {
+          "actionButton" : "BUY TICKET",
+          "actionButtonWhenActionDone" : "TICKET BOUGHT",
+          "cartCODAvailable" : true,
+          "cartCODText" : "You will pay at the venue.",
+          "cartIcons" : [ "ios-calendar-outline", "ios-person-outline", "ios-card-outline", "ios-list-box-outline" ],
+          "cartLabels" : [ "Event", "Register", "Payment", "Summary" ],
+          "cartPayPalAvailable" : true,
+          "collections" : [ "variants", "ingredients", "photos" ],
+          "descriptionTitle" : "Description",
+          "directionButton" : "Get Directions",
+          "fields" : {
+            "description" : "description",
+            "descriptionFunctions" : ",",
+            "direction" : "eventLocation",
+            "image" : "image",
+            "photos" : "photos",
+            "price" : "price",
+            "priceFunctions" : "round,toCurrency~USD,prepend~Price: ",
+            "shareLink" : "url",
+            "subPrice" : "price",
+            "subPriceFunctions" : "multiply~{qty},round,toCurrency~USD,prepend~/per ticket.",
+            "subtitle" : "locationName",
+            "subtitle2" : "eventDateStart",
+            "subtitle2Functions" : "toReadableDate~YYYY-MM-DD HH:mm",
+            "subtitle2Icon" : "ios-time-outline",
+            "subtitle3" : "eventDateEnd",
+            "subtitle3Functions" : "toReadableDate~YYYY-MM-DD HH:mm",
+            "subtitle3Icon" : "ios-timer-outline",
+            "subtitleAction" : "location",
+            "subtitleActionFunction" : "openGps",
+            "subtitleFunctions" : " ",
+            "subtitleIcon" : "ios-pin-outline",
+            "title" : "title",
+            "titleFunctions" : "trim:40",
+            "video" : "video"
+          },
+          "isDirectShopping" : true,
+          "isShopping" : true,
+          "photosTitle" : "Photos",
+          "shareButton" : "Share the event",
+          "showPhotos" : true,
+          "videoButton" : "View Video"
+        },
+        "icon" : "MdLocationOn",
+        "isRoot" : true,
+        "listStyle" : "grid",
+        "listingSetup" : {
+          "collection_key" : "collection_event",
+          "data_point" : "events",
+          "fields" : {
+            "actionButton" : "BUY",
+            "description" : "description",
+            "image" : "image",
+            "subtitle" : "eventDateStart",
+            "subtitleFunctions" : "toReadableDate~YYYY-MM-DD HH:mm",
+            "title" : "title"
+          },
+          "listing_style" : "list"
+        },
+        "name" : "Map",
+        "sectionType" : "map"
+      }, {
+        "category_first" : false,
+        "icon" : "MdLocalPlay",
+        "isRoot" : true,
+        "listStyle" : "grid",
+        "name" : "My Events",
+        "sectionType" : "orders"
+      }, {
+        "icon" : "MdNotificationsActive",
+        "name" : "Notifications",
+        "sectionType" : "notifications"
+      } ],
+      "type" : "tab"
+    }
+  },
+  "news" : {
+    "appImage" : "https://firebasestorage.googleapis.com/v0/b/universalapp-a272a.appspot.com/o/1535579905416.jpg?alt=media&token=cafb435e-5ae3-4f74-9c10-29d27a334883",
+    "config" : {
+      "currency_format" : "amount_with_comma_separator",
+      "currency_value" : "CFA",
+      "date_format" : "d-m-Y",
+      "date_format_from" : "Y-m-d",
+      "distance_in" : "km",
+      "time_format" : "H:I",
+      "time_format_from" : "h:i"
+    },
+    "design" : {
+      "category" : {
+        "textColor" : "#ffffff"
+      },
+      "general" : {
+        "backgroundColor" : "#e9e9ef",
+        "buttonBorderColor" : "#000000",
+        "buttonColor" : "#555454",
+        "buttonText" : "#ffffff",
+        "coloring" : "simple",
+        "isRTL" : false,
+        "layout" : "tabs",
+        "outbound" : false,
+        "rounded" : 1
+      },
+      "navBar" : {
+        "backgroundColor" : "#ffffff",
+        "barStyle" : "light-content",
+        "borderColor" : "#cccccc",
+        "statusBarBackgroundColor" : "#000000",
+        "tintColor" : "#000000"
+      },
+      "rows" : {
+        "arrowColor" : "#000000",
+        "backgroundColor" : "#ffffff",
+        "desciptionColor" : "#444444",
+        "imageRowColor" : "rgba(0,0,0,0.5)",
+        "imageRowFontSize" : 18,
+        "imageRowFontWeight" : "normal",
+        "separatorColor" : "#eeeeee",
+        "titleColorOnGrid" : "#eeeeee",
+        "titleColorOnRow" : "#000000"
+      },
+      "sideMenu" : {
+        "activeBackgroundColor" : "#eeeeee",
+        "activeTintColor" : "#1c3dbd",
+        "backgroundColor" : "#ffffff",
+        "inactiveBackgroundColor" : "rgba(0,0,0,0)",
+        "inactiveTintColor" : "#111111"
+      }
+    },
+    "name" : "News app",
+    "navigation" : {
+      "menus" : [ {
+        "categorySetup" : {
+          "category_style" : "grid2",
+          "data_point" : "news_collection",
+          "fields" : {
+            "description" : "description",
+            "image" : "image",
+            "title" : "title"
+          }
+        },
+        "category_first" : false,
+        "detailsSetup" : {
+          "cartIcons" : [ "ios-calendar-outline", "ios-person-outline", "ios-card-outline", "ios-list-box-outline" ],
+          "cartLabels" : [ "Event", "Register", "Payment", "Summary" ],
+          "cartPayPalAvailable" : true,
+          "collections" : [ "variants", "ingredients", "photos" ],
+          "descriptionTitle" : "Description",
+          "fields" : {
+            "description" : "description",
+            "descriptionFunctions" : ",",
+            "direction" : "eventLocation",
+            "price" : "price",
+            "priceFunctions" : "round,toCurrency~USD,prepend~Price: ",
+            "shareLink" : "shareLink",
+            "subPrice" : "price",
+            "subPriceFunctions" : "multiply~{qty},round,toCurrency~USD,prepend~/per ticket.",
+            "subtitle" : "locationName",
+            "subtitle2" : "eventDateStart",
+            "subtitle2Functions" : "toReadableDate~YYYY-MM-DD HH:mm",
+            "subtitle2Icon" : "ios-time-outline",
+            "subtitle3" : "eventDateEnd",
+            "subtitle3Functions" : "toReadableDate~YYYY-MM-DD HH:mm",
+            "subtitle3Icon" : "ios-timer-outline",
+            "subtitleAction" : "location",
+            "subtitleActionFunction" : "openGps",
+            "subtitleFunctions" : " ",
+            "subtitleIcon" : "ios-pin-outline",
+            "title" : "title",
+            "titleFunctions" : "trim:40",
+            "video" : "video"
+          },
+          "isDirectShopping" : true,
+          "isShopping" : false,
+          "navButtonAction" : "add-to-favorites",
+          "navButtonActionDoneIcon" : "MdFavorite",
+          "navButtonIconActiveIcon" : "MdFavoriteBorder",
+          "photosTitle" : "Photos",
+          "shareButton" : "Share this post",
+          "showNavButton" : true,
+          "showPhotos" : false,
+          "videoButton" : "View Video"
+        },
+        "icon" : "FeBook",
+        "isRoot" : true,
+        "listStyle" : "grid",
+        "listingSetup" : {
+          "collection_key" : "collection_news",
+          "data_point" : "news",
+          "fields" : {
+            "actionButton" : "BUY",
+            "description" : "description",
+            "image" : "image",
+            "subtitle" : "date",
+            "subtitleFunctions" : "toReadableDate~YYYY-MM-DD HH:mm",
+            "title" : "title"
+          },
+          "hasFeatures" : true,
+          "listing_style" : "list",
+          "showCategoryFilter" : false
+        },
+        "name" : "News"
+      }, {
+        "categorySetup" : {
+          "category_style" : "grid2",
+          "data_point" : "news_collection",
+          "displayHeaderImage" : false,
+          "fields" : {
+            "description" : "description",
+            "image" : "image",
+            "title" : "title"
+          }
+        },
+        "category_first" : false,
+        "detailsSetup" : {
+          "cartIcons" : [ "ios-calendar-outline", "ios-person-outline", "ios-card-outline", "ios-list-box-outline" ],
+          "cartLabels" : [ "Event", "Register", "Payment", "Summary" ],
+          "cartPayPalAvailable" : true,
+          "collections" : [ "variants", "ingredients", "photos" ],
+          "descriptionTitle" : "Description",
+          "fields" : {
+            "description" : "description",
+            "descriptionFunctions" : ",",
+            "direction" : "eventLocation",
+            "image" : "image",
+            "photos" : "photos",
+            "price" : "price",
+            "priceFunctions" : "round,toCurrency~USD,prepend~Price: ",
+            "shareLink" : "url",
+            "subPrice" : "price",
+            "subPriceFunctions" : "multiply~{qty},round,toCurrency~USD,prepend~/per ticket.",
+            "subtitle" : "locationName",
+            "subtitle2" : "eventDateStart",
+            "subtitle2Functions" : "toReadableDate~YYYY-MM-DD HH:mm",
+            "subtitle2Icon" : "ios-time-outline",
+            "subtitle3" : "eventDateEnd",
+            "subtitle3Functions" : "toReadableDate~YYYY-MM-DD HH:mm",
+            "subtitle3Icon" : "ios-timer-outline",
+            "subtitleAction" : "location",
+            "subtitleActionFunction" : "openGps",
+            "subtitleFunctions" : " ",
+            "subtitleIcon" : "ios-pin-outline",
+            "title" : "title",
+            "titleFunctions" : "trim:40",
+            "video" : "video"
+          },
+          "isDirectShopping" : true,
+          "isShopping" : false,
+          "navButtonAction" : "add-to-favorites",
+          "navButtonActionDoneIcon" : "MdFavorite",
+          "navButtonIconActiveIcon" : "MdFavoriteBorder",
+          "photosTitle" : "Photos",
+          "showNavButton" : true,
+          "showPhotos" : false,
+          "videoButton" : "View Video"
+        },
+        "icon" : "FeList",
+        "isRoot" : false,
+        "listStyle" : "grid",
+        "listingSetup" : {
+          "collection_key" : "collection_news",
+          "data_point" : "news",
+          "fields" : {
+            "actionButton" : "BUY",
+            "description" : "description",
+            "image" : "image",
+            "subtitle" : "date",
+            "subtitleFunctions" : "toReadableDate~YYYY-MM-DD HH:mm",
+            "title" : "title"
+          },
+          "hasFeatures" : true,
+          "listing_style" : "list",
+          "showCategoryFilter" : true
+        },
+        "name" : "Categories"
+      }, {
+        "categorySetup" : {
+          "category_style" : "grid2",
+          "data_point" : "product_collection",
+          "fields" : {
+            "description" : "description",
+            "image" : "image",
+            "title" : "title"
+          }
+        },
+        "category_first" : false,
+        "detailsSetup" : {
+          "actionButton" : "ADD TO CART",
+          "actionButtonWhenActionDone" : "PRODUCT ADDED",
+          "collections" : [ "variants", "ingredients", "photos" ],
+          "descriptionTitle" : "Description",
+          "fields" : {
+            "description" : "description",
+            "descriptionFunctions" : ",",
+            "image" : "image",
+            "photos" : "photos",
+            "price" : "price",
+            "shareLink" : "link",
+            "subtitle" : "brand",
+            "title" : "title",
+            "titleFunctions" : "trim:40",
+            "video" : "video"
+          },
+          "isShopping" : false,
+          "navButtonAction" : "add-to-favorites",
+          "navButtonActionDoneIcon" : "MdFavorite",
+          "navButtonIconActiveIcon" : "MdFavoriteBorder",
+          "photosTitle" : "Photos",
+          "shareButton" : "Share this recepie",
+          "showNavButton" : "true",
+          "showPhotos" : true,
+          "videoButton" : "View Video"
+        },
+        "icon" : "FeHeart",
+        "isRoot" : true,
+        "listStyle" : "grid",
+        "listingSetup" : {
+          "data_point" : "news",
+          "fields" : {
+            "actionButton" : "BUY",
+            "description" : "description",
+            "image" : "image",
+            "title" : "title"
+          },
+          "listing_style" : "list"
+        },
+        "name" : "Read later",
+        "sectionType" : "wish-list"
+      }, {
+        "category_image" : "http://valerija.mobidonia.com/wp-content/uploads/2018/08/coastal-cities-hong-kong-GettyImages-450121537.jpg",
+        "display_header_image" : true,
+        "icon" : "FeUser",
+        "image" : "https://firebasestorage.googleapis.com/v0/b/universalapp-a272a.appspot.com/o/audience-band-celebration-196652.jpg?alt=media&token=d017e658-d7e5-4183-a162-300bb0aa9d36",
+        "listStyle" : "grid",
+        "name" : "Profile",
+        "showCategoryFilter" : true,
+        "subMenus" : [ {
+          "id" : 0,
+          "image" : "https://firebasestorage.googleapis.com/v0/b/universalapp-a272a.appspot.com/o/icons%2Fnot.png?alt=media&token=28df486d-9070-4044-97a0-dbf04730b66e",
+          "name" : "Notifications",
+          "sectionType" : "notifications",
+          "showCategoryFilter" : false
+        }, {
+          "id" : 2,
+          "image" : "https://firebasestorage.googleapis.com/v0/b/universalapp-a272a.appspot.com/o/icons%2Fprof.png?alt=media&token=f3b2e96d-739d-45e0-ad0e-a80e106deaa2",
+          "name" : "My Profile",
+          "sectionType" : "profile"
+        }, {
+          "id" : 3,
+          "image" : "https://firebasestorage.googleapis.com/v0/b/universalapp-a272a.appspot.com/o/icons%2Ffind.png?alt=media&token=f3f090a4-9541-4839-8b87-e7f00809dd02",
+          "name" : "Find Friends",
+          "sectionType" : "listOfUsers"
+        }, {
+          "id" : "4",
+          "image" : "https://firebasestorage.googleapis.com/v0/b/universalapp-a272a.appspot.com/o/icons%2Ffb1.png?alt=media&token=c6082b51-2ac4-4536-aaa7-202bc54f315a",
+          "link" : "https://www.facebook.com/",
+          "name" : "fb.com/MyNewsAppName"
+        }, {
+          "id" : "5",
+          "image" : "https://firebasestorage.googleapis.com/v0/b/universalapp-a272a.appspot.com/o/icons%2Fyoutube.png?alt=media&token=074d1bbd-56cb-43a0-8ff8-1186e06e23a1",
+          "link" : "https://www.youtube.com/",
+          "name" : "@MyYoutubeChannelName"
+        } ]
+      } ],
+      "type" : "tab"
+    }
+  },
+  "nightclub" : {
+    "appImage" : "https://firebasestorage.googleapis.com/v0/b/universalapp-a272a.appspot.com/o/1535580074166.jpg?alt=media&token=3ccac385-ea2e-4258-9552-a533da8be2d9",
+    "config" : {
+      "currency_format" : "amount_with_comma_separator",
+      "currency_value" : "$",
+      "date_format" : "d-m-Y",
+      "date_format_from" : "Y-m-d",
+      "distance_in" : "km",
+      "notifications_data_point" : "nightclub_notifications",
+      "time_format" : "H:I",
+      "time_format_from" : "h:i"
+    },
+    "design" : {
+      "category" : {
+        "textColor" : "#ffffff"
+      },
+      "general" : {
+        "backgroundColor" : "#ffffff",
+        "backgroundImage" : true,
+        "buttonBorderColor" : "#000000",
+        "buttonColor" : "#555454",
+        "buttonText" : "#ffffff",
+        "coloring" : "advanced",
+        "detailsBackgroundGradient" : [ {
+          "color" : "#fefeff"
+        }, {
+          "color" : "#FEFEFE"
+        } ],
+        "detailsBackgroundImage" : false,
+        "hideTabIconName" : true,
+        "isRTL" : false,
+        "layout" : "tabs",
+        "outbound" : false,
+        "rounded" : true
+      },
+      "navBar" : {
+        "backgroundColor" : "rgba(0,0,0,0.0)",
+        "barStyle" : "light-content",
+        "borderColor" : "rgba(0,0,0,0.0)",
+        "detailsBackgroundColor" : "#ffffff",
+        "detailsTintColor" : "#000000",
+        "statusBarBackgroundColor" : "#000000",
+        "tintColor" : "#ffffff"
+      },
+      "rows" : {
+        "arrowColor" : "#000000",
+        "backgroundColor" : "#ffffff",
+        "backgroundGradient" : [ {
+          "color" : "#fcf7fd"
+        }, {
+          "color" : "#ede4fa"
+        } ],
+        "desciptionColor" : "#444444",
+        "imageRowColor" : "rgba(0,0,0,0.5)",
+        "imageRowFontSize" : 18,
+        "imageRowFontWeight" : "normal",
+        "separatorColor" : "#eeeeee",
+        "titleColorOnGrid" : "#eeeeee",
+        "titleColorOnRow" : "#000000"
+      },
+      "sideMenu" : {
+        "activeBackgroundColor" : "#eeeeee",
+        "activeTintColor" : "#773cc4",
+        "backgroundColor" : "#ffffff",
+        "inactiveBackgroundColor" : "rgba(0,0,0,0)",
+        "inactiveTintColor" : "#111111"
+      }
+    },
+    "name" : "Night Club App",
+    "navigation" : {
+      "menus" : [ {
+        "categorySetup" : {
+          "category_style" : "grid2",
+          "data_point" : "eventsnc_collection",
+          "fields" : {
+            "description" : "description",
+            "image" : "image",
+            "title" : "title"
+          }
+        },
+        "category_first" : false,
+        "detailsSetup" : {
+          "actionButton" : "BUY TICKET",
+          "actionButtonWhenActionDone" : "TICKET BOUGHT",
+          "cartCODAvailable" : true,
+          "cartCODText" : "You will pay at the venue.",
+          "cartIcons" : [ "ios-calendar-outline", "ios-person-outline", "ios-card-outline", "ios-list-box-outline" ],
+          "cartLabels" : [ "Event", "Register", "Payment", "Summary" ],
+          "cartPayPalAvailable" : true,
+          "collections" : [ "variants", "ingredients", "photos" ],
+          "descriptionTitle" : "Description",
+          "directionButton" : "Get Directions",
+          "fields" : {
+            "description" : "description",
+            "descriptionFunctions" : ",",
+            "direction" : "eventLocation",
+            "image" : "image",
+            "photos" : "photos",
+            "price" : "price",
+            "priceFunctions" : "round,toCurrency~USD,prepend~Price: ",
+            "shareLink" : "url",
+            "subPrice" : "price",
+            "subPriceFunctions" : "multiply~{qty},round,toCurrency~USD,prepend~/per ticket.",
+            "subtitle" : "locationName",
+            "subtitle2" : "eventDateStart",
+            "subtitle2Functions" : "toReadableDate~MMMM Do YYYY HH:mm",
+            "subtitle2Icon" : "FeClock",
+            "subtitle3" : "eventDateEnd",
+            "subtitle3Functions" : "toReadableDate~MMMM Do YYYY HH:mm",
+            "subtitle3Icon" : "FeClock",
+            "subtitleAction" : "location",
+            "subtitleActionFunction" : "openGps",
+            "subtitleFunctions" : " ",
+            "subtitleIcon" : "FeMapPin",
+            "title" : "title",
+            "titleFunctions" : "trim:40",
+            "video" : "videolink"
+          },
+          "isDirectShopping" : true,
+          "isShopping" : true,
+          "photosTitle" : "Photos",
+          "shareButton" : "Share the event",
+          "showPhotos" : true,
+          "videoButton" : "View Video"
+        },
+        "icon" : "FeCalendar",
+        "isRoot" : true,
+        "listStyle" : "grid",
+        "listingSetup" : {
+          "backgroundImageOption" : 1,
+          "collection_key" : "collection_event",
+          "data_point" : "eventsnc",
+          "fields" : {
+            "actionButton" : "BUY",
+            "description" : "description",
+            "image" : "image",
+            "subtitle" : "eventDateStart",
+            "subtitleFunctions" : "toReadableDate~dddd MMMM Do YYYY",
+            "title" : "title"
+          },
+          "listing_style" : "list",
+          "showCategoryFilter" : true
+        },
+        "name" : "Events"
+      }, {
+        "categorySetup" : {
+          "category_style" : "grid2",
+          "data_point" : "events_collection",
+          "fields" : {
+            "description" : "description",
+            "image" : "image",
+            "title" : "title"
+          }
+        },
+        "category_first" : true,
+        "detailsSetup" : {
+          "callButton" : "Call",
+          "cartIcons" : [ "ios-calendar-outline", "ios-person-outline", "ios-card-outline", "ios-list-box-outline" ],
+          "cartLabels" : [ "Event", "Register", "Payment", "Summary" ],
+          "cartPayPalAvailable" : true,
+          "collections" : [ "variants", "ingredients", "photos" ],
+          "descriptionTitle" : "Description",
+          "fields" : {
+            "description" : "description",
+            "descriptionFunctions" : ",",
+            "direction" : "",
+            "image" : "image",
+            "phone" : "phoneNumber",
+            "photos" : "photos",
+            "price" : "price",
+            "priceFunctions" : "round,toCurrency~USD,prepend~Price: ",
+            "shareLink" : "url",
+            "subPrice" : "price",
+            "subPriceFunctions" : "multiply~{qty},round,toCurrency~USD,prepend~/per ticket.",
+            "subtitle" : "locationName",
+            "subtitle2" : "eventDateStart",
+            "subtitle2Functions" : "toReadableDate~YYYY-MM-DD HH:mm",
+            "subtitle2Icon" : "ios-time-outline",
+            "subtitle3" : "eventDateEnd",
+            "subtitle3Functions" : "toReadableDate~YYYY-MM-DD HH:mm",
+            "subtitle3Icon" : "ios-timer-outline",
+            "subtitleAction" : "location",
+            "subtitleActionFunction" : "openGps",
+            "subtitleFunctions" : " ",
+            "subtitleIcon" : "ios-pin-outline",
+            "title" : "title",
+            "titleFunctions" : "trim:40",
+            "video" : "video"
+          },
+          "isDirectShopping" : true,
+          "isShopping" : false,
+          "photosTitle" : "Photos",
+          "shareButton" : "Share the event",
+          "showPhotos" : true,
+          "videoButton" : "View Video"
+        },
+        "icon" : "FeMapPin",
+        "isRoot" : false,
+        "listStyle" : "grid",
+        "listingSetup" : {
+          "collection_key" : "collection_event",
+          "data_point" : "venue",
+          "fields" : {
+            "actionButton" : "BUY",
+            "description" : "description",
+            "image" : "image",
+            "subtitle" : "",
+            "subtitleFunctions" : "",
+            "title" : "title"
+          },
+          "listing_style" : "list"
+        },
+        "name" : "Map",
+        "sectionType" : "map"
+      }, {
+        "categorySetup" : {
+          "category_style" : "grid2",
+          "data_point" : "events_collection",
+          "fields" : {
+            "description" : "description",
+            "image" : "image",
+            "title" : "title"
+          }
+        },
+        "category_first" : false,
+        "detailsSetup" : {
+          "collections" : [ "photos" ],
+          "fields" : {
+            "photos" : "photos"
+          },
+          "hideHeader" : true,
+          "photosTitle" : "Photos",
+          "photosVertical" : true,
+          "showPhotos" : true
+        },
+        "icon" : "FeImage",
+        "isRoot" : true,
+        "listStyle" : "grid",
+        "listingSetup" : {
+          "collection_key" : "collection_album",
+          "data_point" : "albums",
+          "fields" : {
+            "actionButton" : "BUY",
+            "description" : "description",
+            "image" : "image",
+            "subtitle" : "date",
+            "subtitleFunctions" : "toReadableDate~MMMM Do YYYY",
+            "title" : "title"
+          },
+          "listing_style" : "list"
+        },
+        "name" : "Galleries"
+      }, {
+        "icon" : "FeBell",
+        "name" : "Notifications",
+        "sectionType" : "notifications"
+      }, {
+        "category_first" : false,
+        "icon" : "FeClipboard",
+        "isRoot" : true,
+        "listStyle" : "grid",
+        "name" : "My Events",
+        "sectionType" : "orders"
+      }, {
+        "category_image" : "https://firebasestorage.googleapis.com/v0/b/universalapp-a272a.appspot.com/o/audience-band-celebration-196652.jpg?alt=media&token=d017e658-d7e5-4183-a162-300bb0aa9d36",
+        "display_header_image" : true,
+        "icon" : "FeUsers",
+        "image" : "https://firebasestorage.googleapis.com/v0/b/universalapp-a272a.appspot.com/o/audience-band-celebration-196652.jpg?alt=media&token=d017e658-d7e5-4183-a162-300bb0aa9d36",
+        "listStyle" : "grid",
+        "name" : "Social",
+        "subMenus" : [ {
+          "id" : 1,
+          "image" : "https://firebasestorage.googleapis.com/v0/b/universalapp-a272a.appspot.com/o/InsignificonSC32-Instagram-New%20copy.jpg?alt=media&token=b69e510c-a9c1-4e3d-b3a5-5393a270a6cd",
+          "link" : "https://www.instagram.com/",
+          "name" : "@yourClubName"
+        }, {
+          "id" : "2",
+          "image" : "https://firebasestorage.googleapis.com/v0/b/universalapp-a272a.appspot.com/o/InsignificonSC32-Facebook%20copy.jpg?alt=media&token=4123c154-f9db-4187-8b40-724d1d153ab8",
+          "link" : "https://www.facebook.com/",
+          "name" : "fb.com/yourClubName"
+        }, {
+          "id" : "3",
+          "image" : "https://firebasestorage.googleapis.com/v0/b/universalapp-a272a.appspot.com/o/InsignificonSC32-YouTube%20copy.png?alt=media&token=c811d418-3b30-430f-924b-40b1c9d68ce0",
+          "link" : "https://www.youtube.com/",
+          "name" : "@yourClubName"
+        }, {
+          "id" : "4",
+          "image" : "https://firebasestorage.googleapis.com/v0/b/universalapp-a272a.appspot.com/o/InsignificonSC32-Twitter%20copy.png?alt=media&token=58497d70-f610-4849-a307-a3727771982a",
+          "link" : "https://twitter.com/",
+          "name" : "@yourClubName"
+        } ]
+      } ],
+      "type" : "tab"
+    }
+  },
+  "radio" : {
+    "appImage" : "https://firebasestorage.googleapis.com/v0/b/universalapp-a272a.appspot.com/o/1535580130876.jpg?alt=media&token=4689d8c7-f74f-4540-8b71-9b1d73bb5db6",
+    "config" : {
+      "currency_format" : "amount_with_comma_separator",
+      "currency_value" : "$",
+      "date_format" : "d-m-Y",
+      "date_format_from" : "Y-m-d",
+      "distance_in" : "km",
+      "loginRequired" : false,
+      "time_format" : "H:I",
+      "time_format_from" : "h:i"
+    },
+    "design" : {
+      "category" : {
+        "textColor" : "rgba(86,67,126,0.5)"
+      },
+      "general" : {
+        "backgroundColor" : "#513572",
+        "backgroundGradient" : [ {
+          "color" : "#48486f"
+        }, {
+          "color" : "#1d243c"
+        } ],
+        "backgroundImage" : false,
+        "buttonBorderColor" : "#000000",
+        "buttonColor" : "#555454",
+        "buttonText" : "#ffffff",
+        "coloring" : "advanced",
+        "detailsBackgroundGradient" : [ {
+          "color" : "#fefeff"
+        }, {
+          "color" : "#FEFEFE"
+        } ],
+        "detailsBackgroundImage" : false,
+        "hideTabIconName" : true,
+        "isRTL" : false,
+        "layout" : "side",
+        "outbound" : false,
+        "rounded" : true
+      },
+      "navBar" : {
+        "backgroundColor" : "rgba(86,67,126,0.5)",
+        "barStyle" : "light-content",
+        "borderColor" : "#cccccc",
+        "statusBarBackgroundColor" : "#FFFFFF",
+        "tintColor" : "#ffffff"
+      },
+      "rows" : {
+        "arrowColor" : "#000000",
+        "backgroundColor" : "rgba(48,53,70,0.5)",
+        "desciptionColor" : "#ffffff",
+        "imageRowColor" : "rgba(0,0,0,0.5)",
+        "imageRowFontSize" : 18,
+        "imageRowFontWeight" : "normal",
+        "separatorColor" : "rgba(0,0,0,0.5)",
+        "subtitleColor" : "#ffffff",
+        "titleColorOnGrid" : "#ffffff",
+        "titleColorOnRow" : "#ffffff"
+      },
+      "sideMenu" : {
+        "activeBackgroundColor" : "#eeeeee",
+        "activeTintColor" : "#513572",
+        "backgroundColor" : "#ffffff",
+        "inactiveBackgroundColor" : "rgba(0,0,0,0)",
+        "inactiveTintColor" : "#111111"
+      }
+    },
+    "name" : "Radio App",
+    "navigation" : {
+      "menus" : [ {
+        "categorySetup" : {
+          "category_style" : "list",
+          "data_point" : "radios_collection",
+          "fields" : {
+            "description" : "description",
+            "image" : "image",
+            "title" : "name"
+          }
+        },
+        "category_first" : false,
+        "detailsSetup" : {
+          "collections" : [ "radios" ],
+          "fields" : {
+            "fb" : "facebook",
+            "img" : "image",
+            "song" : "currentSong",
+            "stationName" : "name",
+            "stitle" : "currentArtist",
+            "streamLink" : "stream",
+            "twitt" : "twitter"
+          },
+          "hideHeader" : true,
+          "isHavingStream" : true,
+          "navButtonAction" : "add-to-favorites",
+          "navButtonActionDoneIcon" : "MdFavorite",
+          "navButtonIconActiveIcon" : "MdFavoriteBorder",
+          "showNavButton" : true
+        },
+        "goDirectlyToDetails" : true,
+        "icon" : "MdSettingsVoice",
+        "isRoot" : true,
+        "listStyle" : "grid",
+        "listingSetup" : {
+          "collection_key" : "collection_radios",
+          "data_point" : "radios",
+          "fields" : {
+            "actionButton" : "",
+            "description" : "description",
+            "image" : "image",
+            "subtitle" : "currentSong",
+            "title" : "name"
+          },
+          "haveThumbnails" : true,
+          "listing_style" : "list",
+          "showCategoryFilter" : true
+        },
+        "name" : "Radio",
+        "objectIdToShow" : "tIIkw0ROF9KCohZYNqgR"
+      }, {
+        "categorySetup" : {
+          "category_style" : "grid2",
+          "data_point" : "product_collection",
+          "fields" : {
+            "description" : "description",
+            "image" : "image",
+            "title" : "title"
+          }
+        },
+        "category_first" : false,
+        "detailsSetup" : {
+          "collections" : [ "radios" ],
+          "fields" : {
+            "fb" : "facebook",
+            "img" : "image",
+            "song" : "currentSong",
+            "stationName" : "name",
+            "stitle" : "subtitle",
+            "streamLink" : "stream",
+            "twitt" : "twitter"
+          },
+          "hideHeader" : true,
+          "isHavingStream" : true,
+          "navButtonAction" : "add-to-favorites",
+          "navButtonActionDoneIcon" : "MdFavorite",
+          "navButtonIconActiveIcon" : "MdFavoriteBorder",
+          "showNavButton" : true
+        },
+        "icon" : "MdFavorite",
+        "isRoot" : true,
+        "listStyle" : "grid",
+        "listingSetup" : {
+          "data_point" : "products",
+          "fields" : {
+            "description" : "description",
+            "image" : "image",
+            "title" : "name"
+          },
+          "listing_style" : "list"
+        },
+        "name" : "Favorite",
+        "sectionType" : "wish-list"
+      }, {
+        "icon" : "MdAccountBox",
+        "name" : "Profile",
+        "sectionType" : "profile"
+      }, {
+        "icon" : "MdSearch",
+        "name" : "Search",
+        "sectionType" : "listOfUsers"
+      } ],
+      "type" : "side"
+    }
+  },
+  "recepie" : {
+    "appImage" : "https://firebasestorage.googleapis.com/v0/b/universalapp-a272a.appspot.com/o/1535580166523.jpg?alt=media&token=5c754671-c021-49c3-bcbd-1bda5516ef9d",
+    "config" : {
+      "currency_format" : "amount_with_comma_separator",
+      "currency_value" : "$",
+      "date_format" : "d-m-Y",
+      "date_format_from" : "Y-m-d",
+      "distance_in" : "km",
+      "time_format" : "H:I",
+      "time_format_from" : "h:i"
+    },
+    "design" : {
+      "category" : {
+        "textColor" : "#ffffff"
+      },
+      "general" : {
+        "backgroundColor" : "#e9e9ef",
+        "buttonBorderColor" : "#ffffff",
+        "buttonColor" : "#1c74bd",
+        "buttonText" : "#ffffff",
+        "isRTL" : false,
+        "outbound" : false,
+        "rounded" : false
+      },
+      "navBar" : {
+        "backgroundColor" : "#ffffff",
+        "barStyle" : "light-content",
+        "borderColor" : "#cccccc",
+        "statusBarBackgroundColor" : "#000000",
+        "tintColor" : "#000000"
+      },
+      "rows" : {
+        "arrowColor" : "#000000",
+        "backgroundColor" : "#ffffff",
+        "desciptionColor" : "#444444",
+        "imageRowColor" : "rgba(0,0,0,0.5)",
+        "imageRowFontSize" : 18,
+        "imageRowFontWeight" : "normal",
+        "separatorColor" : "#eeeeee",
+        "titleColorOnGrid" : "#eeeeee",
+        "titleColorOnRow" : "#000000"
+      },
+      "sideMenu" : {
+        "activeBackgroundColor" : "#eeeeee",
+        "activeTintColor" : "#1c74bd",
+        "backgroundColor" : "#ffffff",
+        "inactiveBackgroundColor" : "rgba(0,0,0,0)",
+        "inactiveTintColor" : "#111111"
+      }
+    },
+    "name" : "Recepie App",
+    "navigation" : {
+      "menus" : [ {
+        "categorySetup" : {
+          "category_style" : "grid1",
+          "data_point" : "recipes_collection",
+          "fields" : {
+            "description" : "description",
+            "image" : "image",
+            "title" : "title"
+          }
+        },
+        "category_first" : false,
+        "detailsSetup" : {
+          "actionButton" : "ADD TO CART",
+          "actionButtonWhenActionDone" : "PRODUCT ADDED",
+          "collections" : [ "variants", "ingredients", "photos" ],
+          "commentButton" : "Comments",
+          "descriptionTitle" : "Directions",
+          "fields" : {
+            "description" : "description",
+            "descriptionFunctions" : ",",
+            "image" : "image",
+            "photos" : "photos",
+            "price" : "price",
+            "priceFunctions" : "round,toCurrency~USD,prepend~Price: ",
+            "shareLink" : "link",
+            "subPrice" : "price",
+            "subPriceFunctions" : "multiply~{qty},round,toCurrency~USD,prepend~/per peace ,append~ for {qty} item/s.",
+            "subtitle" : "timetoprepare",
+            "subtitleFunctions" : "prepend~Time to prepare: ,append~ for {for} persons.",
+            "title" : "title",
+            "titleFunctions" : "trim:40",
+            "video" : "videolink"
+          },
+          "isShopping" : false,
+          "photosTitle" : "Product Images",
+          "shareButton" : "Share this recepie",
+          "showPhotos" : true,
+          "videoButton" : "View Video"
+        },
+        "expanded" : true,
+        "icon" : "MdRestaurantMenu",
+        "isRoot" : true,
+        "listStyle" : "list",
+        "listingSetup" : {
+          "collection_key" : "collection_recipe",
+          "data_point" : "recipes",
+          "fields" : {
+            "actionButton" : "BUY",
+            "description" : "description",
+            "image" : "image",
+            "subtitle" : "timetoprepare",
+            "title" : "title"
+          },
+          "listing_style" : "list"
+        },
+        "name" : "All Recipes"
+      }, {
+        "categorySetup" : {
+          "category_style" : "list",
+          "data_point" : "recipes_collection",
+          "display_header_image" : false,
+          "fields" : {
+            "description" : "description",
+            "image" : "image",
+            "title" : "title"
+          }
+        },
+        "category_first" : true,
+        "detailsSetup" : {
+          "actionButton" : "ADD TO CART",
+          "actionButtonWhenActionDone" : "PRODUCT ADDED",
+          "collections" : [ "variants", "ingredients", "photos" ],
+          "descriptionTitle" : "Directions",
+          "fields" : {
+            "description" : "description",
+            "descriptionFunctions" : ",",
+            "image" : "image",
+            "photos" : "photos",
+            "price" : "price",
+            "priceFunctions" : "round,toCurrency~USD,prepend~Price: ",
+            "shareLink" : "link",
+            "subPrice" : "price",
+            "subPriceFunctions" : "multiply~{qty},round,toCurrency~USD,prepend~/per peace ,append~ for {qty} item/s.",
+            "subtitle" : "timetoprepare",
+            "subtitleFunctions" : "prepend~Time to prepare: ,append~ for {for} persons.",
+            "title" : "title",
+            "titleFunctions" : "trim:40",
+            "video" : "videolink"
+          },
+          "isShopping" : false,
+          "photosTitle" : "Product Images",
+          "shareButton" : "Share this recepie",
+          "showPhotos" : true,
+          "videoButton" : "View Video"
+        },
+        "expanded" : true,
+        "icon" : "MdLayers",
+        "isRoot" : false,
+        "listStyle" : "list",
+        "listingSetup" : {
+          "collection_key" : "collection_recipe",
+          "data_point" : "recipes",
+          "fields" : {
+            "actionButton" : "BUY",
+            "description" : "description",
+            "image" : "image",
+            "subtitle" : "timetoprepare",
+            "title" : "title"
+          },
+          "listing_style" : "list"
+        },
+        "name" : "Categories"
+      }, {
+        "category_image" : "https://firebasestorage.googleapis.com/v0/b/universalapp-a272a.appspot.com/o/1513874210338.jpg?alt=media&token=fb86c970-ed1e-4019-92ea-847c89feb7cc",
+        "display_header_image" : true,
+        "expanded" : true,
+        "icon" : "MdGroupAdd",
+        "image" : "https://firebasestorage.googleapis.com/v0/b/universalapp-a272a.appspot.com/o/1513874096167.jpg?alt=media&token=c6ebf30b-d0b4-4fe6-aefa-0f05463a7001",
+        "listStyle" : "grid",
+        "name" : "Social",
+        "subMenus" : [ {
+          "expanded" : true,
+          "id" : 1,
+          "image" : "https://cdn0.iconfinder.com/data/icons/popular-web-logos-button/140/1-04-2-256.png",
+          "link" : "https://www.instagram.com/creative.recipes/",
+          "name" : "@creative.recipes"
+        }, {
+          "expanded" : true,
+          "id" : "2",
+          "image" : "https://cdn3.iconfinder.com/data/icons/popular-web-logos-button/140/1-03-256.png",
+          "link" : "https://www.facebook.com/bestrecipesau/",
+          "name" : "@bestrecipesau"
+        } ]
+      } ],
+      "type" : "slider"
+    }
+  },
+  "restaurant" : {
+    "appImage" : "https://firebasestorage.googleapis.com/v0/b/universalapp-a272a.appspot.com/o/1535580286065.jpg?alt=media&token=1935ade8-714e-49f2-b199-6ea471c98295",
+    "config" : {
+      "currency_format" : "amount_with_comma_separator",
+      "currency_value" : "$",
+      "date_format" : "d-m-Y",
+      "date_format_from" : "Y-m-d",
+      "distance_in" : "km",
+      "time_format" : "H:I",
+      "time_format_from" : "h:i"
+    },
+    "design" : {
+      "category" : {
+        "textColor" : "#ffffff"
+      },
+      "general" : {
+        "backgroundColor" : "#e9e9ef",
+        "buttonBorderColor" : "#BD1C1D",
+        "buttonColor" : "#BD1C1D",
+        "buttonText" : "#ffffff",
+        "layout" : "tabs",
+        "outbound" : false,
+        "rounded" : false
+      },
+      "navBar" : {
+        "backgroundColor" : "#ffffff",
+        "barStyle" : "light-content",
+        "borderColor" : "#cccccc",
+        "statusBarBackgroundColor" : "#000000",
+        "tintColor" : "#000000"
+      },
+      "rows" : {
+        "arrowColor" : "#000000",
+        "backgroundColor" : "#ffffff",
+        "desciptionColor" : "#444444",
+        "imageRowColor" : "rgba(0,0,0,0.5)",
+        "imageRowFontSize" : 18,
+        "imageRowFontWeight" : "normal",
+        "separatorColor" : "#eeeeee",
+        "titleColorOnGrid" : "#eeeeee",
+        "titleColorOnRow" : "#000000"
+      },
+      "sideMenu" : {
+        "activeBackgroundColor" : "#eeeeee",
+        "activeTintColor" : "#e91e63",
+        "backgroundColor" : "#ffffff",
+        "inactiveBackgroundColor" : "rgba(0,0,0,0)",
+        "inactiveTintColor" : "#111111"
+      }
+    },
+    "name" : "Restaurant App",
+    "navigation" : {
+      "menus" : [ {
+        "categorySetup" : {
+          "category_style" : "grid2",
+          "data_point" : "restaurant_collection",
+          "fields" : {
+            "description" : "description",
+            "image" : "image",
+            "title" : "title"
+          }
+        },
+        "category_first" : true,
+        "detailsSetup" : {
+          "actionButton" : "ADD TO CART",
+          "actionButtonWhenActionDone" : "PRODUCT ADDED",
+          "cartCODAvailable" : true,
+          "collections" : [ "variants", "ingredients", "photos" ],
+          "descriptionTitle" : "Description",
+          "fields" : {
+            "description" : "description",
+            "descriptionFunctions" : ",",
+            "image" : "image",
+            "photos" : "photos",
+            "price" : "price",
+            "priceFunctions" : "round,toCurrency~USD,prepend~Price: ",
+            "shareLink" : "link",
+            "subPrice" : "price",
+            "subPriceFunctions" : "multiply~{qty},round,toCurrency~USD,prepend~/per peace ,append~ for {qty} item/s.",
+            "subtitle" : "calories",
+            "subtitleFunctions" : "prepend~Calories: ,append~ kCal",
+            "title" : "title",
+            "titleFunctions" : "trim:40",
+            "video" : "video"
+          },
+          "isShopping" : true,
+          "photosTitle" : "Product Images",
+          "shareButton" : "Share this recepie",
+          "showPhotos" : true,
+          "videoButton" : "View Video"
+        },
+        "icon" : "MdRestaurantMenu",
+        "isRoot" : true,
+        "listStyle" : "grid",
+        "listingSetup" : {
+          "collection_key" : "collection",
+          "data_point" : "restaurant",
+          "fields" : {
+            "actionButton" : "BUY",
+            "description" : "description",
+            "image" : "image",
+            "subtitle" : "price",
+            "subtitleFunctions" : "roundOn,toCurrency~USD",
+            "title" : "title"
+          },
+          "listing_style" : "list"
+        },
+        "name" : "Menu"
+      }, {
+        "CODAvailable" : true,
+        "PayPalAvailable" : true,
+        "icon" : "MdShoppingBasket",
+        "name" : "Cart",
+        "type" : "cart"
+      }, {
+        "icon" : "MdRoomService",
+        "name" : "Orders",
+        "type" : "orders"
+      }, {
+        "category_image" : "https://firebasestorage.googleapis.com/v0/b/universalapp-a272a.appspot.com/o/1512599460179.jpg?alt=media&token=7ee9a95b-834a-4663-a826-8ee802f9e4ee",
+        "display_header_image" : true,
+        "icon" : "MdGroupAdd",
+        "image" : "https://firebasestorage.googleapis.com/v0/b/universalapp-a272a.appspot.com/o/1512591149190.jpg?alt=media&token=64f7cc96-47f6-45f8-94a9-3f26533072db",
+        "listStyle" : "grid",
+        "name" : "Social",
+        "subMenus" : [ {
+          "id" : 1,
+          "image" : "https://cdn0.iconfinder.com/data/icons/popular-web-logos-button/140/1-04-2-256.png",
+          "link" : "https://www.instagram.com/theoakhotelkeramoti/",
+          "name" : "Instagram"
+        }, {
+          "id" : "2",
+          "image" : "https://cdn3.iconfinder.com/data/icons/popular-web-logos-button/140/1-03-256.png",
+          "link" : "https://www.facebook.com/theoakhotelkeramoti/",
+          "name" : "Facebook"
+        } ]
+      } ],
+      "type" : "side"
+    }
+  },
+  "shop" : {
+    "appImage" : "https://firebasestorage.googleapis.com/v0/b/universalapp-a272a.appspot.com/o/1535580341521.jpg?alt=media&token=619e36d0-0948-4424-ab84-5da8669ffdd3",
+    "config" : {
+      "currency_format" : "amount_with_comma_separator",
+      "currency_value" : "$",
+      "date_format" : "d-m-Y",
+      "date_format_from" : "Y-m-d",
+      "distance_in" : "km",
+      "orders_collection_data_point" : "shop_orders",
+      "time_format" : "H:I",
+      "time_format_from" : "h:i"
+    },
+    "design" : {
+      "category" : {
+        "textColor" : "#ffffff"
+      },
+      "general" : {
+        "backgroundColor" : "#e9e9ef",
+        "buttonBorderColor" : "#000000",
+        "buttonColor" : "#000000",
+        "buttonText" : "#ffffff",
+        "coloring" : "simple",
+        "isRTL" : false,
+        "layout" : "tabs",
+        "outbound" : false,
+        "rounded" : false
+      },
+      "navBar" : {
+        "backgroundColor" : "#ffffff",
+        "barStyle" : "light-content",
+        "borderColor" : "#cccccc",
+        "statusBarBackgroundColor" : "#000000",
+        "tintColor" : "#000000"
+      },
+      "rows" : {
+        "arrowColor" : "#000000",
+        "backgroundColor" : "#ffffff",
+        "desciptionColor" : "#444444",
+        "imageRowColor" : "rgba(0,0,0,0.5)",
+        "imageRowFontSize" : 18,
+        "imageRowFontWeight" : "normal",
+        "separatorColor" : "#eeeeee",
+        "titleColorOnGrid" : "#eeeeee",
+        "titleColorOnRow" : "#000000"
+      },
+      "sideMenu" : {
+        "activeBackgroundColor" : "#eeeeee",
+        "activeTintColor" : "#1c3dbd",
+        "backgroundColor" : "#ffffff",
+        "inactiveBackgroundColor" : "rgba(0,0,0,0)",
+        "inactiveTintColor" : "#111111"
+      }
+    },
+    "name" : "Shop App",
+    "navigation" : {
+      "menus" : [ {
+        "categorySetup" : {
+          "category_style" : "grid1",
+          "data_point" : "products_collection",
+          "fields" : {
+            "description" : "description",
+            "image" : "image",
+            "title" : "title"
+          }
+        },
+        "category_first" : false,
+        "detailsSetup" : {
+          "actionButton" : "ADD TO CART",
+          "actionButtonWhenActionDone" : "PRODUCT ADDED",
+          "collections" : [ "variants", "ingredients", "photos" ],
+          "descriptionTitle" : "Description",
+          "fields" : {
+            "description" : "description",
+            "descriptionFunctions" : ",",
+            "image" : "image",
+            "photos" : "photos",
+            "price" : "price",
+            "priceFunctions" : "round,toCurrency~USD,prepend~Price: ",
+            "shareLink" : "link",
+            "subPrice" : "price",
+            "subPriceFunctions" : "multiply~{qty},round,toCurrency~USD,prepend~/per peace ,append~ for {qty} item/s.",
+            "subtitle" : "brand",
+            "subtitleFunctions" : "prepend~Brand: ",
+            "title" : "title",
+            "titleFunctions" : "trim:40",
+            "video" : "video"
+          },
+          "isShopping" : true,
+          "navButtonAction" : "add-to-favorites",
+          "navButtonActionDoneIcon" : "MdFavorite",
+          "navButtonIconActiveIcon" : "MdFavoriteBorder",
+          "photosTitle" : "Product Images",
+          "shareButton" : "Share this recepie",
+          "showNavButton" : "true",
+          "showPhotos" : true,
+          "videoButton" : "View Video"
+        },
+        "goDirectlyToDetails" : false,
+        "icon" : "MdHome",
+        "isRoot" : true,
+        "listStyle" : "grid1",
+        "listingSetup" : {
+          "collection_key" : "collection_product",
+          "data_point" : "products",
+          "fields" : {
+            "actionButton" : "BUY",
+            "description" : "description",
+            "image" : "image",
+            "subtitle" : "price",
+            "subtitleFunctions" : "roundOn,toCurrency~USD",
+            "title" : "title"
+          },
+          "listing_style" : "list"
+        },
+        "name" : "Shop"
+      }, {
+        "CODAvailable" : true,
+        "PayPalAvailable" : true,
+        "icon" : "MdShoppingBasket",
+        "name" : "Cart",
+        "type" : "cart"
+      }, {
+        "categorySetup" : {
+          "category_style" : "grid2",
+          "data_point" : "product_collection",
+          "fields" : {
+            "description" : "description",
+            "image" : "image",
+            "title" : "title"
+          }
+        },
+        "category_first" : false,
+        "detailsSetup" : {
+          "actionButton" : "ADD TO CART",
+          "actionButtonWhenActionDone" : "PRODUCT ADDED",
+          "collections" : [ "variants", "ingredients", "photos" ],
+          "descriptionTitle" : "Description",
+          "fields" : {
+            "description" : "description",
+            "descriptionFunctions" : ",",
+            "image" : "image",
+            "photos" : "photos",
+            "price" : "price",
+            "priceFunctions" : "round,toCurrency~USD,prepend~Price: ",
+            "shareLink" : "link",
+            "subPrice" : "price",
+            "subPriceFunctions" : "multiply~{qty},round,toCurrency~USD,prepend~/per peace ,append~ for {qty} item/s.",
+            "subtitle" : "brand",
+            "subtitleFunctions" : "prepend~Brand: ",
+            "title" : "title",
+            "titleFunctions" : "trim:40",
+            "video" : "video"
+          },
+          "isShopping" : true,
+          "navButtonAction" : "add-to-favorites",
+          "navButtonActionDoneIcon" : "MdFavorite",
+          "navButtonIconActiveIcon" : "MdFavoriteBorder",
+          "photosTitle" : "Product Images",
+          "shareButton" : "Share this recepie",
+          "showNavButton" : "true",
+          "showPhotos" : true,
+          "videoButton" : "View Video"
+        },
+        "icon" : "MdFavorite",
+        "isRoot" : true,
+        "listStyle" : "grid",
+        "listingSetup" : {
+          "data_point" : "products",
+          "fields" : {
+            "actionButton" : "BUY",
+            "description" : "description",
+            "image" : "image",
+            "subtitle" : "price",
+            "subtitleFunctions" : "roundOn,toCurrency~USD",
+            "title" : "title"
+          },
+          "listing_style" : "list"
+        },
+        "name" : "Wish List",
+        "sectionType" : "wish-list"
+      }, {
+        "icon" : "MdLocalShipping",
+        "name" : "Orders",
+        "sectionType" : "orders"
+      } ],
+      "type" : "side"
+    }
+  },
+  "shopify" : {
+    "appImage" : "https://firebasestorage.googleapis.com/v0/b/universalapp-a272a.appspot.com/o/1535580366422.jpg?alt=media&token=86dd936a-030a-4c0d-8d74-720906f44555",
+    "config" : {
+      "currency_format" : "amount_with_comma_separator",
+      "currency_value" : "$",
+      "date_format" : "d-m-Y",
+      "date_format_from" : "Y-m-d",
+      "distance_in" : "km",
+      "time_format" : "H:I",
+      "time_format_from" : "h:i"
+    },
+    "design" : {
+      "category" : {
+        "textColor" : "#ffffff"
+      },
+      "general" : {
+        "backgroundColor" : "#e9e9ef",
+        "buttonBorderColor" : "#000000",
+        "buttonColor" : "#000000",
+        "buttonText" : "#ffffff",
+        "coloring" : "simple",
+        "layout" : "tabs",
+        "outbound" : false,
+        "rounded" : false
+      },
+      "navBar" : {
+        "backgroundColor" : "#ffffff",
+        "barStyle" : "light-content",
+        "borderColor" : "#cccccc",
+        "statusBarBackgroundColor" : "#000000",
+        "tintColor" : "#000000"
+      },
+      "rows" : {
+        "arrowColor" : "#000000",
+        "backgroundColor" : "#ffffff",
+        "desciptionColor" : "#444444",
+        "imageRowColor" : "rgba(0,0,0,0.5)",
+        "imageRowFontSize" : 18,
+        "imageRowFontWeight" : "normal",
+        "separatorColor" : "#eeeeee",
+        "titleColorOnGrid" : "#eeeeee",
+        "titleColorOnRow" : "#000000"
+      },
+      "sideMenu" : {
+        "activeBackgroundColor" : "#eeeeee",
+        "activeTintColor" : "#1c3dbd",
+        "backgroundColor" : "#ffffff",
+        "inactiveBackgroundColor" : "rgba(0,0,0,0)",
+        "inactiveTintColor" : "#111111"
+      }
+    },
+    "name" : "Shopify App",
+    "navigation" : {
+      "menus" : [ {
+        "categorySetup" : {
+          "category_style" : "grid1",
+          "data_point" : "product_collection_shopify",
+          "fields" : {
+            "description" : "description",
+            "image" : "image",
+            "title" : "title"
+          }
+        },
+        "category_first" : true,
+        "detailsSetup" : {
+          "actionButton" : "ADD TO CART",
+          "actionButtonWhenActionDone" : "PRODUCT ADDED",
+          "collections" : [ "variants", "ingredients", "photos" ],
+          "descriptionTitle" : "Description",
+          "fields" : {
+            "description" : "description",
+            "descriptionFunctions" : ",",
+            "image" : "image",
+            "photos" : "photos",
+            "price" : "price",
+            "priceFunctions" : "round,toCurrency~USD,prepend~Price: ",
+            "shareLink" : "link",
+            "subPrice" : "price",
+            "subPriceFunctions" : "multiply~{qty},round,toCurrency~USD,prepend~/per peace ,append~ for {qty} item/s.",
+            "subtitle" : "vendor",
+            "subtitleFunctions" : "prepend~Vendor: ",
+            "title" : "title",
+            "titleFunctions" : "trim:40",
+            "video" : "video"
+          },
+          "isShopping" : true,
+          "navButtonAction" : "add-to-favorites",
+          "navButtonActionDoneIcon" : "MdFavorite",
+          "navButtonIconActiveIcon" : "MdFavoriteBorder",
+          "photosTitle" : "Product Images",
+          "shareButton" : "Share this recepie",
+          "showNavButton" : "true",
+          "showPhotos" : true,
+          "videoButton" : "View Video"
+        },
+        "icon" : "MdHome",
+        "isRoot" : true,
+        "listStyle" : "grid1",
+        "listingSetup" : {
+          "collection_key" : "collection_product",
+          "data_point" : "products_shopify",
+          "fields" : {
+            "actionButton" : "BUY",
+            "description" : "description",
+            "image" : "image",
+            "subtitle" : "price",
+            "subtitleFunctions" : "roundOn,toCurrency~USD",
+            "title" : "title"
+          },
+          "listing_style" : "list"
+        },
+        "name" : "Shop"
+      }, {
+        "CODAvailable" : true,
+        "PayPalAvailable" : true,
+        "icon" : "MdShoppingCart",
+        "isShopify" : true,
+        "name" : "Carts",
+        "shopifyLink" : "https://mobidonia.myshopify.com/",
+        "type" : "cart"
+      }, {
+        "categorySetup" : {
+          "category_style" : "grid2",
+          "data_point" : "restaurant_collection",
+          "fields" : {
+            "description" : "description",
+            "image" : "image",
+            "title" : "title"
+          }
+        },
+        "category_first" : false,
+        "detailsSetup" : {
+          "actionButton" : "ADD TO CART",
+          "actionButtonWhenActionDone" : "PRODUCT ADDED",
+          "collections" : [ "variants", "ingredients", "photos" ],
+          "descriptionTitle" : "Description",
+          "fields" : {
+            "description" : "description",
+            "descriptionFunctions" : ",",
+            "image" : "image",
+            "photos" : "photos",
+            "price" : "price",
+            "priceFunctions" : "round,toCurrency~USD,prepend~Price: ",
+            "shareLink" : "link",
+            "subPrice" : "price",
+            "subPriceFunctions" : "multiply~{qty},round,toCurrency~USD,prepend~/per peace ,append~ for {qty} item/s.",
+            "subtitle" : "brand",
+            "subtitleFunctions" : "prepend~Brand: ",
+            "title" : "title",
+            "titleFunctions" : "trim:40",
+            "video" : "video"
+          },
+          "isShopping" : true,
+          "navButtonAction" : "add-to-favorites",
+          "navButtonActionDoneIcon" : "MdFavorite",
+          "navButtonIconActiveIcon" : "MdFavoriteBorder",
+          "photosTitle" : "Product Images",
+          "shareButton" : "Share this recepie",
+          "showNavButton" : "true",
+          "showPhotos" : true,
+          "videoButton" : "View Video"
+        },
+        "icon" : "MdFavorite",
+        "isRoot" : true,
+        "listStyle" : "grid",
+        "listingSetup" : {
+          "data_point" : "products",
+          "fields" : {
+            "actionButton" : "BUY",
+            "description" : "description",
+            "image" : "image",
+            "subtitle" : "price",
+            "subtitleFunctions" : "roundOn,toCurrency~USD",
+            "title" : "title"
+          },
+          "listing_style" : "list"
+        },
+        "name" : "Wish List",
+        "sectionType" : "wish-list"
+      }, {
+        "icon" : "MdLocalShipping",
+        "name" : "Orders",
+        "sectionType" : "orders"
+      } ],
+      "type" : "side"
+    }
+  },
+  "ticketScenner" : {
+    "appImage" : "https://firebasestorage.googleapis.com/v0/b/universalapp-a272a.appspot.com/o/1535580655825.jpg?alt=media&token=8c1173aa-0050-498d-b3b1-38eacd8312fc",
+    "config" : {
+      "allowedUsers" : [ {
+        "email" : "valerija@yahoo.com"
+      }, {
+        "email" : "danield@yahoo.com"
+      }, {
+        "email" : "mark_sim@gmail.com"
+      } ],
+      "currency_format" : "amount_with_comma_separator",
+      "currency_value" : "$",
+      "date_format" : "d-m-Y",
+      "date_format_from" : "Y-m-d",
+      "distance_in" : "km",
+      "loginRequired" : true,
+      "time_format" : "H:I",
+      "time_format_from" : "h:i",
+      "userVarification" : true
+    },
+    "design" : {
+      "category" : {
+        "textColor" : "#ffffff"
+      },
+      "general" : {
+        "backgroundColor" : "#ffffff",
+        "buttonBorderColor" : "#000000",
+        "buttonColor" : "#555454",
+        "buttonText" : "#ffffff",
+        "coloring" : "simple",
+        "isRTL" : false,
+        "layout" : "tabs",
+        "outbound" : false,
+        "rounded" : true
+      },
+      "navBar" : {
+        "backgroundColor" : "#ffffff",
+        "barStyle" : "light-content",
+        "borderColor" : "#cccccc",
+        "statusBarBackgroundColor" : "#000000",
+        "tintColor" : "#000000"
+      },
+      "rows" : {
+        "arrowColor" : "#000000",
+        "backgroundColor" : "#ffffff",
+        "desciptionColor" : "#444444",
+        "imageRowColor" : "rgba(0,0,0,0.5)",
+        "imageRowFontSize" : 18,
+        "imageRowFontWeight" : "normal",
+        "separatorColor" : "#eeeeee",
+        "titleColorOnGrid" : "#eeeeee",
+        "titleColorOnRow" : "#000000"
+      },
+      "sideMenu" : {
+        "activeBackgroundColor" : "#eeeeee",
+        "activeTintColor" : "#1c3dbd",
+        "backgroundColor" : "#ffffff",
+        "inactiveBackgroundColor" : "rgba(0,0,0,0)",
+        "inactiveTintColor" : "#111111"
+      }
+    },
+    "name" : "Ticket Scanner",
+    "navigation" : {
+      "menus" : [ {
+        "icon" : "MdLocalSee",
+        "name" : "Scanner",
+        "sectionType" : "scanner"
+      }, {
+        "html" : "<p><img style=\"float: right;\" src=\"https://s3.amazonaws.com/tcdn.mobidonia.com/codecanyon/info/Screenshot+at+Mar+20+23-01-48.png\" alt=\"TinyMCE\" width=\"415\" height=\"154\" /></p> <div class=\"col-md-12\">  <h2>How to use the Scanner app</h2> <p>The scanning app provides an easy way for venues and promoters to scan tickets at events without the need for any additional hardware!&nbsp;</p> <h3>Here is step by step how to use the Scanner App</h3> </div>   <br/>   <ol> <li>The costumer should open the order that will be scanned.&nbsp;Scan the order&nbsp; by placing the device&nbsp; of the costumer&nbsp; under the phone's camera. The&nbsp; QR code&nbsp; will be&nbsp; scanned&nbsp;automatically.<br /><br /><img style=\"display: block;     margin-left: auto;     margin-right: auto;     width: 50%;\" src=\"https://firebasestorage.googleapis.com/v0/b/universalapp-a272a.appspot.com/o/39018472_188393191913468_417050803434422272_n.jpg?alt=media&amp;token=83de644d-7a43-4235-a582-329fff0d911d\" alt=\"TinyMCE\" width=\"165\" height=\"295\" /><br /><br /></li> <li>After the successful scan it will be displayed the order details. And if the order is doesn't used yet, you will see the button to the bottom <strong>\"Use the ticket\".</strong><br /><img style=\"display: block;     margin-left: auto;     margin-right: auto;     width: 50%;\" src=\"https://firebasestorage.googleapis.com/v0/b/universalapp-a272a.appspot.com/o/39200812_1757158060998131_1709184859668217856_n.jpg?alt=media&amp;token=5bfa7c97-6555-4f3c-95ae-b9d55a90802e\" alt=\"\" width=\"167\" height=\"297\" /><br /><br /><br /></li> <li>Now, to use the order just click on the button to use the ticket. And then should display alert that says that <strong>\"Now the ticket is used\".<br /><br /><img style=\"display: block;     margin-left: auto;     margin-right: auto;     width: 50%;\" src=\"https://firebasestorage.googleapis.com/v0/b/universalapp-a272a.appspot.com/o/39329270_313056232589075_2817584265133293568_n.jpg?alt=media&amp;token=fd338c93-7d8e-4df0-a3cf-69e8d7ca8be9\" alt=\"\" width=\"169\" height=\"300\" /><br /><br /></strong></li> <li>Now because&nbsp;the ticket is used, you should see that&nbsp; ticket is already used.<br /><br /><img style=\"display: block;     margin-left: auto;     margin-right: auto;     width: 50%;\" src=\"https://firebasestorage.googleapis.com/v0/b/universalapp-a272a.appspot.com/o/39080839_512965399164905_4965479615813386240_n.jpg?alt=media&amp;token=fc649bfd-1d8c-468f-a042-b10507f0c4fd\" alt=\"\" width=\"169\" height=\"300\" /><br /><br /><strong>NOTE:&nbsp;</strong>If you click on the button it should display alert that says that <strong>\"Ticket is already used\"</strong><br /><br /><br /><img style=\"display: block;     margin-left: auto;     margin-right: auto;     width: 50%;\" src=\"https://firebasestorage.googleapis.com/v0/b/universalapp-a272a.appspot.com/o/39109068_247040505942417_2480103310019788800_n.jpg?alt=media&amp;token=87cad1e7-4d24-4a8b-a55f-e5ff50480951\" alt=\"\" width=\"172\" height=\"306\" /><br /><br /> <h3>So that is it. We are hoping that you will enjoying using our app.</h3> &nbsp;&nbsp;<br /><br /></li> </ol>",
+        "icon" : "MdInfoOutline",
+        "name" : "How to use",
+        "sectionType" : "web",
+        "url" : "http://mobidonia.com",
+        "webSource" : "html"
+      }, {
+        "icon" : "MdAccountBox",
+        "name" : "Profile",
+        "sectionType" : "profile"
+      } ],
+      "type" : "tab"
+    }
+  },
+  "users" : {
+    "appImage" : "https://firebasestorage.googleapis.com/v0/b/universalapp-a272a.appspot.com/o/1535580782409.jpg?alt=media&token=4e1c69c3-c99d-4f97-9aa8-5914e2d3b86f",
+    "config" : {
+      "currency_format" : "amount_with_comma_separator",
+      "currency_value" : "$",
+      "date_format" : "d-m-Y",
+      "date_format_from" : "Y-m-d",
+      "distance_in" : "km",
+      "loginRequired" : true,
+      "showSlides" : false,
+      "time_format" : "H:I",
+      "time_format_from" : "h:i",
+      "userVarification" : false
+    },
+    "design" : {
+      "category" : {
+        "textColor" : "#ffffff"
+      },
+      "general" : {
+        "backgroundColor" : "#ffffff",
+        "buttonBorderColor" : "#000000",
+        "buttonColor" : "#555454",
+        "buttonText" : "#ffffff",
+        "coloring" : "simple",
+        "isRTL" : false,
+        "layout" : "tabs",
+        "outbound" : false,
+        "rounded" : true
+      },
+      "navBar" : {
+        "backgroundColor" : "#ffffff",
+        "barStyle" : "light-content",
+        "borderColor" : "#cccccc",
+        "statusBarBackgroundColor" : "#000000",
+        "tintColor" : "#000000"
+      },
+      "rows" : {
+        "arrowColor" : "#000000",
+        "backgroundColor" : "#ffffff",
+        "desciptionColor" : "#444444",
+        "imageRowColor" : "rgba(0,0,0,0.5)",
+        "imageRowFontSize" : 18,
+        "imageRowFontWeight" : "normal",
+        "separatorColor" : "#eeeeee",
+        "titleColorOnGrid" : "#eeeeee",
+        "titleColorOnRow" : "#000000"
+      },
+      "sideMenu" : {
+        "activeBackgroundColor" : "#eeeeee",
+        "activeTintColor" : "#1c3dbd",
+        "backgroundColor" : "#ffffff",
+        "inactiveBackgroundColor" : "rgba(0,0,0,0)",
+        "inactiveTintColor" : "#111111"
+      }
+    },
+    "name" : "Users App",
+    "navigation" : {
+      "menus" : [ {
+        "icon" : "MdAccountBox",
+        "name" : "Profile",
+        "sectionType" : "profile"
+      }, {
+        "icon" : "MdSearch",
+        "name" : "Search",
+        "sectionType" : "listOfUsers"
+      }, {
+        "icon" : "FeMessageCircle",
+        "name" : "Chats",
+        "sectionType" : "chats"
+      } ],
+      "slides" : [ {
+        "backgroundColor" : "#ffffff",
+        "image" : "https://firebasestorage.googleapis.com/v0/b/universalapp-a272a.appspot.com/o/sc1%20(1).png?alt=media&token=3a56ff52-70bb-4c68-825e-74e70e816542",
+        "key" : "somethun",
+        "text" : "Have you ever \n wanted to build an app",
+        "title" : "Build an app"
+      }, {
+        "backgroundColor" : "#ffffff",
+        "image" : "https://firebasestorage.googleapis.com/v0/b/universalapp-a272a.appspot.com/o/sc2%20(1).png?alt=media&token=e0d40a8e-9ddb-4ba3-948a-e2d1a5f9d278",
+        "key" : "somethun-dos",
+        "text" : "Get the App Platform and build any app in hours",
+        "title" : "Now you can"
+      }, {
+        "backgroundColor" : "#e7effc",
+        "image" : "https://firebasestorage.googleapis.com/v0/b/universalapp-a272a.appspot.com/o/sc3b.png?alt=media&token=8732aa54-a63e-48af-9e83-cd714fd1062c",
+        "key" : "somethun1",
+        "text" : "Just get the project configured and publish the app.",
+        "title" : "It is so easy"
+      } ]
+    }
+  },
+  "xDevelopment" : {
+    "appImage" : "https://firebasestorage.googleapis.com/v0/b/universalapp-a272a.appspot.com/o/1535580856625.jpg?alt=media&token=40ecb73e-0887-4382-b057-8807a22e4ed8",
+    "config" : {
+      "currency_format" : "amount_with_comma_separator",
+      "currency_value" : "$",
+      "date_format" : "d-m-Y",
+      "date_format_from" : "Y-m-d",
+      "distance_in" : "kmh",
+      "time_format" : "H:I",
+      "time_format_from" : "h:i"
+    },
+    "design" : {
+      "category" : {
+        "textColor" : "#ffffff"
+      },
+      "general" : {
+        "backgroundColor" : "#ffffff",
+        "buttonBorderColor" : "#000000",
+        "buttonColor" : "#555454",
+        "buttonText" : "#ffffff",
+        "coloring" : "simple",
+        "isRTL" : false,
+        "layout" : "tabs",
+        "outbound" : false,
+        "rounded" : true
+      },
+      "navBar" : {
+        "backgroundColor" : "#ffffff",
+        "barStyle" : "light-content",
+        "borderColor" : "#cccccc",
+        "statusBarBackgroundColor" : "#000000",
+        "tintColor" : "#000000"
+      },
+      "rows" : {
+        "arrowColor" : "#000000",
+        "backgroundColor" : "#ffffff",
+        "desciptionColor" : "#444444",
+        "imageRowColor" : "rgba(0,0,0,0.5)",
+        "imageRowFontSize" : 18,
+        "imageRowFontWeight" : "normal",
+        "separatorColor" : "#eeeeee",
+        "titleColorOnGrid" : "#eeeeee",
+        "titleColorOnRow" : "#000000"
+      },
+      "sideMenu" : {
+        "activeBackgroundColor" : "#eeeeee",
+        "activeTintColor" : "#1c3dbd",
+        "backgroundColor" : "#ffffff",
+        "inactiveBackgroundColor" : "rgba(0,0,0,0)",
+        "inactiveTintColor" : "#111111"
+      }
+    },
+    "name" : "xDevelopment App",
+    "navigation" : {
+      "menus" : [ {
+        "categorySetup" : {
+          "category_style" : "grid2",
+          "data_point" : "events_collection",
+          "fields" : {
+            "description" : "description",
+            "image" : "image",
+            "title" : "title"
+          }
+        },
+        "category_first" : false,
+        "detailsSetup" : {
+          "actionButton" : "BUY TICKET",
+          "actionButtonWhenActionDone" : "TICKET BOUGHT",
+          "cartCODAvailable" : true,
+          "cartCODText" : "You will pay at the venue.",
+          "cartIcons" : [ "ios-calendar-outline", "ios-person-outline", "ios-card-outline", "ios-list-box-outline" ],
+          "cartLabels" : [ "Event", "Register", "Payment", "Summary" ],
+          "cartPayPalAvailable" : true,
+          "collections" : [ "variants", "ingredients", "photos" ],
+          "descriptionTitle" : "Description",
+          "directionButton" : "Get Directions",
+          "fields" : {
+            "description" : "description",
+            "descriptionFunctions" : ",",
+            "direction" : "eventLocation",
+            "image" : "image",
+            "photos" : "photos",
+            "price" : "price",
+            "priceFunctions" : "round,toCurrency~USD,prepend~Price: ",
+            "shareLink" : "url",
+            "subPrice" : "price",
+            "subPriceFunctions" : "multiply~{qty},round,toCurrency~USD,prepend~/per ticket.",
+            "subtitle" : "locationName",
+            "subtitle2" : "eventDateStart",
+            "subtitle2Functions" : "toReadableDate~YYYY-MM-DD HH:mm",
+            "subtitle2Icon" : "ios-time-outline",
+            "subtitle3" : "eventDateEnd",
+            "subtitle3Functions" : "toReadableDate~YYYY-MM-DD HH:mm",
+            "subtitle3Icon" : "ios-timer-outline",
+            "subtitleAction" : "location",
+            "subtitleActionFunction" : "openGps",
+            "subtitleFunctions" : " ",
+            "subtitleIcon" : "ios-pin-outline",
+            "title" : "title",
+            "titleFunctions" : "trim:40",
+            "video" : "video"
+          },
+          "isDirectShopping" : true,
+          "isShopping" : true,
+          "photosTitle" : "Photos",
+          "shareButton" : "Share the event",
+          "showPhotos" : true,
+          "videoButton" : "View Video"
+        },
+        "icon" : "MdLocationOn",
+        "isRoot" : true,
+        "listStyle" : "grid",
+        "listingSetup" : {
+          "collection_key" : "collection_event",
+          "data_point" : "events",
+          "fields" : {
+            "actionButton" : "BUY",
+            "description" : "description",
+            "image" : "image",
+            "subtitle" : "eventDateStart",
+            "subtitleFunctions" : "toReadableDate~YYYY-MM-DD HH:mm",
+            "title" : "title"
+          },
+          "listing_style" : "list"
+        },
+        "name" : "Map",
+        "sectionType" : "map"
+      }, {
+        "category_first" : false,
+        "icon" : "MdLocalPlay",
+        "isRoot" : true,
+        "listStyle" : "grid",
+        "name" : "My Events",
+        "sectionType" : "orders"
+      }, {
+        "icon" : "MdNotificationsActive",
+        "name" : "Notifications",
+        "sectionType" : "notifications"
+      }, {
+        "categorySetup" : {
+          "category_style" : "grid2",
+          "data_point" : "events_collection",
+          "fields" : {
+            "description" : "description",
+            "image" : "image",
+            "title" : "title"
+          }
+        },
+        "category_first" : false,
+        "detailsSetup" : {
+          "actionButton" : "BUY TICKET",
+          "actionButtonWhenActionDone" : "TICKET BOUGHT",
+          "cartCODAvailable" : true,
+          "cartCODText" : "You will pay at the venue.",
+          "cartIcons" : [ "ios-calendar-outline", "ios-person-outline", "ios-card-outline", "ios-list-box-outline" ],
+          "cartLabels" : [ "Event", "Register", "Payment", "Summary" ],
+          "cartPayPalAvailable" : true,
+          "collections" : [ "variants", "ingredients", "photos" ],
+          "descriptionTitle" : "Description",
+          "directionButton" : "Get Directions",
+          "fields" : {
+            "description" : "description",
+            "descriptionFunctions" : ",",
+            "direction" : "eventLocation",
+            "image" : "image",
+            "photos" : "photos",
+            "price" : "price",
+            "priceFunctions" : "round,toCurrency~USD,prepend~Price: ",
+            "shareLink" : "url",
+            "subPrice" : "price",
+            "subPriceFunctions" : "multiply~{qty},round,toCurrency~USD,prepend~/per ticket.",
+            "subtitle" : "locationName",
+            "subtitle2" : "eventDateStart",
+            "subtitle2Functions" : "toReadableDate~YYYY-MM-DD HH:mm",
+            "subtitle2Icon" : "FeClock",
+            "subtitle3" : "eventDateEnd",
+            "subtitle3Functions" : "toReadableDate~YYYY-MM-DD HH:mm",
+            "subtitle3Icon" : "FeClock",
+            "subtitleAction" : "location",
+            "subtitleActionFunction" : "openGps",
+            "subtitleFunctions" : " ",
+            "subtitleIcon" : "FeMapPin",
+            "title" : "title",
+            "titleFunctions" : "trim:40",
+            "video" : "videolink"
+          },
+          "isDirectShopping" : true,
+          "isShopping" : true,
+          "photosTitle" : "Photos",
+          "shareButton" : "Share the event",
+          "showPhotos" : true,
+          "videoButton" : "View Video"
+        },
+        "icon" : "FeCalendar",
+        "isRoot" : true,
+        "listStyle" : "grid",
+        "listingSetup" : {
+          "backgroundImageOption" : 1,
+          "collection_key" : "collection_event",
+          "data_point" : "eventsnc",
+          "fields" : {
+            "actionButton" : "BUY",
+            "description" : "description",
+            "image" : "image",
+            "subtitle" : "eventDateStart",
+            "subtitleFunctions" : "toReadableDate~YYYY-MM-DD HH:mm",
+            "title" : "title"
+          },
+          "listing_style" : "grid",
+          "showCollectionBar" : true
+        },
+        "name" : "Events"
+      }, {
+        "icon" : "MdAccountBox",
+        "name" : "Profile",
+        "sectionType" : "profile"
+      }, {
+        "categorySetup" : {
+          "category_style" : "list",
+          "data_point" : "radios_collection",
+          "fields" : {
+            "description" : "description",
+            "image" : "image",
+            "title" : "name"
+          }
+        },
+        "category_first" : false,
+        "detailsSetup" : {
+          "collections" : [ "radios" ],
+          "fields" : {
+            "fb" : "facebook",
+            "img" : "image",
+            "song" : "currentSong",
+            "stationName" : "name",
+            "stitle" : "subtitle",
+            "streamLink" : "stream",
+            "twitt" : "twitter"
+          },
+          "hideHeader" : true,
+          "isHavingStream" : true
+        },
+        "icon" : "FeMic",
+        "isRoot" : true,
+        "listStyle" : "grid",
+        "listingSetup" : {
+          "collection_key" : "collection_radios",
+          "data_point" : "radios",
+          "fields" : {
+            "actionButton" : "",
+            "description" : "description",
+            "image" : "image",
+            "subtitle" : "",
+            "title" : "name"
+          },
+          "haveThumbnails" : true,
+          "listing_style" : "list",
+          "showCategoryFilter" : true
+        },
+        "name" : "Radio"
+      }, {
+        "icon" : "MdSearch",
+        "name" : "Search",
+        "sectionType" : "listOfUsers"
+      } ],
+      "type" : "tab"
+    }
+  },
+  "youTube" : {
+    "appImage" : "https://firebasestorage.googleapis.com/v0/b/universalapp-a272a.appspot.com/o/1535580949042.jpg?alt=media&token=17316a94-b7ea-4cd4-8144-1ed996b7d34f",
+    "config" : {
+      "bannerID" : "ca-app-pub-3074088633024340/2688384588",
+      "currency_format" : "amount_with_comma_separator",
+      "currency_value" : "$",
+      "date_format" : "d-m-Y",
+      "date_format_from" : "Y-m-d",
+      "distance_in" : "km",
+      "interstitialID" : "ca-app-pub-9262125049484855/2774255273",
+      "showBannerAds" : true,
+      "showinterstitialAds" : true,
+      "time_format" : "H:I",
+      "time_format_from" : "h:i"
+    },
+    "design" : {
+      "category" : {
+        "textColor" : "#ffffff"
+      },
+      "general" : {
+        "backgroundColor" : "#e9e9ef",
+        "buttonBorderColor" : "#ffffff",
+        "buttonColor" : "#1c74bd",
+        "buttonText" : "#ffffff",
+        "isRTL" : false,
+        "layout" : "tabs",
+        "outbound" : false,
+        "rounded" : false
+      },
+      "navBar" : {
+        "backgroundColor" : "#ffffff",
+        "barStyle" : "light-content",
+        "borderColor" : "#cccccc",
+        "statusBarBackgroundColor" : "#000000",
+        "tintColor" : "#000000"
+      },
+      "rows" : {
+        "arrowColor" : "#000000",
+        "backgroundColor" : "#ffffff",
+        "desciptionColor" : "#444444",
+        "imageRowColor" : "rgba(0,0,0,0.5)",
+        "imageRowFontSize" : 18,
+        "imageRowFontWeight" : "normal",
+        "separatorColor" : "#eeeeee",
+        "titleColorOnGrid" : "#eeeeee",
+        "titleColorOnRow" : "#000000"
+      },
+      "sideMenu" : {
+        "activeBackgroundColor" : "#eeeeee",
+        "activeTintColor" : "#1c74bd",
+        "backgroundColor" : "#ffffff",
+        "inactiveBackgroundColor" : "rgba(0,0,0,0)",
+        "inactiveTintColor" : "#111111"
+      }
+    },
+    "name" : "YouTube App",
+    "navigation" : {
+      "menus" : [ {
+        "categorySetup" : {
+          "category_style" : "grid1",
+          "data_point" : "recipes_collection",
+          "fields" : {
+            "description" : "description",
+            "image" : "image",
+            "title" : "title"
+          }
+        },
+        "category_first" : false,
+        "detailsSetup" : {
+          "actionButton" : "ADD TO CART",
+          "actionButtonWhenActionDone" : "PRODUCT ADDED",
+          "collections" : [ "variants", "ingredients", "photos" ],
+          "descriptionTitle" : "Directions",
+          "fields" : {
+            "description" : "description",
+            "descriptionFunctions" : ",",
+            "image" : "image",
+            "photos" : "photos",
+            "price" : "price",
+            "priceFunctions" : "round,toCurrency~USD,prepend~Price: ",
+            "shareLink" : "link",
+            "subPrice" : "price",
+            "subPriceFunctions" : "multiply~{qty},round,toCurrency~USD,prepend~/per peace ,append~ for {qty} item/s.",
+            "subtitle" : "timetoprepare",
+            "subtitleFunctions" : "prepend~Time to prepare: ,append~ for {for} persons.",
+            "title" : "title",
+            "titleFunctions" : "trim:40",
+            "video" : "videolink"
+          },
+          "isShopping" : false,
+          "photosTitle" : "Product Images",
+          "shareButton" : "Share this recepie",
+          "showPhotos" : true,
+          "videoButton" : "View Video"
+        },
+        "icon" : "MdRestaurantMenu",
+        "isRoot" : true,
+        "listStyle" : "list",
+        "listingSetup" : {
+          "collection_key" : "collection_recipe",
+          "data_point" : "recipes",
+          "fields" : {
+            "actionButton" : "BUY",
+            "description" : "description",
+            "image" : "image",
+            "subtitle" : "timetoprepare",
+            "title" : "title"
+          },
+          "listing_style" : "list"
+        },
+        "name" : "All Recipes"
+      }, {
+        "categorySetup" : {
+          "category_style" : "list",
+          "data_point" : "recipes_collection",
+          "display_header_image" : false,
+          "fields" : {
+            "description" : "description",
+            "image" : "image",
+            "title" : "title"
+          }
+        },
+        "category_first" : true,
+        "detailsSetup" : {
+          "actionButton" : "ADD TO CART",
+          "actionButtonWhenActionDone" : "PRODUCT ADDED",
+          "collections" : [ "variants", "ingredients", "photos" ],
+          "descriptionTitle" : "Directions",
+          "fields" : {
+            "description" : "description",
+            "descriptionFunctions" : ",",
+            "image" : "image",
+            "photos" : "photos",
+            "price" : "price",
+            "priceFunctions" : "round,toCurrency~USD,prepend~Price: ",
+            "shareLink" : "link",
+            "subPrice" : "price",
+            "subPriceFunctions" : "multiply~{qty},round,toCurrency~USD,prepend~/per peace ,append~ for {qty} item/s.",
+            "subtitle" : "timetoprepare",
+            "subtitleFunctions" : "prepend~Time to prepare: ,append~ for {for} persons.",
+            "title" : "title",
+            "titleFunctions" : "trim:40",
+            "video" : "videolink"
+          },
+          "isShopping" : false,
+          "photosTitle" : "Product Images",
+          "shareButton" : "Share this recepie",
+          "showPhotos" : true,
+          "videoButton" : "View Video"
+        },
+        "icon" : "MdLayers",
+        "isRoot" : false,
+        "listStyle" : "list",
+        "listingSetup" : {
+          "collection_key" : "collection_recipe",
+          "data_point" : "recipes",
+          "fields" : {
+            "actionButton" : "BUY",
+            "description" : "description",
+            "image" : "image",
+            "subtitle" : "timetoprepare",
+            "title" : "title"
+          },
+          "listing_style" : "list"
+        },
+        "name" : "Categories"
+      }, {
+        "category_image" : "https://firebasestorage.googleapis.com/v0/b/universalapp-a272a.appspot.com/o/1513874210338.jpg?alt=media&token=fb86c970-ed1e-4019-92ea-847c89feb7cc",
+        "display_header_image" : true,
+        "icon" : "MdGroupAdd",
+        "image" : "https://firebasestorage.googleapis.com/v0/b/universalapp-a272a.appspot.com/o/1513874096167.jpg?alt=media&token=c6ebf30b-d0b4-4fe6-aefa-0f05463a7001",
+        "listStyle" : "grid",
+        "name" : "Social",
+        "subMenus" : [ {
+          "id" : 1,
+          "image" : "https://cdn0.iconfinder.com/data/icons/popular-web-logos-button/140/1-04-2-256.png",
+          "link" : "https://www.instagram.com/creative.recipes/",
+          "name" : "@creative.recipes"
+        }, {
+          "id" : "2",
+          "image" : "https://cdn3.iconfinder.com/data/icons/popular-web-logos-button/140/1-03-256.png",
+          "link" : "https://www.facebook.com/bestrecipesau/",
+          "name" : "@bestrecipesau"
+        } ]
+      } ],
+      "type" : "tab"
+    }
+  }
+}

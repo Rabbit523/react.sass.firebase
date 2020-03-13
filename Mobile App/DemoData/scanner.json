@@ -1,0 +1,85 @@
+{
+  "meta":{
+    "appImage" : "https://cdn0.iconfinder.com/data/icons/elpis/144/App_Development-128.png",
+    "config" : {
+      "allowedUsers" : [ {
+        "email" : "valerija@yahoo.com"
+      }, {
+        "email" : "danield@yahoo.com"
+      }, {
+        "email" : "mark_sim@gmail.com"
+      } ],
+      "currency_format" : "amount_with_comma_separator",
+      "currency_value" : "$",
+      "date_format" : "d-m-Y",
+      "date_format_from" : "Y-m-d",
+      "distance_in" : "km",
+      "loginRequired" : true,
+      "time_format" : "H:I",
+      "time_format_from" : "h:i",
+      "userVarification" : true
+    },
+    "design" : {
+      "category" : {
+        "textColor" : "#ffffff"
+      },
+      "general" : {
+        "backgroundColor" : "#ffffff",
+        "buttonBorderColor" : "#000000",
+        "buttonColor" : "#555454",
+        "buttonText" : "#ffffff",
+        "coloring" : "simple",
+        "isRTL" : false,
+        "layout" : "tabs",
+        "outbound" : false,
+        "rounded" : true
+      },
+      "navBar" : {
+        "backgroundColor" : "#ffffff",
+        "barStyle" : "light-content",
+        "borderColor" : "#cccccc",
+        "statusBarBackgroundColor" : "#000000",
+        "tintColor" : "#000000"
+      },
+      "rows" : {
+        "arrowColor" : "#000000",
+        "backgroundColor" : "#ffffff",
+        "desciptionColor" : "#444444",
+        "imageRowColor" : "rgba(0,0,0,0.5)",
+        "imageRowFontSize" : 18,
+        "imageRowFontWeight" : "normal",
+        "separatorColor" : "#eeeeee",
+        "titleColorOnGrid" : "#eeeeee",
+        "titleColorOnRow" : "#000000"
+      },
+      "sideMenu" : {
+        "activeBackgroundColor" : "#eeeeee",
+        "activeTintColor" : "#1c3dbd",
+        "backgroundColor" : "#ffffff",
+        "inactiveBackgroundColor" : "rgba(0,0,0,0)",
+        "inactiveTintColor" : "#111111"
+      }
+    },
+    "name" : "Ticket Scanner",
+    "navigation" : {
+      "menus" : [ {
+        "icon" : "MdLocalSee",
+        "name" : "Scanner",
+        "sectionType" : "scanner"
+      }, {
+        "html" : "<p><img style=\"float: right;\" src=\"https://s3.amazonaws.com/tcdn.mobidonia.com/codecanyon/info/Screenshot+at+Mar+20+23-01-48.png\" alt=\"TinyMCE\" width=\"415\" height=\"154\" /></p> <div class=\"col-md-12\">  <h2>How to use the Scanner app</h2> <p>The scanning app provides an easy way for venues and promoters to scan tickets at events without the need for any additional hardware!&nbsp;</p> <h3>Here is step by step how to use the Scanner App</h3> </div>   <br/>   <ol> <li>The costumer should open the order that will be scanned.&nbsp;Scan the order&nbsp; by placing the device&nbsp; of the costumer&nbsp; under the phone's camera. The&nbsp; QR code&nbsp; will be&nbsp; scanned&nbsp;automatically.<br /><br /><img style=\"display: block;     margin-left: auto;     margin-right: auto;     width: 50%;\" src=\"https://firebasestorage.googleapis.com/v0/b/universalapp-a272a.appspot.com/o/39018472_188393191913468_417050803434422272_n.jpg?alt=media&amp;token=83de644d-7a43-4235-a582-329fff0d911d\" alt=\"TinyMCE\" width=\"165\" height=\"295\" /><br /><br /></li> <li>After the successful scan it will be displayed the order details. And if the order is doesn't used yet, you will see the button to the bottom <strong>\"Use the ticket\".</strong><br /><img style=\"display: block;     margin-left: auto;     margin-right: auto;     width: 50%;\" src=\"https://firebasestorage.googleapis.com/v0/b/universalapp-a272a.appspot.com/o/39200812_1757158060998131_1709184859668217856_n.jpg?alt=media&amp;token=5bfa7c97-6555-4f3c-95ae-b9d55a90802e\" alt=\"\" width=\"167\" height=\"297\" /><br /><br /><br /></li> <li>Now, to use the order just click on the button to use the ticket. And then should display alert that says that <strong>\"Now the ticket is used\".<br /><br /><img style=\"display: block;     margin-left: auto;     margin-right: auto;     width: 50%;\" src=\"https://firebasestorage.googleapis.com/v0/b/universalapp-a272a.appspot.com/o/39329270_313056232589075_2817584265133293568_n.jpg?alt=media&amp;token=fd338c93-7d8e-4df0-a3cf-69e8d7ca8be9\" alt=\"\" width=\"169\" height=\"300\" /><br /><br /></strong></li> <li>Now because&nbsp;the ticket is used, you should see that&nbsp; ticket is already used.<br /><br /><img style=\"display: block;     margin-left: auto;     margin-right: auto;     width: 50%;\" src=\"https://firebasestorage.googleapis.com/v0/b/universalapp-a272a.appspot.com/o/39080839_512965399164905_4965479615813386240_n.jpg?alt=media&amp;token=fc649bfd-1d8c-468f-a042-b10507f0c4fd\" alt=\"\" width=\"169\" height=\"300\" /><br /><br /><strong>NOTE:&nbsp;</strong>If you click on the button it should display alert that says that <strong>\"Ticket is already used\"</strong><br /><br /><br /><img style=\"display: block;     margin-left: auto;     margin-right: auto;     width: 50%;\" src=\"https://firebasestorage.googleapis.com/v0/b/universalapp-a272a.appspot.com/o/39109068_247040505942417_2480103310019788800_n.jpg?alt=media&amp;token=87cad1e7-4d24-4a8b-a55f-e5ff50480951\" alt=\"\" width=\"172\" height=\"306\" /><br /><br /> <h3>So that is it. We are hoping that you will enjoying using our app.</h3> &nbsp;&nbsp;<br /><br /></li> </ol>",
+        "icon" : "MdInfoOutline",
+        "name" : "How to use",
+        "sectionType" : "web",
+        "url" : "http://mobidonia.com",
+        "webSource" : "html"
+      }, {
+        "icon" : "MdAccountBox",
+        "name" : "Profile",
+        "sectionType" : "profile"
+      } ],
+      "type" : "tab"
+    }
+  }
+  
+}

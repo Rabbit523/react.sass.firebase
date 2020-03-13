@@ -1,0 +1,134 @@
+{
+  "meta" : {
+    "config" : {
+      "currency_format" : "amount_with_comma_separator",
+      "currency_value" : "$",
+      "date_format" : "d-m-Y",
+      "date_format_from" : "Y-m-d",
+      "distance_in" : "km",
+      "time_format" : "H:I",
+      "time_format_from" : "h:i"
+    },
+    "design" : {
+      "category" : {
+        "textColor" : "#ffffff"
+      },
+      "general" : {
+        "backgroundColor" : "#aabbcc",
+        "buttonBorderColor" : "#BD1C1D",
+        "buttonColor" : "#BD1C1D",
+        "buttonText" : "#ffffff",
+        "outbound" : false,
+        "rounded" : false
+      },
+      "navBar" : {
+        "backgroundColor" : "#ffffff",
+        "barStyle" : "light-content",
+        "borderColor" : "#cccccc",
+        "statusBarBackgroundColor" : "#000000",
+        "tintColor" : "#000000"
+      },
+      "rows" : {
+        "arrowColor" : "#000000",
+        "backgroundColor" : "#ffffff",
+        "desciptionColor" : "#444444",
+        "imageRowColor" : "rgba(0,0,0,0.5)",
+        "imageRowFontSize" : 18,
+        "imageRowFontWeight" : "normal",
+        "separatorColor" : "#eeeeee",
+        "titleColorOnGrid" : "#eeeeee",
+        "titleColorOnRow" : "#000000"
+      },
+      "sideMenu" : {
+        "activeBackgroundColor" : "#eeeeee",
+        "activeTintColor" : "#e91e63",
+        "backgroundColor" : "#ffffff",
+        "inactiveBackgroundColor" : "rgba(0,0,0,0)",
+        "inactiveTintColor" : "#111111"
+      }
+    },
+    "navigation" : {
+      "menus" : [ {
+        "categorySetup" : {
+          "category_style" : "grid2",
+          "data_point" : "restaurant_collection",
+          "fields" : {
+            "description" : "description",
+            "image" : "image",
+            "title" : "title"
+          }
+        },
+        "category_first" : true,
+        "detailsSetup" : {
+          "collections":["variants"],
+          "isShopping":true,
+          "actionButton" : "ADD TO CART",
+          "actionButtonWhenActionDone" : "PRODUCT ADDED",
+          "descriptionTitle" : "Description",
+          "fields" : {
+            "description" : "description",
+            "descriptionFunctions" : ",",
+            "image" : "image",
+            "photos" : "photos",
+            "price" : "price",
+            "priceFunctions" : "round,toCurrency~USD,prepend~Price: ",
+            "subPrice" : "price",
+            "subPriceFunctions" : "multiply~{qty},round,toCurrency~USD,prepend~/per peace ,append~ for {qty} item/s.",
+            "subtitle" : "calories",
+            "subtitleFunctions" : "prepend~Calories: ,append~ kCal",
+            "title" : "title",
+            "titleFunctions" : "trim:40"
+          },
+          "photosTitle" : "Product Images",
+          "showPhotos" : false
+        },
+        "icon" : "MdRestaurantMenu",
+        "isRoot" : true,
+        "listStyle" : "grid",
+        "listingSetup" : {
+          "data_point" : "restaurant",
+          "fields" : {
+            "actionButton" : "BUY",
+            "description" : "description",
+            "image" : "image",
+            "subtitle" : "price",
+            "subtitleFunctions" : "roundOn,toCurrency~USD",
+            "title" : "title"
+          },
+          "listing_style" : "list"
+        },
+        "name" : "Menu"
+      }, {
+        "icon" : "MdShoppingBasket",
+        "name" : "Cart",
+        "type" : "cart",
+        "CODAvailable" : true,
+        "PayPalAvailable" : true,
+        "isShopify" : false
+      }, {
+        "icon" : "MdRoomService",
+        "name" : "Orders",
+        "type" : "orders"
+      }, {
+        "category_image" : "https://firebasestorage.googleapis.com/v0/b/universalapp-a272a.appspot.com/o/1512599460179.jpg?alt=media&token=7ee9a95b-834a-4663-a826-8ee802f9e4ee",
+        "display_header_image" : true,
+        "icon" : "MdGroupAdd",
+        "image" : "https://firebasestorage.googleapis.com/v0/b/universalapp-a272a.appspot.com/o/1512591149190.jpg?alt=media&token=64f7cc96-47f6-45f8-94a9-3f26533072db",
+        "listStyle" : "grid",
+        "name" : "Social",
+        "subMenus" : [ {
+          "id" : 1,
+          "image" : "https://cdn0.iconfinder.com/data/icons/popular-web-logos-button/140/1-04-2-256.png",
+          "link" : "https://www.instagram.com/theoakhotelkeramoti/",
+          "name" : "Instagram"
+        }, {
+          "id" : "2",
+          "image" : "https://cdn3.iconfinder.com/data/icons/popular-web-logos-button/140/1-03-256.png",
+          "link" : "https://www.facebook.com/theoakhotelkeramoti/",
+          "name" : "Facebook"
+        } ]
+      } ],
+      "type" : "side"
+    }
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "meta":{
+    "config" : {
+      "currency_format" : "amount_with_comma_separator",
+      "currency_value" : "$",
+      "date_format" : "d-m-Y",
+      "date_format_from" : "Y-m-d",
+      "distance_in" : "km",
+      "time_format" : "H:I",
+      "time_format_from" : "h:i"
+    },
+    "design" : {
+      "category" : {
+        "textColor" : "#ffffff"
+      },
+      "general" : {
+        "backgroundColor" : "#aabbcc",
+        "buttonBorderColor" : "#ffffff",
+        "buttonColor" : "#1c74bd",
+        "buttonText" : "#ffffff",
+        "outbound" : false,
+        "rounded" : false
+      },
+      "navBar" : {
+        "backgroundColor" : "#ffffff",
+        "barStyle" : "light-content",
+        "borderColor" : "#cccccc",
+        "statusBarBackgroundColor" : "#000000",
+        "tintColor" : "#000000"
+      },
+      "rows" : {
+        "arrowColor" : "#000000",
+        "backgroundColor" : "#ffffff",
+        "desciptionColor" : "#444444",
+        "imageRowColor" : "rgba(0,0,0,0.5)",
+        "imageRowFontSize" : 18,
+        "imageRowFontWeight" : "normal",
+        "separatorColor" : "#eeeeee",
+        "titleColorOnGrid" : "#eeeeee",
+        "titleColorOnRow" : "#000000"
+      },
+      "sideMenu" : {
+        "activeBackgroundColor" : "#eeeeee",
+        "activeTintColor" : "#1c74bd",
+        "backgroundColor" : "#ffffff",
+        "inactiveBackgroundColor" : "rgba(0,0,0,0)",
+        "inactiveTintColor" : "#111111"
+      }
+    },
+    "navigation" : {
+      "menus" : [ {
+        "categorySetup" : {
+          "category_style" : "list",
+          "data_point" : "recipes_collection",
+          "fields" : {
+            "description" : "description",
+            "image" : "image",
+            "title" : "title"
+          }
+        },
+        "category_first" : false,
+        "detailsSetup" : {
+          "actionButton" : "ADD TO CART",
+          "actionButtonWhenActionDone" : "PRODUCT ADDED",
+          "collections" : [ "variants", "ingredients", "photos" ],
+          "descriptionTitle" : "Directions",
+          "fields" : {
+            "description" : "description",
+            "descriptionFunctions" : ",",
+            "image" : "image",
+            "photos" : "photos",
+            "price" : "price",
+            "priceFunctions" : "round,toCurrency~USD,prepend~Price: ",
+            "shareLink" : "link",
+            "subPrice" : "price",
+            "subPriceFunctions" : "multiply~{qty},round,toCurrency~USD,prepend~/per peace ,append~ for {qty} item/s.",
+            "subtitle" : "timetoprepare",
+            "subtitleFunctions" : "prepend~Time to prepare: ,append~ for {for} persons.",
+            "title" : "title",
+            "titleFunctions" : "trim:40",
+            "video" : "videolink"
+          },
+          "isShopping" : false,
+          "photosTitle" : "Product Images",
+          "shareButton" : "Share this recepie",
+          "showPhotos" : true,
+          "videoButton" : "View Video"
+        },
+        "icon" : "MdRestaurantMenu",
+        "isRoot" : true,
+        "listStyle" : "list",
+        "listingSetup" : {
+          "collection_key" : "collection_recipe",
+          "data_point" : "recipes",
+          "fields" : {
+            "actionButton" : "BUY",
+            "description" : "description",
+            "image" : "image",
+            "subtitle" : "timetoprepare",
+            "title" : "title"
+          },
+          "listing_style" : "list"
+        },
+        "name" : "All Recipes"
+      }, {
+        "categorySetup" : {
+          "display_header_image":false,
+          "category_style" : "list",
+          "data_point" : "recipes_collection",
+          "fields" : {
+            "description" : "description",
+            "image" : "image",
+            "title" : "title"
+          }
+        },
+        "category_first" : true,
+        "detailsSetup" : {
+          "actionButton" : "ADD TO CART",
+          "actionButtonWhenActionDone" : "PRODUCT ADDED",
+          "collections" : [ "variants", "ingredients", "photos" ],
+          "descriptionTitle" : "Directions",
+          "fields" : {
+            "description" : "description",
+            "descriptionFunctions" : ",",
+            "image" : "image",
+            "photos" : "photos",
+            "price" : "price",
+            "priceFunctions" : "round,toCurrency~USD,prepend~Price: ",
+            "shareLink" : "link",
+            "subPrice" : "price",
+            "subPriceFunctions" : "multiply~{qty},round,toCurrency~USD,prepend~/per peace ,append~ for {qty} item/s.",
+            "subtitle" : "timetoprepare",
+            "subtitleFunctions" : "prepend~Time to prepare: ,append~ for {for} persons.",
+            "title" : "title",
+            "titleFunctions" : "trim:40",
+            "video" : "videolink"
+          },
+          "isShopping" : false,
+          "photosTitle" : "Product Images",
+          "shareButton" : "Share this recepie",
+          "showPhotos" : true,
+          "videoButton" : "View Video"
+        },
+        "icon" : "MdLayers",
+        "isRoot" : false,
+        "listStyle" : "list",
+        "listingSetup" : {
+          "collection_key" : "collection_recipe",
+          "data_point" : "recipes",
+          "fields" : {
+            "actionButton" : "BUY",
+            "description" : "description",
+            "image" : "image",
+            "subtitle" : "timetoprepare",
+            "title" : "title"
+          },
+          "listing_style" : "list"
+        },
+        "name" : "Categories"
+      }, {
+        "category_image" : "https://firebasestorage.googleapis.com/v0/b/universalapp-a272a.appspot.com/o/1513874210338.jpg?alt=media&token=fb86c970-ed1e-4019-92ea-847c89feb7cc",
+        "display_header_image" : true,
+        "icon" : "MdGroupAdd",
+        "image" : "https://firebasestorage.googleapis.com/v0/b/universalapp-a272a.appspot.com/o/1513874096167.jpg?alt=media&token=c6ebf30b-d0b4-4fe6-aefa-0f05463a7001",
+        "listStyle" : "grid",
+        "name" : "Social",
+        "subMenus" : [ {
+          "id" : 1,
+          "image" : "https://cdn0.iconfinder.com/data/icons/popular-web-logos-button/140/1-04-2-256.png",
+          "link" : "https://www.instagram.com/creative.recipes/",
+          "name" : "@creative.recipes"
+        }, {
+          "id" : "2",
+          "image" : "https://cdn3.iconfinder.com/data/icons/popular-web-logos-button/140/1-03-256.png",
+          "link" : "https://www.facebook.com/bestrecipesau/",
+          "name" : "@bestrecipesau"
+        } ]
+      } ],
+      "type" : "side"
+    }
+  }
+}

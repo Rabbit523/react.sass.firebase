@@ -1,0 +1,69 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "directories",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "collection_directory",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "createdAt",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "rab_location.geohash",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "directories",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "collection_directory",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "createdAt",
+          "order": "DESCENDING"
+        },
+        {
+          "fieldPath": "rab_location.geohash",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "directories",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "collection_directory",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "rab_location.geohash",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "directories",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "ownerID",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "rab_location.geohash",
+          "order": "ASCENDING"
+        }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}
